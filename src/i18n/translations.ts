@@ -82,7 +82,7 @@ export const translations: Record<Locale, Translations> = {
     },
     transportation: {
       title: "交通规划",
-      airport: { title: "✈️ 机场直达（豪尔赫·查韦斯国际机场出发）", content: "所有国际游客落地利马后，可直接在机场乘坐官方出租车或安排私人包车前往米拉弗洛雷斯区。", options: [
+      airport: { title: "✈️ 豪尔赫·查韦斯国际机场 (LIM) ➔ 米拉弗洛雷斯", content: "所有国际游客落地利马后，可直接在机场乘坐官方出租车或安排私人包车前往米拉弗洛雷斯区。", options: [
         { name: "官方出租车 / 私人包车", price: "约 50-80 索尔", time: "约 40 分钟", steps: ["在机场官方柜台或提前预订", "直接前往米拉弗洛雷斯区"] },
         { name: "机场大巴（Airport Shuttle）", price: "约 15-25 索尔", time: "约 1 小时", steps: ["乘坐机场专线大巴", "在米拉弗洛雷斯中心下车后步行或打车"] }
       ]},

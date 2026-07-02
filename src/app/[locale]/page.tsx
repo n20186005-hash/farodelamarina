@@ -145,6 +145,18 @@ function Hero() {
   );
 }
 
+function renderText(text: string) {
+  if (!text) return null;
+  // Replace **text** with <strong>text</strong>
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={index}>{part.slice(2, -2)}</strong>;
+    }
+    return <React.Fragment key={index}>{part}</React.Fragment>;
+  });
+}
+
 function History() {
   const { t } = useLang();
 
@@ -156,13 +168,13 @@ function History() {
         <div className="section-divider" />
       </ScrollReveal>
       <ScrollReveal>
-        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{t.history.intro}</p>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{renderText(t.history.intro)}</p>
       </ScrollReveal>
       <ScrollReveal>
         <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.3rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
-          {t.history.originTitle}
+          {renderText(t.history.originTitle)}
         </h3>
-        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{t.history.originContent}</p>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{renderText(t.history.originContent)}</p>
       </ScrollReveal>
       <ScrollReveal>
         <div style={{ padding: "2rem", background: "var(--color-cream)", borderRadius: "12px", border: "1px solid rgba(0,0,0,0.05)", position: "relative", overflow: "hidden" }}>
@@ -178,7 +190,7 @@ function History() {
             </h3>
           </div>
           <p style={{ fontSize: "1rem", color: "var(--color-earth-soft)", lineHeight: "1.6", margin: 0, position: "relative", zIndex: 1 }}>
-            {t.history.legendCard.content}
+            {renderText(t.history.legendCard.content)}
           </p>
         </div>
       </ScrollReveal>
@@ -198,7 +210,7 @@ function Architecture() {
       </ScrollReveal>
       
       <ScrollReveal>
-        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{t.architecture.intro}</p>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{renderText(t.architecture.intro)}</p>
       </ScrollReveal>
       
       <ScrollReveal>
@@ -208,7 +220,7 @@ function Architecture() {
               <h4 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "0.75rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
                 {key === "structure" ? "🏗️" : key === "design" ? "⚙️" : "✨"} {spec.title}
               </h4>
-              <p style={{ fontSize: "0.95rem", color: "var(--color-earth-soft)", lineHeight: "1.6" }}>{spec.content}</p>
+              <p style={{ fontSize: "0.95rem", color: "var(--color-earth-soft)", lineHeight: "1.6" }}>{renderText(spec.content)}</p>
             </div>
           ))}
         </div>
@@ -245,7 +257,7 @@ function Monuments() {
       </ScrollReveal>
       
       <ScrollReveal>
-        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{t.monuments.intro}</p>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{renderText(t.monuments.intro)}</p>
       </ScrollReveal>
       
       <ScrollReveal>
@@ -258,7 +270,7 @@ function Monuments() {
               <h4 style={{ fontFamily: "var(--font-display)", fontSize: "1.05rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "0.75rem" }}>
                 {item.name}
               </h4>
-              <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.6", whiteSpace: "pre-line" }}>{item.description}</p>
+              <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.6", whiteSpace: "pre-line" }}>{renderText(item.description)}</p>
             </div>
           ))}
         </div>
@@ -285,7 +297,7 @@ function Visiting() {
         </ScrollReveal>
         
         <ScrollReveal>
-          <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{t.visiting.intro}</p>
+          <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{renderText(t.visiting.intro)}</p>
         </ScrollReveal>
 
         <ScrollReveal>
@@ -294,8 +306,8 @@ function Visiting() {
               <div className="info-card" key={i}>
                 <div style={{ fontSize: "2rem", marginBottom: "1rem" }}>{c.icon}</div>
                 <div className="info-card-title">{c.title}</div>
-                <div className="info-card-content" style={{ whiteSpace: "pre-line" }}>{c.content}</div>
-                <div className="info-card-note">{c.note}</div>
+                <div className="info-card-content" style={{ whiteSpace: "pre-line" }}>{renderText(c.content)}</div>
+                <div className="info-card-note">{renderText(c.note)}</div>
               </div>
             ))}
           </div>
@@ -321,7 +333,6 @@ function Visiting() {
 
 function Transportation() {
   const { t } = useLang();
-  const [expandedIndex, setExpandedIndex] = useState<number | null>(0);
 
   const sections = [
     {
@@ -360,72 +371,59 @@ function Transportation() {
       <ScrollReveal>
         <div className="faq-list">
           {sections.map((sec, i) => (
-            <div className={`faq-item ${expandedIndex === i ? "expanded" : ""}`} key={i}>
-              <button
+            <div className="faq-item expanded" key={i}>
+              <div
                 className="faq-question"
-                onClick={() => setExpandedIndex(expandedIndex === i ? null : i)}
+                style={{ cursor: "default" }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                   <span style={{ fontSize: "1.5rem" }}>{sec.icon}</span>
                   <span style={{ color: "var(--color-deep)", fontWeight: 600 }}>{sec.title}</span>
                 </div>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  className={`faq-icon ${expandedIndex === i ? "rotated" : ""}`}
-                >
-                  <path d="M6 9l6 6 6-6" />
-                </svg>
-              </button>
-              {expandedIndex === i && (
-                <div className="faq-answer">
-                  <p style={{ whiteSpace: "pre-line", marginBottom: "1.5rem" }}>{sec.content}</p>
-                  
-                  {sec.options && sec.options.length > 0 && (
-                    <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                      {sec.options.map((opt: any, j: number) => (
-                        <div key={j} style={{ padding: "1.25rem", background: "rgba(0,0,0,0.03)", borderRadius: "6px" }}>
-                          <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.5rem" }}>
-                            <strong style={{ color: "var(--color-deep)", fontSize: "1.05rem" }}>{opt.name}</strong>
+              </div>
+              <div className="faq-answer">
+                <p style={{ whiteSpace: "pre-line", marginBottom: "1.5rem" }}>{renderText(sec.content)}</p>
+                
+                {sec.options && sec.options.length > 0 && (
+                  <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                    {sec.options.map((opt: any, j: number) => (
+                      <div key={j} style={{ padding: "1.25rem", background: "rgba(0,0,0,0.03)", borderRadius: "6px" }}>
+                        <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.5rem" }}>
+                          <strong style={{ color: "var(--color-deep)", fontSize: "1.05rem" }}>{opt.name}</strong>
+                        </div>
+                        {(opt.price || opt.time) && (
+                          <div style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", display: "flex", gap: "1rem", marginBottom: "1rem" }}>
+                            {opt.price && <span style={{ color: "var(--color-gold)", fontWeight: 600 }}>{opt.price}</span>}
+                            {opt.time && <span>⏱️ {opt.time}</span>}
                           </div>
-                          {(opt.price || opt.time) && (
-                            <div style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", display: "flex", gap: "1rem", marginBottom: "1rem" }}>
-                              {opt.price && <span style={{ color: "var(--color-gold)", fontWeight: 600 }}>{opt.price}</span>}
-                              {opt.time && <span>⏱️ {opt.time}</span>}
-                            </div>
-                          )}
-                          {opt.description && (
-                            <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", marginBottom: "0.5rem" }}>{opt.description}</p>
-                          )}
-                          {opt.steps && opt.steps.length > 0 && (
-                            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-                              {opt.steps.map((step: string, k: number) => (
-                                <div key={k} style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>
-                                  • {step}
-                                </div>
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                      ))}
-                    </div>
-                  )}
+                        )}
+                        {opt.description && (
+                          <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", marginBottom: "0.5rem" }}>{renderText(opt.description)}</p>
+                        )}
+                        {opt.steps && opt.steps.length > 0 && (
+                          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                            {opt.steps.map((step: string, k: number) => (
+                              <div key={k} style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>
+                                • {renderText(step)}
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
 
-                  {sec.steps && sec.steps.length > 0 && (
-                    <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", background: "rgba(0,0,0,0.02)", padding: "1.25rem", borderRadius: "6px", marginTop: "1rem" }}>
-                      {sec.steps.map((step: string, j: number) => (
-                        <div key={j} style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>
-                          • {step}
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              )}
+                {sec.steps && sec.steps.length > 0 && (
+                  <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", background: "rgba(0,0,0,0.02)", padding: "1.25rem", borderRadius: "6px", marginTop: "1rem" }}>
+                    {sec.steps.map((step: string, j: number) => (
+                      <div key={j} style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>
+                        • {renderText(step)}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
           ))}
         </div>
@@ -438,7 +436,7 @@ function Transportation() {
           </h3>
           <ul style={{ paddingLeft: "1.5rem", color: "var(--color-earth-soft)", lineHeight: "1.8" }}>
             {t.transportation.tips.items.map((tip: string, i: number) => (
-              <li key={i}>{tip}</li>
+              <li key={i}>{renderText(tip)}</li>
             ))}
           </ul>
         </div>
@@ -569,14 +567,14 @@ function Reviews() {
           <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.4rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem", textAlign: "center" }}>
             {t.reviews.nearbyTitle}
           </h3>
-          <p style={{ textAlign: "center", color: "var(--color-earth-soft)", marginBottom: "2rem" }}>{t.reviews.nearbyIntro}</p>
+          <p style={{ textAlign: "center", color: "var(--color-earth-soft)", marginBottom: "2rem" }}>{renderText(t.reviews.nearbyIntro)}</p>
           <div style={{ display: "grid", gap: "1.5rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}>
             {t.reviews.nearbyItems.map((item: { name: string; description: string }, i: number) => (
               <div key={i} style={{ padding: "1.5rem", background: "rgba(0,0,0,0.02)", borderRadius: "8px" }}>
                 <h4 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "0.5rem" }}>
                   📍 {item.name}
                 </h4>
-                <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>{item.description}</p>
+                <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>{renderText(item.description)}</p>
               </div>
             ))}
           </div>
@@ -636,7 +634,7 @@ function FAQ() {
                 {expandedIndex === i && (
                   <div className="faq-answer">
                     {item.answer.split("\n\n").map((paragraph: string, j: number) => (
-                      <p key={j}>{paragraph}</p>
+                      <p key={j}>{renderText(paragraph)}</p>
                     ))}
                   </div>
                 )}
