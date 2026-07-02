@@ -6,19 +6,19 @@ import { useLang } from "@/components/LangProvider";
 export function StructuredData() {
   const { t, locale } = useLang();
 
-  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "lovepark.com"}`;
+  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "farodelamarina.com"}`;
 
   const touristAttractionSchema = {
     "@context": "https://schema.org",
     "@type": "TouristAttraction",
-    "name": locale === "es" ? "Parque del Amor" : locale === "zh" ? "爱情公园" : locale === "qu" ? "Love Park" : "Love Park",
-    "description": t.about.p1,
+    "name": locale === "es" ? "Faro de la Marina" : locale === "zh" ? "海军灯塔" : locale === "qu" ? "Faro de la Marina" : "Navy Lighthouse",
+    "description": t.history.intro,
     "url": `${baseUrl}/${locale}`,
-    "image": `${baseUrl}/gallery/love-park (1).jpg`,
+    "image": `${baseUrl}/gallery/navy-lighthouse (1).jpg`,
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.5",
-      "reviewCount": "30706"
+      "ratingValue": "4.7",
+      "reviewCount": "6599"
     },
     "geo": {
       "@type": "GeoCoordinates",
