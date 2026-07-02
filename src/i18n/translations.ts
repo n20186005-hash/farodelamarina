@@ -107,7 +107,7 @@ export const translations: Record<Locale, Translations> = {
 
 强烈建议从南部的巴兰科（Barranco）或北部的圣伊西德罗（San Isidro）租用共享自行车，沿着绝美的海岸线一路骑行至公园。`
       },
-      city: { title: "利马市区 ➔ 海军灯塔", content: "从米拉弗洛雷斯中心出发非常方便。", steps: ["从肯尼迪公园步行约15分钟即可到达", "打车仅需约5分钟"] },
+      city: { title: "🚶 利马市区 ➔ 海军灯塔", content: "从米拉弗洛雷斯中心出发非常方便。", steps: ["从肯尼迪公园步行约15分钟即可到达", "打车仅需约5分钟"] },
       tips: { title: "交通小贴士", items: ["避免在高峰时段（早上7-9点，下午5-7点）乘坐地面交通", "推荐使用 Uber, Cabify 等打车软件", "骑行时请注意佩戴头盔并走专用自行车道"] }
     },
     reviews: { 
@@ -227,7 +227,7 @@ export const translations: Record<Locale, Translations> = {
 
 We highly recommend renting a shared bike from Barranco in the south or San Isidro in the north, and riding along the stunning coastline to the park.`
       },
-      city: { title: "Lima City ➔ Navy Lighthouse", content: "It's very convenient to start from the center of Miraflores.", steps: ["About a 15-minute walk from Kennedy Park", "Only about a 5-minute taxi ride"] },
+      city: { title: "🚶 Lima City ➔ Navy Lighthouse", content: "It's very convenient to start from the center of Miraflores.", steps: ["About a 15-minute walk from Kennedy Park", "Only about a 5-minute taxi ride"] },
       tips: { title: "Transportation Tips", items: ["Avoid ground transportation during rush hours (7-9 AM, 5-7 PM)", "Recommend using ride-hailing apps like Uber or Cabify", "Please wear a helmet and use designated bike lanes when cycling"] }
     },
     reviews: { 
@@ -338,7 +338,7 @@ We highly recommend renting a shared bike from Barranco in the south or San Isid
         content: `El Malecón de Miraflores tiene las ciclovías mejor planificadas de Lima.
 Recomendamos alquilar una bicicleta y pedalear a lo largo de la impresionante costa hasta el parque.`
       },
-      city: { title: "Centro de Lima ➔ Faro de la Marina", content: "Es muy conveniente empezar desde el centro de Miraflores.", steps: ["A unos 15 minutos a pie del Parque Kennedy", "A solo 5 minutos en taxi"] },
+      city: { title: "🚶 Centro de Lima ➔ Faro de la Marina", content: "Es muy conveniente empezar desde el centro de Miraflores.", steps: ["A unos 15 minutos a pie del Parque Kennedy", "A solo 5 minutos en taxi"] },
       tips: { title: "Consejos de Transporte", items: ["Evite las horas punta (7-9 AM, 5-7 PM)", "Use aplicaciones como Uber o Cabify", "Use las ciclovías designadas"] }
     },
     reviews: { 
@@ -417,7 +417,7 @@ Recomendamos alquilar una bicicleta y pedalear a lo largo de la impresionante co
       airport: { title: "Lima-manta", content: "Lima-man antawan hamuy.", options: [
         { name: "Taxi", price: "50 - 80 soles", time: "40 min", steps: ["Lima-manta taxi"] }
       ]},
-      city: { title: "Lima", content: "Miraflores-man.", steps: ["Taxi", "Bus"] },
+      city: { title: "🚶 Lima", content: "Miraflores-man.", steps: ["Taxi", "Bus"] },
       tips: { title: "Yachay", items: ["Taxi"] }
     },
     reviews: { 

@@ -336,25 +336,21 @@ function Transportation() {
 
   const sections = [
     {
-      icon: "✈️",
       title: t.transportation.airport.title,
       content: t.transportation.airport.content,
       options: t.transportation.airport.options
     },
     ...(t.transportation.publicTransport ? [{
-      icon: "🚌",
       title: t.transportation.publicTransport.title,
       content: t.transportation.publicTransport.content,
       options: t.transportation.publicTransport.options
     }] : []),
     ...(t.transportation.cycling ? [{
-      icon: "🚲",
       title: t.transportation.cycling.title,
       content: t.transportation.cycling.content,
       options: []
     }] : []),
     {
-      icon: "🚶",
       title: t.transportation.city.title,
       content: t.transportation.city.content,
       steps: t.transportation.city.steps
@@ -377,7 +373,6 @@ function Transportation() {
                 style={{ cursor: "default" }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-                  <span style={{ fontSize: "1.5rem" }}>{sec.icon}</span>
                   <span style={{ color: "var(--color-deep)", fontWeight: 600 }}>{sec.title}</span>
                 </div>
               </div>
