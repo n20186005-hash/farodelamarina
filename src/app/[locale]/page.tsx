@@ -12,8 +12,8 @@ import galleryImagesData from "@/gallery-data.json";
 const MAPS_URL = "https://maps.app.goo.gl/7FXLGcATHHeRnALv8";
 
 const GOOGLE_REVIEWS = [
-  { name: "Carlos M.", avatar: "CM", rating: 5, date: "2024-12-10", text: "El Faro de la Marina es un lugar impresionante. Las vistas del Pacífico son espectaculares, especialmente al atardecer. Muy recomendado para fotos." },
-  { name: "Sarah J.", avatar: "SJ", rating: 5, date: "2024-11-15", text: "Navy Lighthouse is a must-visit viewpoint in Lima! The historic lighthouse from 1900 is fascinating, and the panoramic ocean views are breathtaking." },
+  { name: "Carlos M.", avatar: "CM", rating: 5, date: "2024-12-10", text: "令人惊叹的地方。太平洋的景色十分壮观，尤其是日落时分。非常推荐来这里拍照。" },
+  { name: "Sarah J.", avatar: "SJ", rating: 5, date: "2024-11-15", text: "利马必去的观景点！建于1900年的历史灯塔令人着迷，360度的海景令人叹为观止。" },
   { name: "Luis H.", avatar: "LH", rating: 5, date: "2024-10-20", text: "Un mirador excelente en Miraflores. El faro tiene mucha historia y las placas conmemorativas son muy interesantes. Vistas de 360 grados." },
   { name: "王大明", avatar: "王", rating: 5, date: "2024-09-25", text: "海军灯塔是利马最美的观景点之一！灯塔建于1900年，历史悠久。可以俯瞰整个太平洋，非常壮观！" },
   { name: "Ana T.", avatar: "AT", rating: 5, date: "2024-08-18", text: "Hermoso mirador en Miraflores. El Faro de la Marina tiene una historia muy interesante. Las vistas del océano son increíbles." },
@@ -94,17 +94,17 @@ function Nav() {
     <nav className={`site-nav ${scrolled ? "scrolled" : ""}`}>
       <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
         <span style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 700, color: "#fff" }}>
-          Navy Lighthouse
+          Faro de la Marina
         </span>
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
         <div className="nav-links">
-          <a href="#about">{t.nav.about}</a>
-          {t.nav.inscriptions && <a href="#inscriptions">{t.nav.inscriptions}</a>}
+          <a href="#history">{t.nav.history}</a>
+          <a href="#architecture">{t.nav.architecture}</a>
+          <a href="#monuments">{t.nav.monuments}</a>
           <a href="#visiting">{t.nav.visiting}</a>
           <a href="#transportation">{t.nav.transportation}</a>
-          <a href="#tips">{t.nav.tips}</a>
-          <a href="#gallery">{t.gallery.title}</a>
+          <a href="#gallery">{t.nav.gallery}</a>
           <a href="#reviews">{t.nav.reviews}</a>
           <a href="#faq">{t.nav.faq}</a>
           <a href="#location">{t.nav.location}</a>
@@ -127,7 +127,7 @@ function Hero() {
         <p className="hero-tagline">{t.hero.tagline}</p>
         <h1 className="hero-title">{t.hero.title}</h1>
         <p className="hero-subtitle">{t.hero.subtitle}</p>
-        <a href="#about" className="hero-cta">
+        <a href="#history" className="hero-cta">
           {t.hero.cta}
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M7 17L17 7M17 7H7M17 7V17" />
@@ -145,70 +145,83 @@ function Hero() {
   );
 }
 
-function About() {
+function History() {
   const { t } = useLang();
 
   return (
-    <section id="about" className="section">
+    <section id="history" className="section">
       <ScrollReveal>
         <p className="section-label">01</p>
-        <h2 className="section-title">{t.about.title}</h2>
+        <h2 className="section-title">{t.history.title}</h2>
         <div className="section-divider" />
       </ScrollReveal>
       <ScrollReveal>
-        <div style={{ marginBottom: "3rem", padding: "1.5rem", background: "#f8f9fa", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
-          <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
-            {t.about.highlights.title}
-          </h3>
-          <div className="highlights-grid">
-            {t.about.highlights.items.map((item: string, i: number) => (
-              <div className="highlight-item" key={i}>
-                <div className="highlight-icon" />
-                <span className="highlight-text">{item}</span>
-              </div>
-            ))}
-          </div>
-        </div>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{t.history.intro}</p>
       </ScrollReveal>
       <ScrollReveal>
-        <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.about.p1}</p>
-        <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.about.p2}</p>
+        <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.3rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
+          {t.history.originTitle}
+        </h3>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{t.history.originContent}</p>
+      </ScrollReveal>
+      <ScrollReveal>
+        <div style={{ padding: "2rem", background: "var(--color-cream)", borderRadius: "12px", border: "1px solid rgba(0,0,0,0.05)", position: "relative", overflow: "hidden" }}>
+          <div style={{ position: "absolute", top: "-10px", right: "-10px", opacity: 0.05, transform: "rotate(15deg)" }}>
+            <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+            </svg>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1rem" }}>
+            <span style={{ fontSize: "1.5rem" }}>💡</span>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", margin: 0 }}>
+              {t.history.legendCard.title}
+            </h3>
+          </div>
+          <p style={{ fontSize: "1rem", color: "var(--color-earth-soft)", lineHeight: "1.6", margin: 0, position: "relative", zIndex: 1 }}>
+            {t.history.legendCard.content}
+          </p>
+        </div>
       </ScrollReveal>
     </section>
   );
 }
 
-function Inscriptions() {
+function Architecture() {
   const { t } = useLang();
-  if (!t.inscriptions) return null;
   
   return (
-    <section id="inscriptions" className="section">
+    <section id="architecture" className="section" style={{ background: "rgba(0,0,0,0.02)" }}>
       <ScrollReveal>
         <p className="section-label">02</p>
-        <h2 className="section-title">{t.inscriptions.title}</h2>
-        <p className="section-subtitle">{t.inscriptions.subtitle}</p>
+        <h2 className="section-title">{t.architecture.title}</h2>
         <div className="section-divider" />
       </ScrollReveal>
       
       <ScrollReveal>
-        <div style={{ marginBottom: "3rem", padding: "1.5rem", background: "#f8f9fa", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
-          <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
-            {t.inscriptions.intro.title}
-          </h3>
-          <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.inscriptions.intro.content}</p>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{t.architecture.intro}</p>
+      </ScrollReveal>
+      
+      <ScrollReveal>
+        <div style={{ display: "grid", gap: "1.5rem", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", marginBottom: "3rem" }}>
+          {Object.entries(t.architecture.specs).map(([key, spec]: [string, any]) => (
+            <div key={key} style={{ padding: "1.5rem", background: "#fff", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)", boxShadow: "0 4px 12px rgba(0,0,0,0.02)" }}>
+              <h4 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "0.75rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                {key === "structure" ? "🏗️" : key === "design" ? "⚙️" : "✨"} {spec.title}
+              </h4>
+              <p style={{ fontSize: "0.95rem", color: "var(--color-earth-soft)", lineHeight: "1.6" }}>{spec.content}</p>
+            </div>
+          ))}
         </div>
       </ScrollReveal>
       
       <ScrollReveal>
-        <div style={{ marginBottom: "3rem" }}>
+        <div style={{ background: "#fff", borderRadius: "12px", padding: "2rem", border: "1px solid rgba(0,0,0,0.05)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1.5rem" }}>
-            {t.inscriptions.plaque.title}
+            {t.architecture.plaque.title}
           </h3>
-          <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "1.5rem" }}>{t.inscriptions.plaque.content}</p>
-          <div style={{ display: "grid", gap: "0.75rem", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
-            {t.inscriptions.plaque.items.map((item: { label: string; value: string }, i: number) => (
-              <div key={i} style={{ padding: "1rem", background: "rgba(0,0,0,0.03)", borderRadius: "6px", borderLeft: "3px solid var(--color-gold)" }}>
+          <div style={{ display: "grid", gap: "1rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}>
+            {t.architecture.plaque.items.map((item: { label: string; value: string }, i: number) => (
+              <div key={i} style={{ padding: "1rem", background: "rgba(0,0,0,0.02)", borderRadius: "6px", borderLeft: "3px solid var(--color-gold)" }}>
                 <div style={{ fontSize: "0.85rem", color: "var(--color-earth-soft)", marginBottom: "0.25rem", fontWeight: 600 }}>{item.label}</div>
                 <div style={{ fontSize: "0.95rem", color: "var(--color-deep)", fontWeight: 500 }}>{item.value}</div>
               </div>
@@ -216,23 +229,38 @@ function Inscriptions() {
           </div>
         </div>
       </ScrollReveal>
+    </section>
+  );
+}
+
+function Monuments() {
+  const { t } = useLang();
+  
+  return (
+    <section id="monuments" className="section">
+      <ScrollReveal>
+        <p className="section-label">03</p>
+        <h2 className="section-title">{t.monuments.title}</h2>
+        <div className="section-divider" />
+      </ScrollReveal>
       
       <ScrollReveal>
-        <div>
-          <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1.5rem" }}>
-            {t.inscriptions.monuments.title}
-          </h3>
-          <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{t.inscriptions.monuments.content}</p>
-          <div style={{ display: "grid", gap: "1.5rem", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
-            {t.inscriptions.monuments.items.map((item: { name: string; description: string }, i: number) => (
-              <div key={i} style={{ padding: "1.5rem", background: "#f8f9fa", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
-                <h4 style={{ fontFamily: "var(--font-display)", fontSize: "1.05rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "0.75rem" }}>
-                  {item.name}
-                </h4>
-                <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.6", whiteSpace: "pre-line" }}>{item.description}</p>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{t.monuments.intro}</p>
+      </ScrollReveal>
+      
+      <ScrollReveal>
+        <div style={{ display: "grid", gap: "1.5rem", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
+          {t.monuments.items.map((item: { name: string; description: string }, i: number) => (
+            <div key={i} style={{ padding: "1.5rem", background: "#f8f9fa", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
+              <div style={{ width: "40px", height: "40px", borderRadius: "50%", background: "var(--color-gold)", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+                {i + 1}
               </div>
-            ))}
-          </div>
+              <h4 style={{ fontFamily: "var(--font-display)", fontSize: "1.05rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "0.75rem" }}>
+                {item.name}
+              </h4>
+              <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.6", whiteSpace: "pre-line" }}>{item.description}</p>
+            </div>
+          ))}
         </div>
       </ScrollReveal>
     </section>
@@ -242,25 +270,31 @@ function Inscriptions() {
 function Visiting() {
   const { t } = useLang();
   const cards = [
-    { title: t.visiting.hours.title, content: t.visiting.hours.content, note: t.visiting.hours.note },
-    { title: t.visiting.price.title, content: t.visiting.price.content, note: t.visiting.price.note },
-    { title: t.visiting.duration.title, content: t.visiting.duration.content, note: t.visiting.duration.note },
+    { title: t.visiting.hours.title, content: t.visiting.hours.content, note: t.visiting.hours.note, icon: "🌅" },
+    { title: t.visiting.price.title, content: t.visiting.price.content, note: t.visiting.price.note, icon: "🎟️" },
+    { title: t.visiting.duration.title, content: t.visiting.duration.content, note: t.visiting.duration.note, icon: "🛡️" },
   ];
 
   return (
     <section id="visiting" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #eee8dd 100%)" }}>
       <div className="section">
         <ScrollReveal>
-          <p className="section-label">03</p>
+          <p className="section-label">04</p>
           <h2 className="section-title">{t.visiting.title}</h2>
           <div className="section-divider" />
         </ScrollReveal>
+        
+        <ScrollReveal>
+          <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{t.visiting.intro}</p>
+        </ScrollReveal>
+
         <ScrollReveal>
           <div className="info-grid">
             {cards.map((c, i) => (
               <div className="info-card" key={i}>
+                <div style={{ fontSize: "2rem", marginBottom: "1rem" }}>{c.icon}</div>
                 <div className="info-card-title">{c.title}</div>
-                <div className="info-card-content">{c.content}</div>
+                <div className="info-card-content" style={{ whiteSpace: "pre-line" }}>{c.content}</div>
                 <div className="info-card-note">{c.note}</div>
               </div>
             ))}
@@ -268,7 +302,7 @@ function Visiting() {
         </ScrollReveal>
 
         <ScrollReveal>
-          <div className="bring-section">
+          <div className="bring-section" style={{ marginTop: "3rem" }}>
             <div className="bring-title">{t.visiting.tips.title}</div>
             <ul className="bring-list">
               {t.visiting.tips.items.map((item: string, i: number) => (
@@ -308,12 +342,6 @@ function Transportation() {
       content: t.transportation.cycling.content,
       options: []
     }] : []),
-    ...(t.transportation.localTransport ? [{
-      icon: "🚐",
-      title: t.transportation.localTransport.title,
-      content: t.transportation.localTransport.description || t.transportation.localTransport.content,
-      steps: t.transportation.localTransport.steps
-    }] : []),
     {
       icon: "🚶",
       title: t.transportation.city.title,
@@ -325,7 +353,7 @@ function Transportation() {
   return (
     <section id="transportation" className="section">
       <ScrollReveal>
-        <p className="section-label">04</p>
+        <p className="section-label">05</p>
         <h2 className="section-title">{t.transportation.title}</h2>
         <div className="section-divider" />
       </ScrollReveal>
@@ -388,7 +416,7 @@ function Transportation() {
                   )}
 
                   {sec.steps && sec.steps.length > 0 && (
-                    <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", background: "rgba(0,0,0,0.02)", padding: "1.25rem", borderRadius: "6px" }}>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", background: "rgba(0,0,0,0.02)", padding: "1.25rem", borderRadius: "6px", marginTop: "1rem" }}>
                       {sec.steps.map((step: string, j: number) => (
                         <div key={j} style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>
                           • {step}
@@ -402,32 +430,19 @@ function Transportation() {
           ))}
         </div>
       </ScrollReveal>
-    </section>
-  );
-}
-
-function Tips() {
-  const { t } = useLang();
-  return (
-    <section id="tips" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #e8e2d6 100%)" }}>
-      <div className="section">
-        <ScrollReveal>
-          <p className="section-label">05</p>
-          <h2 className="section-title">{t.tips.title}</h2>
-          <div className="section-divider" />
-        </ScrollReveal>
-        
-        <ScrollReveal>
-          <ul className="tips-list">
-            {t.tips.items.map((tip: string, i: number) => (
-              <li className="tip-item" key={i}>
-                <span className="tip-number">{String(i + 1).padStart(2, "0")}</span>
-                <span className="tip-text">{tip}</span>
-              </li>
+      
+      <ScrollReveal>
+        <div style={{ marginTop: "3rem", padding: "2rem", background: "rgba(0,0,0,0.02)", borderRadius: "12px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
+            💡 {t.transportation.tips.title}
+          </h3>
+          <ul style={{ paddingLeft: "1.5rem", color: "var(--color-earth-soft)", lineHeight: "1.8" }}>
+            {t.transportation.tips.items.map((tip: string, i: number) => (
+              <li key={i}>{tip}</li>
             ))}
           </ul>
-        </ScrollReveal>
-      </div>
+        </div>
+      </ScrollReveal>
     </section>
   );
 }
@@ -516,7 +531,7 @@ function Reviews() {
   const { t } = useLang();
 
   return (
-    <section id="reviews" className="section">
+    <section id="reviews" className="section" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #e8e2d6 100%)" }}>
       <ScrollReveal>
         <p className="section-label">07</p>
         <h2 className="section-title">{t.reviews.title}</h2>
@@ -524,7 +539,7 @@ function Reviews() {
         <div className="section-divider" />
       </ScrollReveal>
       <ScrollReveal>
-        <div className="reviews-grid">
+        <div className="reviews-grid" style={{ marginBottom: "4rem" }}>
           {GOOGLE_REVIEWS.map((review, i) => (
             <div className="review-card" key={i}>
               <div className="review-header">
@@ -548,8 +563,28 @@ function Reviews() {
           ))}
         </div>
       </ScrollReveal>
+      
       <ScrollReveal>
-        <div style={{ textAlign: "center", marginTop: "2rem" }}>
+        <div style={{ background: "#fff", borderRadius: "12px", padding: "2.5rem", border: "1px solid rgba(0,0,0,0.05)", boxShadow: "0 10px 30px rgba(0,0,0,0.03)" }}>
+          <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.4rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem", textAlign: "center" }}>
+            {t.reviews.nearbyTitle}
+          </h3>
+          <p style={{ textAlign: "center", color: "var(--color-earth-soft)", marginBottom: "2rem" }}>{t.reviews.nearbyIntro}</p>
+          <div style={{ display: "grid", gap: "1.5rem", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}>
+            {t.reviews.nearbyItems.map((item: { name: string; description: string }, i: number) => (
+              <div key={i} style={{ padding: "1.5rem", background: "rgba(0,0,0,0.02)", borderRadius: "8px" }}>
+                <h4 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "0.5rem" }}>
+                  📍 {item.name}
+                </h4>
+                <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </ScrollReveal>
+      
+      <ScrollReveal>
+        <div style={{ textAlign: "center", marginTop: "3rem" }}>
           <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="google-maps-btn">
             {t.reviews.viewMore}
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -692,11 +727,11 @@ export default function Home(props: { params: Promise<{ locale: string }> }) {
       <StructuredData />
       <Nav />
       <Hero />
-      <About />
-      <Inscriptions />
+      <History />
+      <Architecture />
+      <Monuments />
       <Visiting />
       <Transportation />
-      <Tips />
       <Gallery />
       <Reviews />
       <FAQ />
