@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Parque Bicentenario Travel Guide",
-  description: "Privacy policy for Parque Bicentenario Travel Guide",
+  title: "隐私政策 | Faro de la Marina (Navy Lighthouse) 旅游指南",
+  description: "Faro de la Marina (Navy Lighthouse) 旅游指南的隐私政策。",
 };
 
 export default function PrivacyPage() {
@@ -51,7 +51,7 @@ export default function PrivacyPage() {
             第三方服务
           </h2>
           <p style={{ lineHeight: "1.8", color: "var(--color-earth-soft)" }}>
-            我们的网站可能会使用第三方服务，例如谷歌地图（用于嵌入式地图和位置数据）、谷歌分析（用于流量分析）和 Unsplash（用于图片）。这些服务均有各自的隐私政策。
+            我们的网站可能会使用第三方服务，例如谷歌地图（用于嵌入式地图和位置数据）和 Google Analytics 4（GA4，衡量 ID：G-HXM22WWPKP，用于流量与使用分析）。图片版权均归原摄影者所有。这些服务均有各自的隐私政策。
           </p>
         </section>
 

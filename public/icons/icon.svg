@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Faro de la Marina (Navy Lighthouse) icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16324f"/>
+      <stop offset="1" stop-color="#0b1b2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <g>
+    <path d="M256 150 L60 96 L60 204 Z" fill="#f2c879" opacity="0.32"/>
+    <path d="M256 150 L452 96 L452 204 Z" fill="#f2c879" opacity="0.32"/>
+  </g>
+  <path d="M212 176 L300 176 L330 420 L182 420 Z" fill="#f7f4ee"/>
+  <path d="M206 236 L306 236 L311 276 L201 276 Z" fill="#16324f"/>
+  <path d="M196 336 L316 336 L321 376 L191 376 Z" fill="#16324f"/>
+  <rect x="206" y="146" width="100" height="30" rx="6" fill="#0b1b2b"/>
+  <circle cx="256" cy="128" r="30" fill="#f2c879"/>
+  <rect x="228" y="100" width="56" height="14" rx="6" fill="#0b1b2b"/>
+  <rect x="160" y="404" width="192" height="34" rx="12" fill="#0b1b2b"/>
+</svg>

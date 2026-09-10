@@ -1,2 +1,2 @@
-$env:CURRENT_SITE_DOMAIN="lovepark.com"
+$env:CURRENT_SITE_DOMAIN="farodelamarina.com"
 npm run build

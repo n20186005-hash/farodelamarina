@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next';
+import { siteUrl } from '@/site.config';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || 'navylighthouse.com'}`;
+  const baseUrl = siteUrl;
 
   const languages = {
     es: `${baseUrl}/es`,

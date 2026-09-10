@@ -1,0 +1,903 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Faro de la Marina
+      - generic [ref=e6]: Navy Lighthouse
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "历史渊源" [ref=e9] [cursor=pointer]:
+          - /url: "#history"
+        - link "技术规格" [ref=e10] [cursor=pointer]:
+          - /url: "#architecture"
+        - link "光学科技" [ref=e11] [cursor=pointer]:
+          - /url: "#science"
+        - link "海军荣誉" [ref=e12] [cursor=pointer]:
+          - /url: "#monuments"
+        - link "传说故事" [ref=e13] [cursor=pointer]:
+          - /url: "#legends"
+        - link "游览指南" [ref=e14] [cursor=pointer]:
+          - /url: "#visiting"
+        - link "实用设施" [ref=e15] [cursor=pointer]:
+          - /url: "#amenities"
+        - link "交通规划" [ref=e16] [cursor=pointer]:
+          - /url: "#transportation"
+        - link "照片画廊" [ref=e17] [cursor=pointer]:
+          - /url: "#gallery"
+        - link "常见问题" [ref=e18] [cursor=pointer]:
+          - /url: "#faq"
+        - link "地图位置" [ref=e19] [cursor=pointer]:
+          - /url: "#location"
+      - button "Toggle theme" [ref=e20] [cursor=pointer]
+      - generic [ref=e23]:
+        - button "Switch to zh" [ref=e24] [cursor=pointer]: 中文
+        - button "Switch to en" [ref=e25] [cursor=pointer]: EN
+        - button "Switch to es" [ref=e26] [cursor=pointer]: ES
+        - button "Switch to qu" [ref=e27] [cursor=pointer]: QU
+  - generic [ref=e28]:
+    - img "Navy Lighthouse - Main view in Miraflores, Peru" [ref=e30]
+    - generic [ref=e33]:
+      - paragraph [ref=e34]: 秘鲁利马 · 米拉弗洛雷斯海滨观景台
+      - heading "Faro de la Marina Navy Lighthouse（米拉弗洛雷斯）" [level=1] [ref=e35]:
+        - text: Faro de la Marina
+        - generic [ref=e36]: Navy Lighthouse（米拉弗洛雷斯）
+      - paragraph [ref=e37]: 海军灯塔 · Navy Lighthouse · 太平洋畔的百年航海地标
+      - link "探索灯塔" [ref=e38] [cursor=pointer]:
+        - /url: "#overview"
+    - link "4.7 ★ ★ ★ ★ ★ 6,688 条评价 · Google 评论":
+      - /url: https://maps.app.goo.gl/7FXLGcATHHeRnALv8
+      - generic [ref=e41] [cursor=pointer]:
+        - generic [ref=e42]: "4.7"
+        - generic [ref=e43]: ★ ★ ★ ★ ★
+        - generic [ref=e44]: 6,688 条评价 · Google 评论
+  - generic [ref=e45]:
+    - generic [ref=e46]:
+      - paragraph [ref=e47]: 当前位置
+      - navigation "Breadcrumb" [ref=e48]:
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - link "Navy Lighthouse 海军灯塔" [ref=e51] [cursor=pointer]:
+              - /url: /zh
+          - listitem [ref=e52]:
+            - generic [ref=e53]: →
+            - generic [ref=e54]: 米拉弗洛雷斯
+          - listitem [ref=e55]:
+            - generic [ref=e56]: →
+            - generic [ref=e57]: 利马
+          - listitem [ref=e58]:
+            - generic [ref=e59]: →
+            - generic [ref=e60]: 秘鲁
+      - generic [ref=e61]:
+        - text: 欢迎来到
+        - strong [ref=e62]: Navy Lighthouse（海军灯塔）
+        - text: ，它正是广为人知的
+        - strong [ref=e63]: Faro de la Marina
+        - text: 。景点坐落于
+        - strong [ref=e64]: 秘鲁
+        - strong [ref=e65]: 利马
+        - strong [ref=e66]: 米拉弗洛雷斯
+        - text: 的核心地带，是造访该地区旅客的首要枢纽。
+    - generic [ref=e68]:
+      - article [ref=e69]:
+        - heading "关于 Navy Lighthouse（海军灯塔）" [level=2] [ref=e70]
+        - paragraph [ref=e71]:
+          - strong [ref=e72]: Navy Lighthouse
+          - text: （西班牙语：
+          - strong [ref=e73]: Faro de la Marina
+          - text: ）是一座高 72 英尺（约 22 米）的崖畔铸铁灯塔，位于秘鲁米拉弗洛雷斯 15074 区 Cisneros 海滨大道 18 号（Mal. Cisneros 18）。其白色灯光射程可达 18 海里（约 33 公里），是利马访问量最大的灯塔与最佳免费公共观景台。
+      - article [ref=e74]:
+        - heading "Faro de la Marina 的位置与游览方式（米拉弗洛雷斯）" [level=2] [ref=e75]
+        - paragraph [ref=e76]: 灯塔位于 Cisneros 海滨步道（Malecón Cisneros）上，Plus Code 为 VXG5+GW，从米拉弗洛雷斯中心的肯尼迪公园步行约 15 分钟即可抵达。公园免费开放、全年 24 小时可进入，日落时分人气最高。可使用下方地图获取实时导航。
+      - article [ref=e77]:
+        - heading "Faro de la Marina 周边地标与景点" [level=2] [ref=e78]
+        - paragraph [ref=e79]:
+          - text: 参观
+          - strong [ref=e80]: Navy Lighthouse
+          - text: 时，游客可轻松探索周边的历史地标与景点，包括
+          - strong [ref=e81]: 爱情公园（Parque del Amor）
+          - text: 与
+          - strong [ref=e82]: 拉尔科马购物中心（Larcomar）
+          - text: ，沿米拉弗洛雷斯海滨步行皆可到达。
+      - article [ref=e83]:
+        - heading "Navy Lighthouse 的历史与意义" [level=2] [ref=e84]
+        - paragraph [ref=e85]: 灯塔由瑞典 Chance Bros 公司于 1900 年在莫克瓜 Punta Coles 建成，1973 年 12 月由秘鲁海军水文航海局（DHNM）拆解并重新组装于米拉弗洛雷斯的悬崖之上，以纪念秘鲁航海史一百周年。
+  - generic [ref=e86]:
+    - generic [ref=e87]:
+      - paragraph [ref=e88]: "01"
+      - heading "历史渊源与传奇身世" [level=2] [ref=e89]
+    - paragraph [ref=e92]: 海军灯塔（西班牙语：Faro de la Marina）不仅是秘鲁首都利马最著名、访问量最大的灯塔，更是一座承载了百年航海记忆的工业文物。与许多人的直觉不同，这座标志性建筑最初并非矗立于米拉弗洛雷斯的悬崖之上。
+    - generic [ref=e93]:
+      - heading "从南部港口到首都悬崖" [level=3] [ref=e94]
+      - paragraph [ref=e95]: 灯塔的建造最初受委托于瑞典的 Chance Bros 公司，并于1900年落成于莫克瓜大区（Moquegua）伊洛港以南的科莱斯角（Punta Coles）。它在南部海域为往来船只指引了半个多世纪的航向。直到1973年12月，秘鲁海军水文航海局（DHNM）将其精心拆解，并跨越数百公里重新组装在利马米拉弗洛雷斯的现址——海军灯塔公园（Parque el Faro），以此纪念秘鲁航海史的一百周年。
+    - generic [ref=e97]:
+      - generic [ref=e101]:
+        - generic [ref=e102]: 💡
+        - heading "你知道吗？建筑谜团与都市传说" [level=3] [ref=e103]
+      - paragraph [ref=e104]: 关于这座深蓝色铁塔，民间一直流传着一个著名的都市传说：许多人坚信这座灯塔是由法国著名工程师古斯塔夫·埃菲尔（Gustave Eiffel，埃菲尔铁塔的设计者）所设计的。尽管这一说法在游客中广为流传，但迄今为止并没有确凿的文献记录能支持这一观点，为其平添了一抹神秘色彩。
+  - generic [ref=e105]:
+    - generic [ref=e106]:
+      - paragraph [ref=e107]: "02"
+      - heading "建筑构造与技术规格" [level=2] [ref=e108]
+    - paragraph [ref=e111]: 海军灯塔完美融合了维多利亚时代的工业美学与现代航海技术。灯塔正下方深色的金属铭牌记录了其详细的物理参数：
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - heading "🏗️ 建筑结构" [level=4] [ref=e115]
+        - paragraph [ref=e116]: 塔高22米，矗立于海拔86米的太平洋海岸悬崖之上，总焦高达到108米。
+      - generic [ref=e117]:
+        - heading "⚙️ 工业设计" [level=4] [ref=e118]
+        - paragraph [ref=e119]: 塔身由319个可拆卸的铸铁部件和1,750个连接螺栓精密组装而成，总重量达60,000公斤。外部采用深海军蓝色涂装，并配有两条醒目的白色水平条纹。
+      - generic [ref=e120]:
+        - heading "✨ 光学性能" [level=4] [ref=e121]
+        - paragraph [ref=e122]: 灯塔拥有 83,000 坎德拉的亮度。其白光闪烁模式（每15秒闪烁三次）在无雾天气下的可视射程可达 18 海里（约 33 公里）。
+    - generic [ref=e124]:
+      - heading "灯塔基座铭牌详细参数" [level=3] [ref=e125]
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e128]: 名称
+          - generic [ref=e129]: FARO "LA MARINA"（海军灯塔）
+        - generic [ref=e130]:
+          - generic [ref=e131]: 主管部门
+          - generic [ref=e132]: 秘鲁海军部 · 水文航海局
+        - generic [ref=e133]:
+          - generic [ref=e134]: 亮度
+          - generic [ref=e135]: 83,000 坎德拉
+        - generic [ref=e136]:
+          - generic [ref=e137]: 射程
+          - generic [ref=e138]: 18海里（约33公里）
+        - generic [ref=e139]:
+          - generic [ref=e140]: 闪光
+          - generic [ref=e141]: 闪烁白光（每15秒三次）
+        - generic [ref=e142]:
+          - generic [ref=e143]: 纬度
+          - generic [ref=e144]: 12° 07' 13"
+        - generic [ref=e145]:
+          - generic [ref=e146]: 经度
+          - generic [ref=e147]: 77° 02' 17"
+        - generic [ref=e148]:
+          - generic [ref=e149]: 塔高
+          - generic [ref=e150]: 22米
+        - generic [ref=e151]:
+          - generic [ref=e152]: 海拔高度
+          - generic [ref=e153]: 86米
+        - generic [ref=e154]:
+          - generic [ref=e155]: 总焦高
+          - generic [ref=e156]: 108米
+        - generic [ref=e157]:
+          - generic [ref=e158]: 建造年份
+          - generic [ref=e159]: 1900年
+        - generic [ref=e160]:
+          - generic [ref=e161]: 材质
+          - generic [ref=e162]: 铸铁
+        - generic [ref=e163]:
+          - generic [ref=e164]: 可拆卸部件
+          - generic [ref=e165]: 319件
+        - generic [ref=e166]:
+          - generic [ref=e167]: 连接螺栓
+          - generic [ref=e168]: 1,750个
+        - generic [ref=e169]:
+          - generic [ref=e170]: 总重量
+          - generic [ref=e171]: 60,000公斤
+        - generic [ref=e172]:
+          - generic [ref=e173]: 安装信息
+          - generic [ref=e174]: 由DHNM安装，1973年12月
+  - generic [ref=e175]:
+    - generic [ref=e176]:
+      - paragraph [ref=e177]: "03"
+      - heading "灯塔的光学与工程原理" [level=2] [ref=e178]
+    - paragraph [ref=e181]: 灯塔既是建筑，也是一台光学仪器。理解光如何被聚集、如何被识别、塔身为何这样造，才能看懂这座铁塔背后的技术逻辑。以下内容为通用的灯塔科学原理，适用于理解本类历史航标。
+    - generic [ref=e183]:
+      - article [ref=e184]:
+        - generic [aria-hidden] [ref=e185]: 🔍
+        - heading "菲涅尔透镜带来的革命" [level=3] [ref=e186]
+        - paragraph [ref=e187]: 19 世纪以前，灯塔依靠抛光金属反射镜聚光，大量光线在反射与散射中损失。1822 年问世的菲涅尔透镜改用同心棱镜环，把发散的光线折射、反射成接近水平的平行光束，亮度大幅提升、镜体却更轻更薄。正是这项技术让大型海岸灯塔成为可能，也让 19 世纪末的灯塔普遍采用这种光学系统。
+      - article [ref=e188]:
+        - generic [aria-hidden] [ref=e189]: 📏
+        - heading "两个射程：地理射程与光视距" [level=3] [ref=e190]
+        - paragraph [ref=e191]: 灯塔的可见距离由两个因素中较小的一个决定。地理射程受地球曲率限制——灯高与观测者眼高共同决定能看到多远；光视距则取决于灯光强度与当时的大气能见度。因此「18 海里」这类指标属于理想条件下的量级，实际看到多远往往由雾气、雨幕和浪花决定。
+      - article [ref=e192]:
+        - generic [aria-hidden] [ref=e193]: 🔆
+        - heading "灯质：灯塔在海上的身份证" [level=3] [ref=e194]
+        - paragraph [ref=e195]: 海图上标注的不是灯塔的样子，而是它的明暗节奏。通过闪光、暗歇与间隔的组合（称为「灯质」），相邻的两座灯塔可以完全区分开，航海者在没有电子设备的年代也能靠数闪光来确认自己看到的是哪一座。这是导航史上最早的「编码识别」实践。
+      - article [ref=e196]:
+        - generic [aria-hidden] [ref=e197]: 🔩
+        - heading "铸铁分段：可拆卸的工程智慧" [level=3] [ref=e198]
+        - paragraph [ref=e199]: 19 世纪的塔身常在工厂里预制成一圈圈编号铸铁构件，平板打包、海运到岸、现场用法兰螺栓拼装。这种建造方式运输成本低、施工周期短，最关键的是可逆——结构如同巨大的立体拼图，可以完整拆开再在别处复原，这正是这座灯塔能在数十年后被整体搬迁的前提。
+      - article [ref=e200]:
+        - generic [aria-hidden] [ref=e201]: 🧭
+        - heading "坐标、地址网格与 Plus Code" [level=3] [ref=e202]
+        - paragraph [ref=e203]: 同一处地点同时拥有几套「地址」：经纬度坐标、城市街道门牌，以及像 VXG5+GW 这样的 Plus Code（开放位置代码）。Plus Code 把地球表面切成层层嵌套的方格，即便当地没有门牌系统，也能把位置精确到几米之内。同时公布多种编码，能让紧急救援与地图导航都快速定位到同一地点。
+  - generic [ref=e204]:
+    - generic [ref=e205]:
+      - paragraph [ref=e206]: "04"
+      - heading "纪念广场与海军荣誉" [level=2] [ref=e207]
+    - paragraph [ref=e210]: 灯塔所在的公园是一个集技术和自然景观于一体的公共空间，设有多位秘鲁海军历史重要人物的纪念雕像与铭文，供后人瞻仰：
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]: "1"
+        - heading "马丁·豪尔赫·吉斯 中将 (Vicealmirante Martín Jorge Guise, 1780-1828)" [level=4] [ref=e215]
+        - paragraph [ref=e216]: 秘鲁海军创始人，共和国第一任海军上将。1828年11月24日，他在“总统号”护卫舰上为保卫这片收养他的祖国而献出生命。其家族座右铭为：“最诚实，最安全”（QUO HONESTIOR EO TUTIOR）。
+      - generic [ref=e217]:
+        - generic [ref=e218]: "2"
+        - heading "胡安·曼努埃尔·范宁·加西亚 海军上尉 (Capitán de Navío Juan Manuel Fanning García)" [level=4] [ref=e219]
+        - paragraph [ref=e220]: 在1881年1月15日的米拉弗洛雷斯战役中表现英勇并受致命重伤。他为秘鲁人民留下了不朽的牺牲榜样，以及那句著名的口号：“前进，海军，前进！”(¡ADELANTE MARINA ADELANTE!)。
+  - generic [ref=e221]:
+    - generic [ref=e222]:
+      - paragraph [ref=e223]: "05"
+      - heading "大事记：一座铁塔的迁徙" [level=2] [ref=e224]
+    - paragraph [ref=e227]: 以下年表依据站内记载与公开航海资料整理。凡属推断或存在争议的细节，文中均已明确标注。
+    - list [ref=e229]:
+      - listitem [ref=e230]:
+        - generic [ref=e231]: 1860s–1890s
+        - generic [ref=e232]:
+          - heading "一条需要「眼睛」的海岸" [level=3] [ref=e233]
+          - paragraph [ref=e234]: 随着蒸汽航运与硝石、鸟粪石贸易的发展，秘鲁太平洋沿岸的船舶流量大幅增长。在无线电出现之前，一座位置精确、夜间点亮的灯塔，是船只在夜里确认自身位置最可靠的手段。
+      - listitem [ref=e235]:
+        - generic [ref=e236]: "1900"
+        - generic [ref=e237]:
+          - heading "在科莱斯角（Punta Coles）落成" [level=3] [ref=e238]
+          - paragraph [ref=e239]: 这座塔身由 Chance Bros 制造，于 1900 年建成于莫克瓜大区伊洛港以南的科莱斯角，开始为秘鲁南部海域的船只提供定位与避障指引。
+      - listitem [ref=e240]:
+        - generic [ref=e241]: 1900–1973
+        - generic [ref=e242]:
+          - heading "南方海域的七十年" [level=3] [ref=e243]
+          - paragraph [ref=e244]: 在长达七十余年的时间里，这座灯塔持续标定着南部航路。守塔人每夜的例行工作是修剪灯芯、擦拭镜面、记录气象——这是当时海岸基础设施中最不起眼却最不能中断的一环。
+      - listitem [ref=e245]:
+        - generic [ref=e246]: "1973"
+        - generic [ref=e247]:
+          - heading "被逐件拆解" [level=3] [ref=e248]
+          - paragraph [ref=e249]: 在原址完成历史使命后，秘鲁海军水文航海局（DHNM）选择保存而非拆除这座铁塔，将其按编号逐件拆解，以便向北运输。
+      - listitem [ref=e250]:
+        - generic [ref=e251]: 1973 年 12 月
+        - generic [ref=e252]:
+          - heading "在米拉弗洛雷斯重新立起" [level=3] [ref=e253]
+          - paragraph [ref=e254]: 灯塔在米拉弗洛雷斯的 Malecón Cisneros 崖顶重新组装完成，成为海军灯塔公园（Parque El Faro de la Marina），用以纪念秘鲁航海史的一百周年，也为首都留下了一座属于本国航海事业的纪念物。
+      - listitem [ref=e255]:
+        - generic [ref=e256]: 此后数十年
+        - generic [ref=e257]:
+          - heading "从航标到城市纪念地" [level=3] [ref=e258]
+          - paragraph [ref=e259]: 随着海滨长廊逐渐成为利马的城市客厅，这座塔也从一座纯功能性航标，转变为观景平台与市政仪式的场所，塔基周围相继设立了纪念铭牌，向公众讲述它自身的迁移史。
+      - listitem [ref=e260]:
+        - generic [ref=e261]: 今天
+        - generic [ref=e262]:
+          - heading "仍在原处守望太平洋" [level=3] [ref=e263]
+          - paragraph [ref=e264]: 场地全天候免费开放。铁塔依旧矗立崖顶，而它脚下的广场已是俯瞰太平洋、观看日落与举行纪念活动的公共空间。
+  - generic [ref=e265]:
+    - generic [ref=e266]:
+      - paragraph [ref=e267]: "06"
+      - heading "传说与民间故事" [level=2] [ref=e268]
+    - generic [ref=e270]:
+      - paragraph [ref=e271]: 传说是一座纪念物被记忆的方式之一。以下故事来自游客与本地居民的口耳相传，我们保留它们，但明确标注其性质——这是科普与遗产导览应有的分寸。
+      - paragraph [ref=e272]: 本节内容属于民间传说与都市传闻，不构成史实陈述。我们有意把「可考证的事实」与「被反复讲述的故事」分开呈现：这正是本站作为非营利科普网站的基本编辑准则。
+    - generic [ref=e274]:
+      - article [ref=e275]:
+        - generic [aria-hidden] [ref=e276]: 🗼
+        - heading "埃菲尔设计的传说" [level=3] [ref=e277]
+        - paragraph [ref=e278]: 关于这座深蓝色铁塔最广为人知的说法，是它出自法国工程师古斯塔夫·埃菲尔（埃菲尔铁塔的设计者）之手。这一说法在导览与游记中被反复引用，但至今没有档案文献能够支持；目前可追溯的记录指向其实际制造厂商。传说之所以顽强，是因为它抓住了一个真实的印象：这座塔的铆接铁构，与 19 世纪末那批钢铁工程师的作品确实属于同一个技术世界。
+      - article [ref=e279]:
+        - generic [aria-hidden] [ref=e280]: 🌊
+        - heading "灯塔是「岸上的最后一只手」" [level=3] [ref=e281]
+        - paragraph [ref=e282]: 在许多港口文化中，灯塔都被赋予守护者的意味——它不说话，只是整夜把光推向海面。水手家属把它当作岸上仍在等候的象征，出航前到塔下停留片刻。这类情感并非某地独有，却很好地解释了为什么一座纯功能的建筑会被城市当作纪念物来珍视。
+      - article [ref=e283]:
+        - generic [aria-hidden] [ref=e284]: 🕯️
+        - heading "守塔人的传说" [level=3] [ref=e285]
+        - paragraph [ref=e286]: 本地流传的一则故事讲，某位守塔人在风暴之夜拒绝离岗，用手一寸寸守着灯火，好让返航的船只找到入口。故事的年代与主人翁姓名在不同版本中互相矛盾，唯一被稳定复述的细节是「那一夜灯没有熄」。它更像一则关于职责的寓言，而不是一份记录——却恰好映照出守塔工作真实而无趣的一面：整夜记录、擦拭、修剪，重复到无人注意。
+      - article [ref=e287]:
+        - generic [aria-hidden] [ref=e288]: 🎨
+        - heading "为什么是深蓝色" [level=3] [ref=e289]
+        - paragraph [ref=e290]: 塔身为何是深蓝色？民间给出过几种解释：与搬移它的海军机构身份呼应、与太平洋的海色呼应、或为了在天空中形成更清晰的轮廓。三种说法都合理，但没有一种能作为原始依据被证实。颜色因此成了一桩小小的谜，也成了这座纪念物最难被混淆的识别特征。
+  - generic [ref=e291]:
+    - generic [ref=e292]:
+      - paragraph [ref=e293]: "07"
+      - heading "崖顶之上的自然与气候" [level=2] [ref=e294]
+    - paragraph [ref=e297]: 灯塔恰好站在「沙漠城市」与「地球上最丰饶的海域之一」的交界处。它的景观与气候，都由这个位置决定。
+    - generic [ref=e299]:
+      - article [ref=e300]:
+        - generic [aria-hidden] [ref=e301]: 🪨
+        - heading "海岸崖壁与「下崖」地形" [level=3] [ref=e302]
+        - paragraph [ref=e303]: 利马的海岸是一条连续的陡崖，沙漠平原在这里直接跌落至太平洋。米拉弗洛雷斯就坐落在这道崖坎的顶端，因此一座 22 米高的铁塔在此获得的地平线视野，通常是更高建筑才能拥有的。
+      - article [ref=e304]:
+        - generic [aria-hidden] [ref=e305]: 🌫️
+        - heading "garúa：利马的灰色季节" [level=3] [ref=e306]
+        - paragraph [ref=e307]: 大约每年 5 月至 11 月，利马被低而湿润的海岸雾覆盖，当地人称为 garúa。潮湿空气经过冷洋面时降温到露点以下，形成持续的阴天与毛毛雨，这就是「利马永远阴天」印象的来源。到了夏季（12 月至次年 4 月），雾层抬升消散，海岸迎来强烈的直射阳光。
+      - article [ref=e308]:
+        - generic [aria-hidden] [ref=e309]: 🐟
+        - heading "洪堡洋流带来的生命" [level=3] [ref=e310]
+        - paragraph [ref=e311]: 近岸海水异常寒冷，原因是从南向北输送副南极水的洪堡洋流（秘鲁寒流）。冷水富含营养物质，支撑起庞大的浮游生物繁殖，进而养育了世界上最丰产的渔场之一，也让这一带的海面终年群鸟盘旋——海水的温度，决定了整条食物链。
+      - article [ref=e312]:
+        - generic [aria-hidden] [ref=e313]: 🦅
+        - heading "不用出海就能看到的野生动物" [level=3] [ref=e314]
+        - paragraph [ref=e315]: 冷水带来的饵料让海鸟贴近岸边活动。在崖顶可以观察鹈鹕、鸬鹚、鲣鸟与海鸥在水面上盘旋俯冲；沿海南行到海湾处，还常能见到海狮。对于旅行者而言，这里是利马最容易接触海岸生态的位置之一。
+      - article [ref=e316]:
+        - generic [aria-hidden] [ref=e317]: 📐
+        - heading "地震带上的工程课" [level=3] [ref=e318]
+        - paragraph [ref=e319]: 秘鲁位于板块汇聚边界，利马的崖壁与岬角既是缓慢抬升的结果，也被历次地震反复重塑。这座灯塔用螺栓连接的铁构与落在岩层上的基础，正是工程师面对地震带时最朴素的三条原则：轻、柔、坐落在坚实的基础上。
+      - article [ref=e320]:
+        - generic [aria-hidden] [ref=e321]: 🌇
+        - heading "日落与海雾的两种黄昏" [level=3] [ref=e322]
+        - paragraph [ref=e323]: 夏季这一段海岸几乎正对日落方向，洁净的海洋空气让色彩格外饱和；而在 garúa 季节，太阳多在半途隐入云层，得到的是柔和、低对比的漫射光。同一条长廊，一年中有两种完全不同的黄昏。
+    - generic [ref=e325]:
+      - heading "摄影与观景指南" [level=3] [ref=e326]
+      - paragraph [ref=e327]: 给希望把这片太平洋带回家的访客一些实用建议。
+      - generic [ref=e328]:
+        - generic [ref=e329]:
+          - generic [ref=e330]: 时段选择
+          - paragraph [ref=e331]: 下午后段到日落（约 17:00–19:30，随季节变化）光线最暖、地平线最通透；日落之后的蓝调时刻，塔身的灯光与深蓝天色对比最强，是出片率最高的窗口。
+        - generic [ref=e332]:
+          - generic [ref=e333]: 构图思路
+          - paragraph [ref=e334]: 沿海滨长廊后退几步，把栏杆与城市边缘收进画面，可以用环境交代位置；从低处仰拍天空背景可以强调塔高，与长廊齐平的机位则更适合呈现铭牌与广场空间。
+        - generic [ref=e335]:
+          - generic [ref=e336]: 曝光与现场条件
+          - paragraph [ref=e337]: 金属塔身与明亮海面的反差很大：要么以天空为准曝光再提亮暗部，要么使用渐变减光镜。此处最常见的画质杀手是镜头上的海盐雾粒，请随时检查并擦拭。
+        - generic [ref=e338]:
+          - generic [ref=e339]: 文明拍摄
+          - paragraph [ref=e340]: 这里同时是一处纪念广场：请让三脚架与无人机避让仪式活动，不攀爬塔身及基座护栏，拍摄他人面部前先征得同意。
+  - generic [ref=e342]:
+    - generic [ref=e343]:
+      - paragraph [ref=e344]: "08"
+      - heading "游览指南" [level=2] [ref=e345]
+    - paragraph [ref=e348]: 海军灯塔公园拥有广阔的太平洋全景视野，是利马市区观赏日落的顶级机位。
+    - generic [ref=e350]:
+      - generic [ref=e351]:
+        - generic [ref=e352]: 🌅
+        - generic [ref=e353]: 最佳造访时间
+        - generic [ref=e354]: 傍晚时分
+        - generic [ref=e355]: 落日余晖与百年深蓝色灯塔的结合，是不可多得的摄影绝景。
+      - generic [ref=e356]:
+        - generic [ref=e357]: 🎟️
+        - generic [ref=e358]: 费用说明
+        - generic [ref=e359]: 免费免票开放
+        - generic [ref=e360]: 该公园作为城市公共空间，欢迎所有热爱历史与美景的旅行者。
+      - generic [ref=e361]:
+        - generic [ref=e362]: 🛡️
+        - generic [ref=e363]: 防晒与着装
+        - generic [ref=e364]: 备好防晒用品与墨镜 携带轻薄外套
+        - generic [ref=e365]: 利马的强紫外线不容忽视；海风较凉，建议备好衣物。
+    - generic [ref=e367]:
+      - generic [ref=e368]: 出行备忘录
+      - list [ref=e369]:
+        - listitem [ref=e370]: ◆ 防晒用品与墨镜（利马阳光强烈）
+        - listitem [ref=e371]: ◆ 轻薄外套（海风较凉）
+        - listitem [ref=e372]: ◆ 相机和备用电池（日落摄影）
+        - listitem [ref=e373]: ◆ 舒适的步行鞋
+        - listitem [ref=e374]: ◆ 当地地图或导游APP
+    - generic [ref=e376]:
+      - generic [ref=e377]:
+        - generic [ref=e378]: 🌤️ 灯塔实时天气
+        - generic [ref=e379]: 更新于 01:00
+      - generic [ref=e380]:
+        - generic [ref=e381]:
+          - generic [aria-hidden] [ref=e382]: ☁️
+          - generic [ref=e383]:
+            - generic [ref=e384]: 20°C
+            - generic [ref=e385]: 阴
+        - generic [ref=e386]:
+          - generic [ref=e387]:
+            - generic [aria-hidden] [ref=e388]: 🌡️
+            - generic [ref=e389]: 体感
+            - generic [ref=e390]: 21°C
+          - generic [ref=e391]:
+            - generic [aria-hidden] [ref=e392]: 💧
+            - generic [ref=e393]: 湿度
+            - generic [ref=e394]: 84%
+          - generic [ref=e395]:
+            - generic [aria-hidden] [ref=e396]: 💨
+            - generic [ref=e397]: 风力
+            - generic [ref=e398]: 16 km/h 东南
+          - generic [ref=e399]:
+            - generic [aria-hidden] [ref=e400]: 🌬️
+            - generic [ref=e401]: 阵风
+            - generic [ref=e402]: 52 km/h
+          - generic [ref=e403]:
+            - generic [aria-hidden] [ref=e404]: ☀️
+            - generic [ref=e405]: 紫外线峰值
+            - generic [ref=e406]: 9 · 很高
+          - generic [ref=e407]:
+            - generic [aria-hidden] [ref=e408]: 🌧️
+            - generic [ref=e409]: 降水概率
+            - generic [ref=e410]: 6%
+      - generic [ref=e411]:
+        - generic [ref=e412]:
+          - text: 🌅 日出
+          - strong [ref=e413]: 06:05
+        - generic [ref=e414]:
+          - text: 🌇 日落
+          - strong [ref=e415]: 18:04
+      - generic [ref=e416]:
+        - generic [ref=e417]:
+          - generic [ref=e418]: 🌊 海边情况
+          - generic [ref=e419]: 海况一般，建议只在护栏内活动
+        - generic [ref=e420]:
+          - generic [ref=e421]:
+            - generic [aria-hidden] [ref=e422]: 🌊
+            - generic [ref=e423]: 浪高
+            - generic [ref=e424]: 2.1 m
+          - generic [ref=e425]:
+            - generic [aria-hidden] [ref=e426]: 📈
+            - generic [ref=e427]: 当日最大浪高
+            - generic [ref=e428]: 2.1 m
+          - generic [ref=e429]:
+            - generic [aria-hidden] [ref=e430]: ⏱️
+            - generic [ref=e431]: 海浪周期
+            - generic [ref=e432]: 9.3 s
+          - generic [ref=e433]:
+            - generic [aria-hidden] [ref=e434]: 🌡️
+            - generic [ref=e435]: 海水温度
+            - generic [ref=e436]: 22.1 °C
+        - paragraph [ref=e437]: 观察点位于临海悬崖上方，观景平台与步道均在护栏内；请勿翻越护栏或下到礁石上。
+      - generic [ref=e438]:
+        - generic [ref=e439]:
+          - generic [ref=e440]: 🌊 潮汐
+          - generic [ref=e441]: 当地时间 · 以平均海平面为基准
+        - generic [ref=e442]:
+          - generic [ref=e443]:
+            - generic [ref=e449]:
+              - generic [aria-hidden] [ref=e450]: ▲
+              - text: 05:00
+            - generic [ref=e452]:
+              - generic [aria-hidden] [ref=e453]: ▼
+              - text: 11:00
+            - generic [ref=e455]:
+              - generic [aria-hidden] [ref=e456]: ▲
+              - text: 17:00
+            - generic [ref=e458]:
+              - generic [aria-hidden] [ref=e459]: ▼
+              - text: 23:00
+            - generic [ref=e461]:
+              - generic [aria-hidden] [ref=e462]: ▲
+              - text: 05:00
+            - generic [ref=e464]:
+              - generic [aria-hidden] [ref=e465]: ▼
+              - text: 12:00
+            - generic [ref=e467]:
+              - generic [aria-hidden] [ref=e468]: ▲
+              - text: 18:00
+            - generic [ref=e470]:
+              - generic [aria-hidden] [ref=e471]: ▼
+              - text: 23:00
+            - generic [ref=e473]: 现在
+            - generic [ref=e474]: 0.79 m
+            - generic [ref=e475]: "-0.13 m"
+          - generic [ref=e476]:
+            - generic [ref=e477]: 今天
+            - generic [ref=e478]: 明天
+        - generic [ref=e479]:
+          - generic [ref=e480]:
+            - generic [ref=e481]: 今天
+            - list [ref=e482]:
+              - listitem [ref=e483]:
+                - generic [aria-hidden] [ref=e484]: ▲
+                - generic [ref=e485]: 涨潮
+                - generic [ref=e486]: 05:00
+                - generic [ref=e487]: 0.79 m
+                - generic [ref=e488]: 下一次
+              - listitem [ref=e489]:
+                - generic [aria-hidden] [ref=e490]: ▼
+                - generic [ref=e491]: 退潮
+                - generic [ref=e492]: 11:00
+                - generic [ref=e493]: "-0.07 m"
+              - listitem [ref=e494]:
+                - generic [aria-hidden] [ref=e495]: ▲
+                - generic [ref=e496]: 涨潮
+                - generic [ref=e497]: 17:00
+                - generic [ref=e498]: 0.52 m
+              - listitem [ref=e499]:
+                - generic [aria-hidden] [ref=e500]: ▼
+                - generic [ref=e501]: 退潮
+                - generic [ref=e502]: 23:00
+                - generic [ref=e503]: "-0.13 m"
+          - generic [ref=e504]:
+            - generic [ref=e505]: 明天
+            - list [ref=e506]:
+              - listitem [ref=e507]:
+                - generic [aria-hidden] [ref=e508]: ▲
+                - generic [ref=e509]: 涨潮
+                - generic [ref=e510]: 05:00
+                - generic [ref=e511]: 0.76 m
+              - listitem [ref=e512]:
+                - generic [aria-hidden] [ref=e513]: ▼
+                - generic [ref=e514]: 退潮
+                - generic [ref=e515]: 12:00
+                - generic [ref=e516]: "-0.09 m"
+              - listitem [ref=e517]:
+                - generic [aria-hidden] [ref=e518]: ▲
+                - generic [ref=e519]: 涨潮
+                - generic [ref=e520]: 18:00
+                - generic [ref=e521]: 0.55 m
+              - listitem [ref=e522]:
+                - generic [aria-hidden] [ref=e523]: ▼
+                - generic [ref=e524]: 退潮
+                - generic [ref=e525]: 23:00
+                - generic [ref=e526]: "-0.10 m"
+        - paragraph [ref=e527]: 正在涨潮：低处的礁石和平台会逐渐被浪覆盖，请留在护栏内，不要下到礁石区。
+      - generic [ref=e528]:
+        - paragraph [ref=e529]:
+          - generic [aria-hidden] [ref=e530]: ✅
+          - text: 暂未发现需要特别防范的天气风险，按原计划出行即可。
+        - generic [ref=e531]:
+          - generic [ref=e532]:
+            - generic [ref=e533]:
+              - generic [aria-hidden] [ref=e534]: 👕
+              - text: 出行穿搭
+            - list [ref=e535]:
+              - listitem [ref=e536]: 有毛毛雨或小雨：路面、台阶会偏滑，外层可选轻微防水的材质，鞋子优先选防滑的。
+          - generic [ref=e537]:
+            - generic [ref=e538]:
+              - generic [aria-hidden] [ref=e539]: 🗺️
+              - text: 游玩安排
+            - list [ref=e540]:
+              - listitem [ref=e541]: 小雨或毛毛雨对短程游览影响不大，但路面湿滑，走栈道请放慢脚步。
+              - listitem [ref=e542]: 崖顶与观景平台风感明显，拍照注意站稳，帽子等轻物容易被吹走。
+              - listitem [ref=e543]: 可以到观景平台看海与拍日落，请始终待在护栏内。
+          - generic [ref=e544]:
+            - generic [ref=e545]:
+              - generic [aria-hidden] [ref=e546]: 🎒
+              - text: 随身物品
+            - generic [ref=e547]:
+              - generic [ref=e548]:
+                - generic [aria-hidden] [ref=e549]: 🌂
+                - text: 折叠伞
+              - generic [ref=e550]:
+                - generic [aria-hidden] [ref=e551]: 🧴
+                - text: 防晒霜
+              - generic [ref=e552]:
+                - generic [aria-hidden] [ref=e553]: 🕶️
+                - text: 墨镜
+              - generic [ref=e554]:
+                - generic [aria-hidden] [ref=e555]: 👟
+                - text: 防滑鞋
+              - generic [ref=e556]:
+                - generic [aria-hidden] [ref=e557]: 🚰
+                - text: 充足饮用水
+      - generic [ref=e558]:
+        - generic [ref=e559]: 未来 7 天预报
+        - generic [ref=e560]:
+          - generic [ref=e561]:
+            - generic [ref=e562]: 今天
+            - generic [aria-hidden] [ref=e563]: 🌦️
+            - generic [ref=e564]:
+              - generic [ref=e565]: 23°
+              - generic [ref=e566]: 20°
+            - generic [ref=e567]: 💧6%
+          - generic [ref=e568]:
+            - generic [ref=e569]: 周五
+            - generic [aria-hidden] [ref=e570]: 🌦️
+            - generic [ref=e571]:
+              - generic [ref=e572]: 23°
+              - generic [ref=e573]: 19°
+            - generic [ref=e574]: 💧8%
+          - generic [ref=e575]:
+            - generic [ref=e576]: 周六
+            - generic [aria-hidden] [ref=e577]: 🌦️
+            - generic [ref=e578]:
+              - generic [ref=e579]: 23°
+              - generic [ref=e580]: 19°
+            - generic [ref=e581]: 💧4%
+          - generic [ref=e582]:
+            - generic [ref=e583]: 周日
+            - generic [aria-hidden] [ref=e584]: ☁️
+            - generic [ref=e585]:
+              - generic [ref=e586]: 23°
+              - generic [ref=e587]: 19°
+            - generic [ref=e588]: 💧0%
+          - generic [ref=e589]:
+            - generic [ref=e590]: 周一
+            - generic [aria-hidden] [ref=e591]: ⛅
+            - generic [ref=e592]:
+              - generic [ref=e593]: 23°
+              - generic [ref=e594]: 19°
+            - generic [ref=e595]: 💧0%
+          - generic [ref=e596]:
+            - generic [ref=e597]: 周二
+            - generic [aria-hidden] [ref=e598]: ⛅
+            - generic [ref=e599]:
+              - generic [ref=e600]: 23°
+              - generic [ref=e601]: 19°
+            - generic [ref=e602]: 💧4%
+          - generic [ref=e603]:
+            - generic [ref=e604]: 周三
+            - generic [aria-hidden] [ref=e605]: ⛅
+            - generic [ref=e606]:
+              - generic [ref=e607]: 23°
+              - generic [ref=e608]: 18°
+            - generic [ref=e609]: 💧2%
+        - paragraph [ref=e610]: 气温 °C · 风力 km/h · 降水 mm · 浪高 米
+  - generic [ref=e611]:
+    - generic [ref=e612]:
+      - paragraph [ref=e613]: "09"
+      - heading "实用设施与周边服务" [level=2] [ref=e614]
+    - generic [ref=e616]:
+      - paragraph [ref=e617]: 这一带你能找到哪些类型的服务设施，按类型说明，方便你安排行程。
+      - paragraph [ref=e618]: 本站是非营利的科普导览，只说明纪念地周边的设施类型与分布规律，不推荐、不排序、不背书任何具体商户。请根据自身需求与现场情况自行选择。
+    - generic [ref=e620]:
+      - article [ref=e621]:
+        - generic [aria-hidden] [ref=e622]: 🚻
+        - heading "公共卫生间" [level=3] [ref=e623]
+        - paragraph [ref=e624]: 海滨长廊沿线与内街商业中心内通常都设有公共卫生间。与其他公共场所一样，随身携带纸巾、并为零钱付费式服务略作准备，是比较稳妥的习惯。
+      - article [ref=e625]:
+        - generic [aria-hidden] [ref=e626]: 🅿️
+        - heading "停车" [level=3] [ref=e627]
+        - paragraph [ref=e628]: 停车供给大致由三部分组成：长廊沿线的路边收费车位、内街商业中心的地下收费停车场，以及出租车与旅游巴士使用的临时上下客点。周末与日落前后车位最紧张，早到通常比绕行更省时间。
+      - article [ref=e629]:
+        - generic [aria-hidden] [ref=e630]: 🍽️
+        - heading "餐饮" [level=3] [ref=e631]
+        - paragraph [ref=e632]: 周边餐饮层次齐全：海景餐厅、咖啡与烘焙店、简餐与外卖、以及长廊上的冰淇淋与鲜果汁摊。在公共长椅上自带食物小憩在当地十分常见，也被普遍接受。
+      - article [ref=e633]:
+        - generic [aria-hidden] [ref=e634]: 🏨
+        - heading "住宿" [level=3] [ref=e635]
+        - paragraph [ref=e636]: 步行可达范围内有精品酒店、国际连锁商务酒店、青年旅舍与短租公寓等多种类型。夏季与长假期建议提前预订。
+      - article [ref=e637]:
+        - generic [aria-hidden] [ref=e638]: 🛒
+        - heading "商超与日用" [level=3] [ref=e639]
+        - paragraph [ref=e640]: 社区超市、便利店、药房与纪念品摊位均在步行数分钟范围内；需要更完整的购物选择时，往内陆方向稍走一段有大型商业中心。
+      - article [ref=e641]:
+        - generic [aria-hidden] [ref=e642]: ⛽
+        - heading "加油与充电" [level=3] [ref=e643]
+        - paragraph [ref=e644]: 加油站主要分布在城区主干道，海滨一线基本没有；部分内街商业停车场设有电动车充电位。自驾访客建议在进入这一片区前补足燃料，区内加油点稀少。
+      - article [ref=e645]:
+        - generic [aria-hidden] [ref=e646]: ♿
+        - heading "无障碍通行" [level=3] [ref=e647]
+        - paragraph [ref=e648]: 长廊主体平整、铺装完好且无台阶，路口设有缘石坡道，广场与步道之间为平接。个别低处观景平台需下台阶抵达，长廊也并非全程设有连续扶手，行动不便者建议结伴同行。
+      - article [ref=e649]:
+        - generic [aria-hidden] [ref=e650]: 🚰
+        - heading "饮水与补水" [level=3] [ref=e651]
+        - paragraph [ref=e652]: 附近商铺与摊位可购买瓶装水与饮料，直饮水设施并不连续。海岸日照比气温给人的感觉更强，12 月至次年 4 月尤其建议随身带水。
+      - article [ref=e653]:
+        - generic [aria-hidden] [ref=e654]: 🩺
+        - heading "医疗与安全" [level=3] [ref=e655]
+        - paragraph [ref=e656]: 区内分布有诊所与药房。秘鲁的紧急电话为：警察 105、消防 116、医疗急救（SAMU）106。崖下的海面不是游泳区，有暗流与礁石且没有救生员值守，请勿下海。
+      - article [ref=e657]:
+        - generic [aria-hidden] [ref=e658]: 📶
+        - heading "通讯与网络" [level=3] [ref=e659]
+        - paragraph [ref=e660]: 长廊沿线移动数据信号良好；部分公园与商业中心提供公共 Wi-Fi，但开放网络的安全性无法保证，建议避免在此类网络上进行敏感操作。
+    - paragraph [ref=e662]: 公共空间的服务设施与开放安排会随时间调整，请把以下说明作为行程规划的参考，抵达后以现场信息为准。
+  - generic [ref=e663]:
+    - generic [ref=e664]:
+      - paragraph [ref=e665]: "10"
+      - heading "交通规划" [level=2] [ref=e666]
+    - generic [ref=e669]:
+      - generic [ref=e670]:
+        - generic [ref=e671]: ✈️ 豪尔赫·查韦斯国际机场 (LIM) ➔ 米拉弗洛雷斯
+        - generic [ref=e674]:
+          - paragraph [ref=e675]: 所有国际游客落地利马后，可直接在机场乘坐官方出租车或安排私人包车前往米拉弗洛雷斯区。
+          - generic [ref=e676]:
+            - generic [ref=e677]:
+              - strong [ref=e679]: 官方出租车 / 私人包车
+              - generic [ref=e680]:
+                - generic [ref=e681]: 约 50-80 索尔
+                - generic [ref=e682]: ⏱️ 约 40 分钟
+              - generic [ref=e683]:
+                - generic [ref=e684]: • 在机场官方柜台或提前预订
+                - generic [ref=e685]: • 直接前往米拉弗洛雷斯区
+            - generic [ref=e686]:
+              - strong [ref=e688]: 机场大巴（Airport Shuttle）
+              - generic [ref=e689]:
+                - generic [ref=e690]: 约 15-25 索尔
+                - generic [ref=e691]: ⏱️ 约 1 小时
+              - generic [ref=e692]:
+                - generic [ref=e693]: • 乘坐机场专线大巴
+                - generic [ref=e694]: • 在米拉弗洛雷斯中心下车后步行或打车
+      - generic [ref=e695]:
+        - generic [ref=e696]: 🚌 快捷公交 (Metropolitano)
+        - generic [ref=e699]:
+          - paragraph [ref=e700]: 推荐乘坐 Metropolitano 快捷公交。这种方式能完美避开利马市区拥堵的地面交通。
+          - generic [ref=e702]:
+            - strong [ref=e704]: B线 或 C线
+            - paragraph [ref=e705]: 快捷公交系统
+            - generic [ref=e706]:
+              - generic [ref=e707]: • 乘坐 Metropolitano (B线或C线)
+              - generic [ref=e708]: • 在 Ricardo Palma 站 或 Benavides 站下车
+              - generic [ref=e709]: • 向海滨方向步行约20-25分钟，或换乘几分钟的出租车即可抵达
+      - generic [ref=e710]:
+        - generic [ref=e711]: 🚲 沿海悬崖骑行
+        - paragraph [ref=e715]: 米拉弗洛雷斯海滨步道（Malecón）拥有利马规划最完善的自行车道。 强烈建议从南部的巴兰科（Barranco）或北部的圣伊西德罗（San Isidro）租用共享自行车，沿着绝美的海岸线一路骑行至公园。
+      - generic [ref=e716]:
+        - generic [ref=e717]: 🚶 利马市区 ➔ 海军灯塔
+        - generic [ref=e720]:
+          - paragraph [ref=e721]: 从米拉弗洛雷斯中心出发非常方便。
+          - generic [ref=e722]:
+            - generic [ref=e723]: • 从肯尼迪公园步行约15分钟即可到达
+            - generic [ref=e724]: • 打车仅需约5分钟
+    - generic [ref=e726]:
+      - heading "💡 交通小贴士" [level=3] [ref=e727]
+      - list [ref=e728]:
+        - listitem [ref=e729]: 避免在高峰时段（早上7-9点，下午5-7点）乘坐地面交通
+        - listitem [ref=e730]: 推荐使用 Uber, Cabify 等打车软件
+        - listitem [ref=e731]: 骑行时请注意佩戴头盔并走专用自行车道
+  - generic [ref=e732]:
+    - generic [ref=e733]:
+      - paragraph [ref=e734]: "11"
+      - heading "照片画廊" [level=2] [ref=e735]
+    - generic [ref=e738]:
+      - img "Navy Lighthouse - Main view in Miraflores, Peru" [ref=e741] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 2" [ref=e744] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 3" [ref=e747] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 4" [ref=e750] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 5" [ref=e753] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 6" [ref=e756] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 7" [ref=e759] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 8" [ref=e762] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 9" [ref=e765] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 10" [ref=e768] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 11" [ref=e771] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 12" [ref=e774] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 13" [ref=e777] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 14" [ref=e780] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 15" [ref=e783] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 16" [ref=e786] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 17" [ref=e789] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 18" [ref=e792] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 19" [ref=e795] [cursor=pointer]
+      - img "Navy Lighthouse (Faro de la Marina) in Miraflores - view 20" [ref=e798] [cursor=pointer]
+    - paragraph [ref=e800]: 本网站所展示的所有图片产权及版权均归原摄影者所有。
+    - link "在 Google Maps 查看更多相片" [ref=e803] [cursor=pointer]:
+      - /url: https://maps.app.goo.gl/7FXLGcATHHeRnALv8
+  - generic [ref=e806]:
+    - generic [ref=e807]:
+      - paragraph [ref=e808]: "12"
+      - heading "游客评价与周边探索" [level=2] [ref=e809]
+      - paragraph [ref=e810]: 来自海军灯塔的声音：Google Maps 真实见证
+    - generic [ref=e813]:
+      - generic [ref=e814]:
+        - generic [ref=e815]:
+          - generic [ref=e816]: CM
+          - generic [ref=e817]:
+            - generic [ref=e818]: Carlos M.
+            - generic [ref=e819]: 2024-12-10
+          - generic [ref=e820]: ★★★★★
+        - paragraph [ref=e821]: 令人惊叹的地方。太平洋的景色十分壮观，尤其是日落时分。非常推荐来这里拍照。
+        - generic [ref=e822]: Google
+      - generic [ref=e825]:
+        - generic [ref=e826]:
+          - generic [ref=e827]: SJ
+          - generic [ref=e828]:
+            - generic [ref=e829]: Sarah J.
+            - generic [ref=e830]: 2024-11-15
+          - generic [ref=e831]: ★★★★★
+        - paragraph [ref=e832]: 利马必去的观景点！建于1900年的历史灯塔令人着迷，360度的海景令人叹为观止。
+        - generic [ref=e833]: Google
+      - generic [ref=e836]:
+        - generic [ref=e837]:
+          - generic [ref=e838]: LH
+          - generic [ref=e839]:
+            - generic [ref=e840]: Luis H.
+            - generic [ref=e841]: 2024-10-20
+          - generic [ref=e842]: ★★★★★
+        - paragraph [ref=e843]: Un mirador excelente en Miraflores. El faro tiene mucha historia y las placas conmemorativas son muy interesantes. Vistas de 360 grados.
+        - generic [ref=e844]: Google
+      - generic [ref=e847]:
+        - generic [ref=e848]:
+          - generic [ref=e849]: 王
+          - generic [ref=e850]:
+            - generic [ref=e851]: 王大明
+            - generic [ref=e852]: 2024-09-25
+          - generic [ref=e853]: ★★★★★
+        - paragraph [ref=e854]: 海军灯塔是利马最美的观景点之一！灯塔建于1900年，历史悠久。可以俯瞰整个太平洋，非常壮观！
+        - generic [ref=e855]: Google
+      - generic [ref=e858]:
+        - generic [ref=e859]:
+          - generic [ref=e860]: AT
+          - generic [ref=e861]:
+            - generic [ref=e862]: Ana T.
+            - generic [ref=e863]: 2024-08-18
+          - generic [ref=e864]: ★★★★★
+        - paragraph [ref=e865]: Hermoso mirador en Miraflores. El Faro de la Marina tiene una historia muy interesante. Las vistas del océano son increíbles.
+        - generic [ref=e866]: Google
+      - generic [ref=e869]:
+        - generic [ref=e870]:
+          - generic [ref=e871]: RK
+          - generic [ref=e872]:
+            - generic [ref=e873]: Robert K.
+            - generic [ref=e874]: 2024-07-05
+          - generic [ref=e875]: ★★★★★
+        - paragraph [ref=e876]: Fantastic viewpoint! The Navy Lighthouse is a historic landmark with amazing stories. Great place for sunset photos and learning about Peruvian naval history.
+        - generic [ref=e877]: Google
+    - generic [ref=e881]:
+      - heading "周边步行可达景点" [level=3] [ref=e882]
+      - paragraph [ref=e883]: 参观完灯塔后，沿着海岸线步行，您还可以轻松抵达：
+      - generic [ref=e884]:
+        - generic [ref=e885]:
+          - heading "📍 爱情公园 (Parque del Amor)" [level=4] [ref=e886]
+          - paragraph [ref=e887]: 以高迪风格马赛克装饰闻名的浪漫公园，同样是观赏太平洋日落的绝佳地点。
+        - generic [ref=e888]:
+          - heading "📍 肯尼迪公园 (Kennedy Park)" [level=4] [ref=e889]
+          - paragraph [ref=e890]: 米拉弗洛雷斯的中心广场，以观赏众多亲人的流浪猫而闻名。
+        - generic [ref=e891]:
+          - heading "📍 拉尔科马购物中心 (Larcomar)" [level=4] [ref=e892]
+          - paragraph [ref=e893]: 一座直接建在悬崖内部的现代化露天购物中心，拥有众多海景餐厅和商店。
+    - link "在 Google Maps 查看更多评价" [ref=e896] [cursor=pointer]:
+      - /url: https://maps.app.goo.gl/7FXLGcATHHeRnALv8
+  - generic [ref=e900]:
+    - generic [ref=e901]:
+      - paragraph [ref=e902]: "13"
+      - heading "常见问题" [level=2] [ref=e903]
+      - paragraph [ref=e904]: 深入了解海军灯塔
+    - generic [ref=e907]:
+      - button "海军灯塔的开放时间是？" [ref=e909] [cursor=pointer]
+      - button "参观海军灯塔需要门票吗？" [ref=e914] [cursor=pointer]
+      - button "海军灯塔是谁设计的？" [ref=e919] [cursor=pointer]
+      - button "如何前往海军灯塔？" [ref=e924] [cursor=pointer]
+  - generic [ref=e929]:
+    - generic [ref=e930]:
+      - paragraph [ref=e931]: "14"
+      - heading "资料来源与权威参考" [level=2] [ref=e932]
+    - paragraph [ref=e935]: 本独立指南的内容均依据下列官方与权威来源整理并核对。出行前请以相关机构发布的最新信息为准。
+    - generic [ref=e937]:
+      - link "1 秘鲁外贸和旅游部（MINCETUR）" [ref=e938] [cursor=pointer]:
+        - /url: https://www.gob.pe/mincetur
+        - generic [ref=e939]: "1"
+        - generic [ref=e940]: 秘鲁外贸和旅游部（MINCETUR）
+      - link "2 秘鲁国家旅游局官方指南 — 利马大区专页（peru.travel）" [ref=e941] [cursor=pointer]:
+        - /url: https://www.peru.travel/es/destinos/lima
+        - generic [ref=e942]: "2"
+        - generic [ref=e943]: 秘鲁国家旅游局官方指南 — 利马大区专页（peru.travel）
+      - link "3 米拉弗洛雷斯区政府" [ref=e944] [cursor=pointer]:
+        - /url: https://www.miraflores.gob.pe/
+        - generic [ref=e945]: "3"
+        - generic [ref=e946]: 米拉弗洛雷斯区政府
+      - link "4 秘鲁海军水文航海局（DHNM）" [ref=e947] [cursor=pointer]:
+        - /url: https://www.dhn.mil.pe/
+        - generic [ref=e948]: "4"
+        - generic [ref=e949]: 秘鲁海军水文航海局（DHNM）
+      - link "5 维基百科 — La Marina Lighthouse" [ref=e950] [cursor=pointer]:
+        - /url: https://en.wikipedia.org/wiki/La_Marina_Lighthouse
+        - generic [ref=e951]: "5"
+        - generic [ref=e952]: 维基百科 — La Marina Lighthouse
+      - link "6 全球灯塔权威名录（UNC ibiblio）— 秘鲁" [ref=e953] [cursor=pointer]:
+        - /url: https://www.ibiblio.org/lighthouse/photos/Peru/Peru.htm
+        - generic [ref=e954]: "6"
+        - generic [ref=e955]: 全球灯塔权威名录（UNC ibiblio）— 秘鲁
+      - link "7 Google Maps — Faro de la Marina（Navy Lighthouse）" [ref=e956] [cursor=pointer]:
+        - /url: https://maps.app.goo.gl/7FXLGcATHHeRnALv8
+        - generic [ref=e957]: "7"
+        - generic [ref=e958]: Google Maps — Faro de la Marina（Navy Lighthouse）
+    - paragraph [ref=e960]:
+      - text: 如需获取官方更新与区域旅游信息，请访问
+      - link "秘鲁 / 利马官方旅游门户" [ref=e961] [cursor=pointer]:
+        - /url: https://www.peru.travel/es/destinos/lima
+      - text: .
+    - paragraph [ref=e963]: 内容核校：2026 年 9 月。本页由本站编辑依据公开的航海、市政与气象资料整理撰写，非营利、无商业合作、不含赞助内容。若发现事实性错误，欢迎通过页脚联系方式指正。
+  - generic [ref=e964]:
+    - generic [ref=e965]:
+      - paragraph [ref=e966]: "15"
+      - heading "地图位置" [level=2] [ref=e967]
+    - generic [ref=e970]:
+      - iframe [ref=e972]
+      - generic [ref=e973]:
+        - paragraph [ref=e974]: Mal. Cisneros 18, Miraflores 15074 Perú （利马米拉弗洛雷斯区）
+        - paragraph [ref=e975]: Plus Code：VXG5+GW 米拉弗洛雷斯，秘鲁
+        - link "在 Google Maps 查看位置" [ref=e976] [cursor=pointer]:
+          - /url: https://maps.app.goo.gl/7FXLGcATHHeRnALv8
+  - contentinfo [ref=e979]:
+    - generic [ref=e980]:
+      - paragraph [ref=e981]: 景点信息
+      - paragraph [ref=e982]: Navy Lighthouse（Faro de la Marina 海军灯塔）
+      - paragraph [ref=e983]: Mal. Cisneros 18, Miraflores 15074, Lima, Perú · Plus Code VXG5+GW
+      - link "在 Google Maps 查看" [ref=e984] [cursor=pointer]:
+        - /url: https://maps.app.goo.gl/7FXLGcATHHeRnALv8
+    - generic [ref=e985]:
+      - paragraph [ref=e986]: 相关链接
+      - generic [ref=e987]:
+        - link "秘鲁外贸和旅游部" [ref=e988] [cursor=pointer]:
+          - /url: https://www.gob.pe/mincetur
+        - link "秘鲁国家旅游局官方指南 - 利马大区专页" [ref=e989] [cursor=pointer]:
+          - /url: https://www.peru.travel/es/destinos/lima
+        - link "利马都会区市政府" [ref=e990] [cursor=pointer]:
+          - /url: https://www.gob.pe/munilima
+        - link "米拉弗洛雷斯区政府" [ref=e991] [cursor=pointer]:
+          - /url: https://www.miraflores.gob.pe/
+        - link "秘鲁海军水文航海局" [ref=e992] [cursor=pointer]:
+          - /url: https://www.dhn.mil.pe/
+        - link "全球灯塔权威名录" [ref=e993] [cursor=pointer]:
+          - /url: https://www.ibiblio.org/lighthouse/photos/Peru/Peru.htm
+        - link "维基百科：海军灯塔专页" [ref=e994] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/La_Marina_Lighthouse
+    - generic [ref=e995]:
+      - link "Privacy Policy" [ref=e996] [cursor=pointer]:
+        - /url: /privacy
+      - link "Terms of Service" [ref=e997] [cursor=pointer]:
+        - /url: /terms
+      - link "Cookie Settings" [ref=e998] [cursor=pointer]:
+        - /url: /cookies
+    - paragraph [ref=e999]: 作为利马的重要历史景点，请与我们一起爱护公园、保护环境。保持景点整洁，共同维护这一美丽的历史空间。
+    - paragraph [ref=e1000]: © 2026 海军灯塔指南 · 保留所有权利。 本网站是一个独立的第三方指南项目，致力于准确传播海军灯塔信息。我们与秘鲁政府或其他官方机构没有任何关联。
+    - paragraph [ref=e1001]: 本网站所展示的所有图片产权及版权均归原摄影者所有。
+  - alert [ref=e1002]

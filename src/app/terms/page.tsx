@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Parque Bicentenario Travel Guide",
-  description: "Terms of service for Parque Bicentenario Travel Guide",
+  title: "服务条款 | Faro de la Marina (Navy Lighthouse) 旅游指南",
+  description: "Faro de la Marina (Navy Lighthouse) 旅游指南的服务条款。",
 };
 
 export default function TermsPage() {
@@ -49,7 +49,7 @@ export default function TermsPage() {
             知识产权
           </h2>
           <p style={{ lineHeight: "1.8", color: "var(--color-earth-soft)" }}>
-            本网站设计和原创内容受版权保护。图片来自 Unsplash，并已获得其许可。Google 地图数据的使用符合 Google 的服务条款。
+            本网站设计和原创内容受版权保护。本网站所展示的所有图片产权及版权均归原摄影者所有。Google 地图数据的使用符合 Google 的服务条款。
           </p>
         </section>
 

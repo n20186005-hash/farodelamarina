@@ -1,3 +1,5 @@
+import { siteConfig } from "@/site.config";
+
 export type Locale = "zh" | "en" | "es" | "qu";
 export type LinkItem = { name: string; url: string };
 export type FAQItem = { question: string; answer: string };
@@ -7,6 +9,18 @@ export type Translations = {
   nav: { history: string; architecture: string; monuments: string; visiting: string; transportation: string; gallery: string; reviews: string; faq: string; location: string };
   hero: { tagline: string; title: string; subtitle: string; cta: string };
   rating: { reviews: string; source: string };
+  /**
+   * 首屏核心参数看板
+   * 直接回答 height / range / material / location 类长尾查询，
+   * 数值取自 site.config，与 JSON-LD 结构化数据保持同一数据源。
+   */
+  keyFacts: {
+    title: string;
+    subtitle: string;
+    items: { label: string; value: string }[];
+    /** 站内关键词锚文本，把点击与权重导向核心区块 */
+    links: { label: string; href: string }[];
+  };
   history: { title: string; intro: string; originTitle: string; originContent: string; legendCard: { title: string; content: string } };
   architecture: { title: string; intro: string; specs: { structure: { title: string; content: string }; design: { title: string; content: string }; optics: { title: string; content: string } }; plaque: { title: string; items: { label: string; value: string }[] } };
   monuments: { title: string; intro: string; items: { name: string; description: string }[] };
@@ -24,6 +38,28 @@ export const translations: Record<Locale, Translations> = {
     nav: { history: "历史渊源", architecture: "技术规格", monuments: "海军荣誉", visiting: "游览指南", transportation: "交通规划", gallery: "照片画廊", reviews: "游客评价", faq: "常见问题", location: "地图位置" },
     hero: { tagline: "秘鲁利马 · 米拉弗洛雷斯海滨观景台", title: "Faro de la Marina", subtitle: "海军灯塔 · Navy Lighthouse · 太平洋畔的百年航海地标", cta: "探索灯塔" },
     rating: { reviews: "条评价", source: "Google 评论" },
+    keyFacts: {
+      title: "海军灯塔核心参数",
+      subtitle: "访客最常查询的硬指标，均以灯塔基座铭牌与官方来源为准。",
+      items: [
+        { label: "官方名称", value: "Navy Lighthouse（Faro de la Marina）" },
+        { label: "塔身高度", value: `${siteConfig.heightMeters} 米 · ${siteConfig.heightFeet} 英尺` },
+        { label: "灯光射程", value: `${siteConfig.rangeNauticalMiles} 海里（约 ${siteConfig.rangeKm} 公里）` },
+        { label: "建筑材质", value: "铸铁" },
+        { label: "地址", value: `${siteConfig.streetAddress}, ${siteConfig.city} ${siteConfig.postalCode}, ${siteConfig.state}, ${siteConfig.country}` },
+        { label: "地理坐标", value: `${siteConfig.latitude}, ${siteConfig.longitude}` },
+        { label: "Plus Code", value: siteConfig.plusCode },
+        { label: "建造与迁建", value: `${siteConfig.constructionYear} 年建于 ${siteConfig.originalLocation} · ${siteConfig.installationYear} 年迁建至米拉弗洛雷斯` },
+        { label: "门票", value: "免费 · 24 小时开放" },
+      ],
+      links: [
+        { label: "海军灯塔历史（1900–1973）", href: "#history" },
+        { label: "塔高、结构与技术规格", href: "#architecture" },
+        { label: "如何前往米拉弗洛雷斯海军灯塔", href: "#transportation" },
+        { label: "最佳游览时间：日落时分", href: "#visiting" },
+        { label: "位置地图与 Plus Code", href: "#location" },
+      ],
+    },
     history: {
       title: "历史渊源与传奇身世",
       intro: "海军灯塔（西班牙语：Faro de la Marina）不仅是秘鲁首都利马最著名、访问量最大的灯塔，更是一座承载了百年航海记忆的工业文物。与许多人的直觉不同，这座标志性建筑最初并非矗立于米拉弗洛雷斯的悬崖之上。",
@@ -144,6 +180,28 @@ export const translations: Record<Locale, Translations> = {
     nav: { history: "History & Origins", architecture: "Tech Specs", monuments: "Naval Honors", visiting: "Visit Guide", transportation: "Getting There", gallery: "Gallery", reviews: "Reviews", faq: "FAQ", location: "Location" },
     hero: { tagline: "Lima, Peru · Miraflores Seaside Viewpoint", title: "Faro de la Marina", subtitle: "Navy Lighthouse · Faro de la Marina · Historic Landmark on the Pacific", cta: "Explore the Lighthouse" },
     rating: { reviews: "reviews", source: "Google Reviews" },
+    keyFacts: {
+      title: "Navy Lighthouse at a glance",
+      subtitle: "The figures visitors ask for first, verified against the lighthouse's own base plaque and official sources.",
+      items: [
+        { label: "Official name", value: `${siteConfig.attractionFullName} (${siteConfig.attractionShortName})` },
+        { label: "Height", value: `${siteConfig.heightFeet} ft · ${siteConfig.heightMeters} m` },
+        { label: "Light range", value: `${siteConfig.rangeNauticalMiles} nautical miles (${siteConfig.rangeKm} km)` },
+        { label: "Material", value: "Cast iron" },
+        { label: "Address", value: `${siteConfig.streetAddress}, ${siteConfig.city} ${siteConfig.postalCode}, ${siteConfig.state}, ${siteConfig.country}` },
+        { label: "Coordinates", value: `${siteConfig.latitude}, ${siteConfig.longitude}` },
+        { label: "Plus Code", value: siteConfig.plusCode },
+        { label: "Built & relocated", value: `${siteConfig.constructionYear} at ${siteConfig.originalLocation} · ${siteConfig.installationYear} in Miraflores` },
+        { label: "Admission", value: "Free · open 24 hours" },
+      ],
+      links: [
+        { label: "Navy Lighthouse Lima history (1900–1973)", href: "#history" },
+        { label: "Height, architecture & technical specs", href: "#architecture" },
+        { label: "How to get to Navy Lighthouse from Miraflores", href: "#transportation" },
+        { label: "Best time to visit: sunset", href: "#visiting" },
+        { label: "Map, address & Plus Code VXG5+GW", href: "#location" },
+      ],
+    },
     history: {
       title: "History & Origins",
       intro: "The Navy Lighthouse (Spanish: Faro de la Marina) is not only the most famous and visited lighthouse in Lima, the capital of Peru, but also an industrial artifact bearing a century of maritime memory. Contrary to many people's intuition, this iconic structure was not originally built on the cliffs of Miraflores.",
@@ -262,6 +320,28 @@ We highly recommend renting a shared bike from Barranco in the south or San Isid
     nav: { history: "Historia", architecture: "Especificaciones", monuments: "Monumentos", visiting: "Guía de Visita", transportation: "Transporte", gallery: "Galería", reviews: "Reseñas", faq: "FAQ", location: "Ubicación" },
     hero: { tagline: "Lima, Perú · Mirador Marítimo de Miraflores", title: "Faro de la Marina", subtitle: "Faro de la Marina · Navy Lighthouse · Punto Histórico en el Pacífico", cta: "Explorar" },
     rating: { reviews: "reseñas", source: "Google Reviews" },
+    keyFacts: {
+      title: "Faro de la Marina: datos clave",
+      subtitle: "Los parámetros que más se consultan, verificados con la placa del propio faro y las fuentes oficiales.",
+      items: [
+        { label: "Nombre oficial", value: `${siteConfig.attractionShortName} (${siteConfig.attractionFullName})` },
+        { label: "Altura", value: `${siteConfig.heightMeters} m · ${siteConfig.heightFeet} pies` },
+        { label: "Alcance de la luz", value: `${siteConfig.rangeNauticalMiles} millas náuticas (${siteConfig.rangeKm} km)` },
+        { label: "Material", value: "Hierro fundido" },
+        { label: "Ubicación", value: `${siteConfig.streetAddress}, ${siteConfig.city} ${siteConfig.postalCode}, ${siteConfig.state}, ${siteConfig.country}` },
+        { label: "Coordenadas", value: `${siteConfig.latitude}, ${siteConfig.longitude}` },
+        { label: "Plus Code", value: siteConfig.plusCode },
+        { label: "Construcción y traslado", value: `${siteConfig.constructionYear} en ${siteConfig.originalLocation} · ${siteConfig.installationYear} en Miraflores` },
+        { label: "Entrada", value: "Gratuita · abierto 24 h" },
+      ],
+      links: [
+        { label: "Historia del Faro de la Marina (1900–1973)", href: "#history" },
+        { label: "Altura, arquitectura y especificaciones", href: "#architecture" },
+        { label: "Cómo llegar al Faro de la Marina en Miraflores", href: "#transportation" },
+        { label: "Mejor hora para visitar: el atardecer", href: "#visiting" },
+        { label: "Ubicación, mapa y Plus Code VXG5+GW", href: "#location" },
+      ],
+    },
     history: {
       title: "Historia y Orígenes",
       intro: "El Faro de la Marina no es solo el faro más famoso y visitado de Lima, la capital del Perú, sino también un artefacto industrial que lleva un siglo de memoria marítima. Contrario a la intuición de muchos, esta icónica estructura no fue construida originalmente en los acantilados de Miraflores.",
@@ -369,6 +449,27 @@ Recomendamos alquilar una bicicleta y pedalear a lo largo de la impresionante co
     nav: { history: "Ñawpaq", architecture: "Ruwasqa", monuments: "Yuyay", visiting: "Puriy", transportation: "Chaykamuy", gallery: "Rikuy", reviews: "Niykuna", faq: "Tapuykuna", location: "Maypi" },
     hero: { tagline: "Lima, Piruw · Miraflores", title: "Faro de la Marina", subtitle: "Faro de la Marina", cta: "Rikuy" },
     rating: { reviews: "niykuna", source: "Google niykuna" },
+    keyFacts: {
+      title: "Navy Lighthouse: hatun yupaykuna",
+      subtitle: "Kay yupaykunataqa faro-pa placa-nmanta hinaspa oficial fuentesmantapas hurqusqa.",
+      items: [
+        { label: "Suti", value: "Navy Lighthouse (Faro de la Marina)" },
+        { label: "Sayaynin", value: `${siteConfig.heightMeters} m · ${siteConfig.heightFeet} feet` },
+        { label: "K'anchay chayan", value: `${siteConfig.rangeNauticalMiles} millas náuticas (${siteConfig.rangeKm} km)` },
+        { label: "Ruwana", value: "Fierro fundido" },
+        { label: "Maypi", value: `${siteConfig.streetAddress}, ${siteConfig.city} ${siteConfig.postalCode}, ${siteConfig.state}, Piruw` },
+        { label: "Plus Code", value: siteConfig.plusCode },
+        { label: "Watakuna", value: `${siteConfig.constructionYear} Punta Coles · ${siteConfig.installationYear} Miraflores` },
+        { label: "Qullqi", value: "Mana qullqiyuq · 24 horas kichasqa" },
+      ],
+      links: [
+        { label: "Ñawpaq kawsaynin (1900–1973)", href: "#history" },
+        { label: "Sayaynin, ruwasqapas", href: "#architecture" },
+        { label: "Imaynata chayamuna", href: "#transportation" },
+        { label: "Aswan allin pacha: inti chinkay", href: "#visiting" },
+        { label: "Mapa, Plus Code", href: "#location" },
+      ],
+    },
     history: {
       title: "Ñawpaq kawsay",
       intro: "Faro de la Marina, Miraflores, Lima, Piruwpi. Historic lighthouse.",

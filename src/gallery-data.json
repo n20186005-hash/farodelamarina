@@ -1,22 +1,202 @@
 [
-  "/gallery/navy-lighthouse (1).jpg",
-  "/gallery/navy-lighthouse (2).jpg",
-  "/gallery/navy-lighthouse (3).jpg",
-  "/gallery/navy-lighthouse (4).jpg",
-  "/gallery/navy-lighthouse (5).jpg",
-  "/gallery/navy-lighthouse (6).jpg",
-  "/gallery/navy-lighthouse (7).jpg",
-  "/gallery/navy-lighthouse (8).jpg",
-  "/gallery/navy-lighthouse (9).jpg",
-  "/gallery/navy-lighthouse (10).jpg",
-  "/gallery/navy-lighthouse (11).jpg",
-  "/gallery/navy-lighthouse (12).jpg",
-  "/gallery/navy-lighthouse (13).jpg",
-  "/gallery/navy-lighthouse (14).jpg",
-  "/gallery/navy-lighthouse (15).jpg",
-  "/gallery/navy-lighthouse (16).jpg",
-  "/gallery/navy-lighthouse (17).jpg",
-  "/gallery/navy-lighthouse (18).jpg",
-  "/gallery/navy-lighthouse (19).jpg",
-  "/gallery/navy-lighthouse (20).jpg"
+  {
+    "src": "/gallery/navy-lighthouse-1.jpg",
+    "webp": "/gallery/web/navy-lighthouse-1.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-1.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-1.webp",
+    "width": 1920,
+    "height": 1080,
+    "thumbWidth": 720,
+    "thumbHeight": 405
+  },
+  {
+    "src": "/gallery/navy-lighthouse-2.jpg",
+    "webp": "/gallery/web/navy-lighthouse-2.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-2.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-2.webp",
+    "width": 1600,
+    "height": 1200,
+    "thumbWidth": 720,
+    "thumbHeight": 540
+  },
+  {
+    "src": "/gallery/navy-lighthouse-3.jpg",
+    "webp": "/gallery/web/navy-lighthouse-3.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-3.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-3.webp",
+    "width": 1920,
+    "height": 2560,
+    "thumbWidth": 720,
+    "thumbHeight": 960
+  },
+  {
+    "src": "/gallery/navy-lighthouse-4.jpg",
+    "webp": "/gallery/web/navy-lighthouse-4.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-4.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-4.webp",
+    "width": 1920,
+    "height": 1078,
+    "thumbWidth": 720,
+    "thumbHeight": 404
+  },
+  {
+    "src": "/gallery/navy-lighthouse-5.jpg",
+    "webp": "/gallery/web/navy-lighthouse-5.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-5.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-5.webp",
+    "width": 1440,
+    "height": 1434,
+    "thumbWidth": 720,
+    "thumbHeight": 717
+  },
+  {
+    "src": "/gallery/navy-lighthouse-6.jpg",
+    "webp": "/gallery/web/navy-lighthouse-6.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-6.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-6.webp",
+    "width": 1920,
+    "height": 1440,
+    "thumbWidth": 720,
+    "thumbHeight": 540
+  },
+  {
+    "src": "/gallery/navy-lighthouse-7.jpg",
+    "webp": "/gallery/web/navy-lighthouse-7.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-7.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-7.webp",
+    "width": 1920,
+    "height": 2560,
+    "thumbWidth": 720,
+    "thumbHeight": 960
+  },
+  {
+    "src": "/gallery/navy-lighthouse-8.jpg",
+    "webp": "/gallery/web/navy-lighthouse-8.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-8.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-8.webp",
+    "width": 1920,
+    "height": 1442,
+    "thumbWidth": 720,
+    "thumbHeight": 541
+  },
+  {
+    "src": "/gallery/navy-lighthouse-9.jpg",
+    "webp": "/gallery/web/navy-lighthouse-9.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-9.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-9.webp",
+    "width": 1920,
+    "height": 1440,
+    "thumbWidth": 720,
+    "thumbHeight": 540
+  },
+  {
+    "src": "/gallery/navy-lighthouse-10.jpg",
+    "webp": "/gallery/web/navy-lighthouse-10.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-10.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-10.webp",
+    "width": 1920,
+    "height": 2560,
+    "thumbWidth": 720,
+    "thumbHeight": 960
+  },
+  {
+    "src": "/gallery/navy-lighthouse-11.jpg",
+    "webp": "/gallery/web/navy-lighthouse-11.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-11.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-11.webp",
+    "width": 1920,
+    "height": 1440,
+    "thumbWidth": 720,
+    "thumbHeight": 540
+  },
+  {
+    "src": "/gallery/navy-lighthouse-12.jpg",
+    "webp": "/gallery/web/navy-lighthouse-12.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-12.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-12.webp",
+    "width": 1920,
+    "height": 1440,
+    "thumbWidth": 720,
+    "thumbHeight": 540
+  },
+  {
+    "src": "/gallery/navy-lighthouse-13.jpg",
+    "webp": "/gallery/web/navy-lighthouse-13.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-13.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-13.webp",
+    "width": 1920,
+    "height": 2570,
+    "thumbWidth": 720,
+    "thumbHeight": 964
+  },
+  {
+    "src": "/gallery/navy-lighthouse-14.jpg",
+    "webp": "/gallery/web/navy-lighthouse-14.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-14.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-14.webp",
+    "width": 1920,
+    "height": 2560,
+    "thumbWidth": 720,
+    "thumbHeight": 960
+  },
+  {
+    "src": "/gallery/navy-lighthouse-15.jpg",
+    "webp": "/gallery/web/navy-lighthouse-15.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-15.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-15.webp",
+    "width": 1920,
+    "height": 1080,
+    "thumbWidth": 720,
+    "thumbHeight": 405
+  },
+  {
+    "src": "/gallery/navy-lighthouse-16.jpg",
+    "webp": "/gallery/web/navy-lighthouse-16.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-16.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-16.webp",
+    "width": 1920,
+    "height": 2560,
+    "thumbWidth": 720,
+    "thumbHeight": 960
+  },
+  {
+    "src": "/gallery/navy-lighthouse-17.jpg",
+    "webp": "/gallery/web/navy-lighthouse-17.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-17.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-17.webp",
+    "width": 1920,
+    "height": 2560,
+    "thumbWidth": 720,
+    "thumbHeight": 960
+  },
+  {
+    "src": "/gallery/navy-lighthouse-18.jpg",
+    "webp": "/gallery/web/navy-lighthouse-18.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-18.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-18.webp",
+    "width": 1920,
+    "height": 2560,
+    "thumbWidth": 720,
+    "thumbHeight": 960
+  },
+  {
+    "src": "/gallery/navy-lighthouse-19.jpg",
+    "webp": "/gallery/web/navy-lighthouse-19.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-19.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-19.webp",
+    "width": 1920,
+    "height": 1446,
+    "thumbWidth": 720,
+    "thumbHeight": 542
+  },
+  {
+    "src": "/gallery/navy-lighthouse-20.jpg",
+    "webp": "/gallery/web/navy-lighthouse-20.webp",
+    "thumb": "/gallery/thumbs/navy-lighthouse-20.jpg",
+    "thumbWebp": "/gallery/thumbs/navy-lighthouse-20.webp",
+    "width": 1920,
+    "height": 1440,
+    "thumbWidth": 720,
+    "thumbHeight": 540
+  }
 ]

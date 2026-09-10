@@ -23,11 +23,22 @@ function walkDir(dir, callback) {
   }
 }
 
+let hreflangFixed = 0;
+
 function fixHtmlLang(filePath) {
   let content = fs.readFileSync(filePath, 'utf-8');
-  
-  // Determine locale from file path
-  let lang = 'en';
+
+  // React 19 会把 hrefLang 原样序列化为 hrefLang="…"（<link> 与 <a> 均是）。
+  // HTML 属性名大小写不敏感，浏览器与爬虫都能解析，但规范写法为小写 hreflang，
+  // 这里统一归一化，确保 hreflang 语言互指信号在原始 HTML 中即为标准形式。
+  const normalized = content.replace(/hrefLang=/g, 'hreflang=');
+  if (normalized !== content) {
+    hreflangFixed += 1;
+    content = normalized;
+  }
+
+  // Determine locale from file path（站点默认语言为 es）
+  let lang = 'es';
   for (const [locale, htmlLang] of Object.entries(langMap)) {
     // Check if the file path contains the locale directory
     const localePattern = path.sep + locale + path.sep;
@@ -62,4 +73,5 @@ function fixHtmlLang(filePath) {
 
 console.log('Fixing HTML lang attributes...');
 walkDir(outDir, fixHtmlLang);
+console.log(`✓ Normalized hrefLang → hreflang in ${hreflangFixed} files`);
 console.log('Done!');
