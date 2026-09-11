@@ -10,6 +10,8 @@
     "postbuild": "node scripts/fix-html-lang.js",
     "start": "next start",
     "lint": "eslint",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev",
     "optimize-images": "node scripts/optimize-images.js"
   },
   "dependencies": {
@@ -27,6 +29,7 @@
     "eslint-config-next": "16.2.9",
     "sharp": "^0.35.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "4.131.0"
   }
 }

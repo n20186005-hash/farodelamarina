@@ -29,6 +29,10 @@ try {
 
 const MAX_FULL_WIDTH = 1920;
 const RECOMPRESS_THRESHOLD = 800 * 1024; // 超过 800KB 才重新编码原图
+// 重编码收益低于该比例即视为「已经压过」，不再写回。
+// 否则体积刚好卡在阈值之上的原图（如 809KB / 阈值 800KB）会在每次构建时被
+// 反复有损重编码：体积几乎不降，画质逐次劣化，且每次都产生无意义的 git 变更。
+const MIN_SAVING_RATIO = 0.02;
 const THUMB_WIDTH = 720;
 
 const galleryDir = path.join(__dirname, "../public/gallery");
@@ -81,16 +85,19 @@ async function optimizeOne(file) {
   let height = meta.height || 0;
 
   // 1) 原图：仅在体积/尺寸过大时重编码（保持文件名不变，既有引用全部继续有效）
-  if (before > RECOMPRESS_THRESHOLD || width > MAX_FULL_WIDTH) {
+  const needsResize = width > MAX_FULL_WIDTH;
+  if (before > RECOMPRESS_THRESHOLD || needsResize) {
     let pipeline = sharp(source, { failOn: "none" }).rotate();
-    if (width > MAX_FULL_WIDTH) {
+    if (needsResize) {
       pipeline = pipeline.resize({ width: MAX_FULL_WIDTH, withoutEnlargement: true });
     }
     const optimized = await pipeline
       .jpeg({ quality: 80, progressive: true, mozjpeg: true, chromaSubsampling: "4:2:0" })
       .toBuffer();
 
-    if (optimized.length < before) {
+    // 缩边是必须落地的结构性变更；纯为减体积时则要求收益达到 MIN_SAVING_RATIO，
+    // 以此保证脚本幂等，同一张图不会被逐次构建反复有损编码。
+    if (needsResize || optimized.length < before * (1 - MIN_SAVING_RATIO)) {
       fs.writeFileSync(inputPath, optimized);
       source = optimized;
       meta = await sharp(source).metadata();

@@ -1,0 +1,22 @@
+{
+  // 本项目为 Next.js 静态导出（next.config.ts 中 output: "export"），
+  // 构建产物是纯静态文件 out/，因此按「静态资源」部署。
+  //
+  // 不要使用 @opennextjs/cloudflare：那是 SSR 适配器，依赖 .next/standalone，
+  // 静态导出不会生成该目录，会直接报 pages-manifest.json ENOENT。
+  // 本文件的存在也让 wrangler 跳过对 Next.js 的自动 OpenNext 迁移。
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "farodelamarina",
+  "compatibility_date": "2026-09-11",
+  "assets": {
+    // next build 的静态导出目录
+    "directory": "./out",
+    // /es 这类无尾斜杠路径直接命中 es.html（canonical 与 sitemap 均为无尾斜杠）
+    "html_handling": "auto-trailing-slash",
+    // 未命中任何文件时返回 out/404.html，并保持 404 状态码
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
