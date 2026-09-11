@@ -129,17 +129,25 @@ function Nav() {
 function Hero() {
   const { t, locale } = useLang();
   const entity = entityContent[(locale as Locale) || "es"] || entityContent.es;
+  // 首屏主视觉以 siteConfig.heroImage 为唯一来源（og:image 与 JSON-LD 同源），
+  // 再从图库清单取对应尺寸与全尺寸 WebP，避免「展示图」与「声明图」两处硬编码后漂移。
+  // 注意用 web/ 而非 thumbs/：首屏是 object-fit: cover 的全视口铺满，
+  // 720px 缩略图在 1920px 屏上会被放大 2.67 倍而发虚。
+  const hero = galleryImagesData.find((img) => img.src === siteConfig.heroImage) ?? galleryImagesData[0];
   return (
     <section className="hero">
       <div className="hero-bg">
-        <img
-          src={galleryImagesData[0]?.src ?? siteConfig.heroImage}
-          alt={`${siteConfig.attractionFullName} - Main view in ${siteConfig.city}, ${siteConfig.country}`}
-          width={galleryImagesData[0]?.width}
-          height={galleryImagesData[0]?.height}
-          fetchPriority="high"
-          decoding="async"
-        />
+        <picture>
+          {hero?.webp && <source srcSet={hero.webp} type="image/webp" />}
+          <img
+            src={hero?.src ?? siteConfig.heroImage}
+            alt={`${siteConfig.attractionFullName} - Main view in ${siteConfig.city}, ${siteConfig.country}`}
+            width={hero?.width}
+            height={hero?.height}
+            fetchPriority="high"
+            decoding="async"
+          />
+        </picture>
       </div>
       <div className="hero-texture" />
       <div className="hero-overlay" />

@@ -96,8 +96,12 @@ export const siteConfig = {
   /** 建筑材质（结构化数据使用的英文规范值） */
   material: "Cast iron",
 
-  /** 主视觉图（命名规范：<前缀>-<序号>.<扩展名>，URL 安全，无需转义） */
-  heroImage: "/gallery/navy-lighthouse-1.jpg",
+  /**
+   * 主视觉图 / 首屏图（命名规范：<前缀>-<序号>.<扩展名>，URL 安全，无需转义）。
+   * 全站唯一来源：首屏 <img>、og:image 与 JSON-LD 的 image 都读这里，
+   * 改动此处即可同时切换页面主视觉与分享卡片 / 结构化数据声明的图。
+   */
+  heroImage: "/gallery/navy-lighthouse-2.jpg",
 
   /** GA4 衡量 ID */
   gaMeasurementId: "G-HXM22WWPKP",
