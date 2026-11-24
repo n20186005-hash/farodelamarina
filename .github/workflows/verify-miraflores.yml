@@ -1,0 +1,14 @@
+name: Verify Miraflores production guides
+on:
+  push:
+    branches: [verify-miraflores-production-157]
+permissions:
+  contents: read
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify four homepages, four directories and 124 live attraction pages
+        run: python .github/verify-miraflores.py
