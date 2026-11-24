@@ -1,0 +1,1707 @@
+[
+  {
+    "id": "2114",
+    "slug": "playa-redondo",
+    "kind": "beach",
+    "address": "Costa Verde, playa Redondo, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "07:00–18:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2114",
+    "local": {
+      "en": {
+        "name": "Redondo Beach",
+        "story": "The sandy shore below Miraflores hosted the 2008 ISA Masters opening. Compare the protected strip near shore with the longer wave lines farther out; the two areas serve swimmers and experienced surfers differently.",
+        "steps": [
+          "Start at the signed beach access below the cliff.",
+          "Stay above the wash and compare the sandy margin with the offshore breaks.",
+          "Return to the same marked exit before heading back uphill."
+        ],
+        "field": "Leave the sandy exit in sight when stopping to watch surf. A wide view with both the cliff and the water explains how far below the town the beach sits."
+      },
+      "es": {
+        "name": "Playa Redondo",
+        "story": "La playa de arena acogió la inauguración del Mundial Masters ISA de 2008. Desde tierra compare la franja próxima a la orilla y las líneas de olas más afuera: ofrecen condiciones diferentes a bañistas y surfistas.",
+        "steps": [
+          "Llegue al acceso señalizado al pie del acantilado.",
+          "Desde la arena seca compare orilla y rompientes.",
+          "Regrese a la misma salida antes de subir."
+        ],
+        "field": "Mantenga visible la salida al observar el surf. Un encuadre que incluya acantilado y agua explica el desnivel respecto al barrio."
+      },
+      "zh": {
+        "name": "雷东多海滩",
+        "story": "米拉弗洛雷斯崖下的这段沙滩曾承办2008年ISA大师赛开幕活动。从岸上比较近岸水带与外侧的长浪线，可以理解浴客和冲浪者为什么选择不同水域。",
+        "steps": [
+          "从崖下有标志的海滩入口起步。",
+          "站在干沙处对比近岸水带与外侧碎浪。",
+          "回到同一出口再上行。"
+        ],
+        "field": "停看冲浪时别让沙滩出口离开视野；把海崖与海水拍在同一幅画面里，就能交代与城区的高差。"
+      },
+      "qu": {
+        "name": "Redondo lamar pata",
+        "story": "Kay aqu patapim 2008 watapi ISA Masters pukllayta kicharqanku. Patamanta qaylla unuta qhaway, chaymanta karu hatun wayquqta qhaway. Iskayninpiqa mana kikinchu lamar kuyun.",
+        "steps": [
+          "Qaqap uranpi señalyuq yaykunapi qallariy.",
+          "Chaki aqu patamanta qaylla unuta karu wayquwan tupachiy.",
+          "Kikin lluqsinaman kutispa wichariy."
+        ],
+        "field": "Tablapi pukllaqkunata qhawaspa lluqsina ñanta rikuy. Qaqatawan lamartawan huk fotopi hap'ispa llaqtap hanaqpi kasqanta rikuchinki."
+      }
+    },
+    "photo": "https://1.bp.blogspot.com/-2FTFE3JZ2DU/Xh-M5055MfI/AAAAAAABWwk/b-klsRWtMjIPsozYV3VneRr-u0oA-IEEwCLcBGAsYHQ/s1600/playa-redondos2.jpg",
+    "credit": "https://www.deperu.com/esparcimiento/playas/playa-redondo-3398",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2114"
+  },
+  {
+    "id": "2112",
+    "slug": "playa-waikiki",
+    "kind": "beach",
+    "address": "Bajada Balta, Costa Verde, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "10:00–18:30",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2112",
+    "local": {
+      "en": {
+        "name": "Waikiki Beach",
+        "story": "From the pebbled shore the arch of Villena Rey bridge gives the cliffs a human scale. Begin near the foot of Bajada Balta and turn parallel to the water; a side view shows how the road climbs back to the town above.",
+        "steps": [
+          "Descend using the pedestrian approach at Bajada Balta.",
+          "Turn towards Waikiki and look back for the bridge arch.",
+          "Return by the marked pedestrian ascent."
+        ],
+        "field": "Stand back from the wet stones and frame the bridge arch between the cliff faces. Leave room along the approach for people carrying boards."
+      },
+      "es": {
+        "name": "Playa Waikiki",
+        "story": "Desde los cantos rodados, el arco del puente Villena Rey da escala a los acantilados. Empiece al pie de la Bajada Balta y gire paralelo al agua para ver de perfil cómo la vía asciende al barrio.",
+        "steps": [
+          "Baje por el acceso peatonal de Bajada Balta.",
+          "Gire a Waikiki y busque el arco del puente al volver la vista.",
+          "Suba por el paso peatonal indicado."
+        ],
+        "field": "Retroceda de las piedras mojadas y encuadre el arco entre los acantilados. Deje libre el paso de quienes llevan tablas."
+      },
+      "zh": {
+        "name": "怀基基海滩",
+        "story": "站在卵石岸上，维列纳雷伊桥的拱券给海崖提供了尺度。从巴尔塔下坡道的下端沿水边转向，可从侧面看清道路怎样攀回上方城区。",
+        "steps": [
+          "沿巴尔塔人行坡道下行。",
+          "转向怀基基海滩，回头找桥拱。",
+          "经有标示的人行通道回到崖上。"
+        ],
+        "field": "退离湿卵石，在两侧海崖间框取桥拱，给扛冲浪板的人留出通道。"
+      },
+      "qu": {
+        "name": "Waikiki lamar pata",
+        "story": "Rumi patamanta Villena Rey chakata qhaway; chaypi qaqakunap hatun kayninta rikunki. Bajada Balta uranpi qallariy, lamar patanta puriy, chaymanta llaqtaman wichariq ñanta qhaway.",
+        "steps": [
+          "Bajada Balta purina ñanninta uraykuy.",
+          "Waikikiman muyuspa chakap muyusqa uranta qhaway.",
+          "Qillqasqa purina ñanta wichariy."
+        ],
+        "field": "Uqhu rumikunamanta qhipaman puriy, chakata iskay qaqakunap chawpinpi qhaway. Tablata apaqkunapaq ñanta saqiy."
+      }
+    },
+    "photo": "https://1.bp.blogspot.com/-LtBrpFCaFks/Xh-AhNDIbXI/AAAAAAABWv4/H9co1N-NPaolrtS9rMRSdoH3rB8sHnJKwCLcBGAsYHQ/s1600/playa-waikiki-miraflores4.jpg",
+    "credit": "https://www.deperu.com/esparcimiento/playas/playa-waikiki-3395",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2112"
+  },
+  {
+    "id": "2111",
+    "slug": "playa-la-pampilla",
+    "kind": "beach",
+    "address": "Circuito de Playas, La Pampilla, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "",
+    "free": false,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2111",
+    "local": {
+      "en": {
+        "name": "La Pampilla Beach",
+        "story": "On this stony stretch of the Costa Verde the surfers’ waiting line is a way to read the sea. Watch from the upper shore: groups sitting still offshore mark a different space from the broken white water near the stones.",
+        "steps": [
+          "Reach La Pampilla by its public beach access.",
+          "Follow the dry upper bank to a clear view of the surfers’ line-up.",
+          "Turn back before crossing slippery stones."
+        ],
+        "field": "The surf is clearer side-on from the upper bank than head-on at water level. Use a longer view and stay on the dry side of the shore."
+      },
+      "es": {
+        "name": "Playa La Pampilla",
+        "story": "En este tramo pedregoso de la Costa Verde, la fila de tablistas ayuda a leer el mar. Desde la parte alta se distinguen los grupos que esperan afuera y la espuma que ya alcanza las piedras.",
+        "steps": [
+          "Entre por el acceso público de La Pampilla.",
+          "Siga la parte alta hasta ver la fila de tablistas.",
+          "Regrese antes de las piedras resbaladizas."
+        ],
+        "field": "El oleaje se lee mejor de perfil desde la parte alta que de frente al agua. Mire a distancia desde piedras secas."
+      },
+      "zh": {
+        "name": "潘皮利亚海滩",
+        "story": "在绿色海岸这段石滩上，冲浪者等待的位置可以帮助读懂海面。从高处看，相对静止的候浪人群与已经打到岸边卵石的白浪分属两个空间。",
+        "steps": [
+          "从潘皮利亚公共海滩入口进入。",
+          "沿岸上干燥处走到能看到候浪队列的位置。",
+          "遇湿滑石面前折返。"
+        ],
+        "field": "从高处侧看浪形比水边迎浪看更清楚，远摄即可，停在干石一侧。"
+      },
+      "qu": {
+        "name": "La Pampilla lamar pata",
+        "story": "Costa Verde sutiyuq kay rumi patapi tablawan pukllaqkunata qhaway. Hawa patamanta karupi suyaqkunata, qayllapitaq yuraq phullpu rumikunaman chayaqta riqsinki.",
+        "steps": [
+          "La Pampillap llapapaq yaykunanmanta yaykuy.",
+          "Chaki hanaq patanta purispa tablapi suyaqkunata qhaway.",
+          "Llusk'a rumiman manaraq chayaspa kutiy."
+        ],
+        "field": "Hanaq patamanta wayqupa waqtanta qhaway, mana unupa muyuriyninmanta. Karumanta qhawaspa chaki rumi patapi qhipakuy."
+      }
+    },
+    "photo": "https://playasperuanas.com/wp-content/uploads/2024/04/la-pampilla-pet.jpeg",
+    "credit": "https://playasperuanas.com/playa-pet-friendly-la-pampilla-en-miraflores-lima-guia-completa/",
+    "moreSource": "https://commons.wikimedia.org/wiki/File%3ATablista_en_playa_La_Pampilla.jpg"
+  },
+  {
+    "id": "2110",
+    "slug": "punta-roquitas",
+    "kind": "beach",
+    "address": "Circuito de Playas, Punta Roquitas, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "10:00–18:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2110",
+    "local": {
+      "en": {
+        "name": "Punta Roquitas Beach",
+        "story": "A projecting stretch of coast makes this one of Lima’s familiar surf-watching points. Follow one rider from the line-up to the end of a wave, then compare the next wave from the same position; the point becomes easier to read without moving onto wet rocks.",
+        "steps": [
+          "Locate the Punta Roquitas shoreline marker.",
+          "Follow the dry shore towards the projecting point and watch the breaks side-on.",
+          "Retrace the approach without crossing the breakwater."
+        ],
+        "field": "Use the angle along the point to separate a surfer from the line of breaking water. A breakwater is not a shortcut to a better view."
+      },
+      "es": {
+        "name": "Playa Punta Roquitas",
+        "story": "El saliente costero convierte esta playa en un mirador del surf limeño. Siga a un tablista desde la espera hasta el final de una ola y compare la siguiente desde el mismo sitio, sin pasar a las piedras mojadas.",
+        "steps": [
+          "Ubique la señal de Punta Roquitas.",
+          "Siga la orilla seca hacia la punta para ver las olas de perfil.",
+          "Regrese sin cruzar el rompeolas."
+        ],
+        "field": "Desde la punta en perspectiva, separe al tablista de la línea de espuma. El rompeolas no es un atajo para mejorar la vista."
+      },
+      "zh": {
+        "name": "罗基塔斯角海滩",
+        "story": "突出岸线让这里成为利马常见的冲浪观察点。固定在干燥岸段，从候浪位置一路跟看一位冲浪者，再对比下一道浪，不必走上湿岩也能辨认岬角如何影响路线。",
+        "steps": [
+          "认准罗基塔斯角海岸标识。",
+          "沿干燥岸边走向岬角，侧看浪线。",
+          "原路返回，不横越防波堤。"
+        ],
+        "field": "沿岬角斜看能把冲浪者从白浪中区分出来，不要把防波堤当成取景捷径。"
+      },
+      "qu": {
+        "name": "Punta Roquitas lamar pata",
+        "story": "Lamar ukhuman yaykuq allpata patamanta qhaway. Huk tablapi pukllaqta suyasqanmantapacha wayqu tukukunankama qhaway; chay kikillanpi qhipa wayquta tupachiy. Ama uqhu rumiman puriychu.",
+        "steps": [
+          "Punta Roquitaspa señalninta maskay.",
+          "Chaki patanta puntaman puriy, wayquta waqtanmanta qhaway.",
+          "Lamar hark'aq pirqata mana chimpaspa kutiy."
+        ],
+        "field": "Puntap waqtanmanta qhawaspa tablapi runata yuraq phullpumanta rakinki. Aswan allin qhawanapaq hark'ana pirqata ama chimpaychu."
+      }
+    },
+    "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=493403",
+    "credit": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2110",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2110"
+  },
+  {
+    "id": "12289",
+    "slug": "playa-tres-picos",
+    "kind": "beach",
+    "address": "Costa Verde, playa Tres Picos, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "07:00–18:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12289",
+    "local": {
+      "en": {
+        "name": "Tres Picos Beach",
+        "story": "Stone and patches of sand alternate along this roughly 580-metre beach. Step back from the water to see the cliffs behind it and compare the textures on dry ground, particularly where the sandy bands end against the stones.",
+        "steps": [
+          "Enter at the posted Tres Picos access.",
+          "Find where the dry sand meets pebbles and compare textures.",
+          "Turn back with the cliffs as your landward reference."
+        ],
+        "field": "Use one dry patch where pebbles and sand meet as a close-up, then turn back towards the cliffs for a second frame. Keep the public exit in view."
+      },
+      "es": {
+        "name": "Playa Tres Picos",
+        "story": "En unos 580 metros se alternan piedras y sectores de arena. Retroceda hasta ver los acantilados y compare las texturas en terreno seco, sobre todo donde una franja de arena termina contra los cantos.",
+        "steps": [
+          "Entre por el paso indicado de Tres Picos.",
+          "Ubique el límite de arena seca y cantos para comparar texturas.",
+          "Regrese tomando el acantilado como referencia de tierra."
+        ],
+        "field": "Fotografíe una transición de guijarros a arena y gire después hacia los acantilados. Mantenga a la vista la salida pública."
+      },
+      "zh": {
+        "name": "特雷斯皮科斯海滩",
+        "story": "约580米长的岸线上，卵石与小片沙地交错。离水线远一点把背后的海崖也纳入视野，再观察干燥岸上沙带如何终止于石滩。",
+        "steps": [
+          "从特雷斯皮科斯有标志的入口进入。",
+          "找到干沙与卵石交界观察质感。",
+          "把海崖当陆侧参照物，沿原岸段折返。"
+        ],
+        "field": "先拍干卵石与沙地的交界，再转向背后的海崖取远景，全程留意公共出口。"
+      },
+      "qu": {
+        "name": "Tres Picos lamar pata",
+        "story": "Yaqa 580 metrokunapi rumikuna aquwan tupan. Yakumanta qhipaman puriy, qaqatawan qhawanaykipaq. Chaki allpapi aqu maypi tukukun, rumi maypi qallarin, chayta maskay.",
+        "steps": [
+          "Tres Picospa señalyuq punkunta yaykuy.",
+          "Chaki aqu rumiwan tupasqanta maskay.",
+          "Qaqata allpa ladopi qhawaspa kutiy."
+        ],
+        "field": "Chaki rumi aquwan tupasqanta qayllamanta qhaway, chaymanta qaqaman muyuriy. Llapapaq lluqsinata rikullay."
+      }
+    },
+    "photo": "https://2.bp.blogspot.com/-T4stg4LFsXQ/VwfmHzmirDI/AAAAAAABGlA/ZJr4ss1oLTwS-oKR4NtIRuwENtWdlH5eg/s640/mi%2Bpte%2Bir%2B%25282%2529%2Bf%2B14%2B8.jpg",
+    "credit": "https://fatimarodriguez.blogspot.com/2019/12/playa-tres-picos-en-miraflores.html",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12289"
+  },
+  {
+    "id": "12117",
+    "slug": "playa-makaha",
+    "kind": "beach",
+    "address": "Costa Verde, playa Makaha, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "07:00–18:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12117",
+    "local": {
+      "en": {
+        "name": "Makaha Beach",
+        "story": "Makaha is closely associated with surf instruction. On shore, observe how instructors separate a first exercise on land from entering the sea; a beach visit and a paid lesson require different time allowances and equipment.",
+        "steps": [
+          "Find the Makaha beach access beside the surf activity.",
+          "Stand landward of the practice area and watch a lesson move from sand to water.",
+          "Return along the shore without crossing the board carriers’ route."
+        ],
+        "field": "Before paying for a lesson, agree on instruction time, the board and the return of equipment. Spectators can observe all the preparation from the dry shore."
+      },
+      "es": {
+        "name": "Playa Makaha",
+        "story": "Makaha se asocia a las escuelas de tabla. Desde la playa observe cómo se separan el primer ejercicio en tierra y la entrada al mar; una clase y una visita a pie necesitan tiempos y equipos distintos.",
+        "steps": [
+          "Localice la entrada de Makaha cerca de las escuelas.",
+          "Desde tierra observe el paso de los ejercicios a la entrada en el mar.",
+          "Vuelva sin atravesar el recorrido de las tablas."
+        ],
+        "field": "Antes de pagar una clase acuerde duración, tabla y devolución del equipo. Desde la orilla seca se observa la preparación."
+      },
+      "zh": {
+        "name": "马卡哈海滩",
+        "story": "马卡哈以冲浪教学闻名。从岸上看教练如何把陆上动作练习与真正入水分开，就能理解散步观赏和付费课程需要不同的时间与装备。",
+        "steps": [
+          "找到冲浪活动旁的马卡哈入口。",
+          "在练习区陆侧看教学如何从岸上转入海里。",
+          "沿岸返回，避开扛板人的通道。"
+        ],
+        "field": "报课前核实指导时长、板具和归还约定；只想观看的人留在干岸就能看清准备过程。"
+      },
+      "qu": {
+        "name": "Makaha lamar pata",
+        "story": "Kay Makaha patapi tablawan pukllayta yachachinku. Qallariypi allpapi yachachisqankuta qhaway, chaymanta lamar ukhuman yaykusqankuta. Purillayqa hukmi, yachaypi kaspaqa aswan pacha munanki.",
+        "steps": [
+          "Makaha yaykunata tablawan yachachina qayllapi maskay.",
+          "Allpa ladomanta yachaqkuna lamarman yaykusqankuta qhaway.",
+          "Tablata apaqkunap ñanninta mana hark'aspa kutiy."
+        ],
+        "field": "Yachaypaq manaraq qullqita quspa, hayk'a pacha, mayqin tabla, imayna kutichina, chaykunata rimay. Qhawaqqa chaki patapi qhipakuyta atin."
+      }
+    },
+    "photo": "https://sandee.com/_next/image?q=75&url=https%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlRoX2BGjp2VQre2nYWHGtkNyNfHdic6Jk4TzW%3Ds1600-k-no&w=3840",
+    "credit": "https://sandee.com/peru/lima/miraflores/playa-makaha",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12117"
+  },
+  {
+    "id": "3273",
+    "slug": "parque-central",
+    "kind": "park",
+    "address": "Parque Kennedy y Parque 7 de Junio, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3273",
+    "local": {
+      "en": {
+        "name": "Miraflores Central Park",
+        "story": "The central park includes the Kennedy and 7 de Junio sectors. Its redesign reopened in 1992 and privileged pedestrian movement. At the church-facing side, look across the paths to see how planting separates quiet sitting space from the busy streets.",
+        "steps": [
+          "Begin on the church side of 7 de Junio.",
+          "Follow an internal path across to the Kennedy sector.",
+          "Return by the outer pavement to compare the planted interior with the streets."
+        ],
+        "field": "The church and municipal corner make a clearer meeting point than an unnamed bench. Look along the paths from that side to photograph the planted interior."
+      },
+      "es": {
+        "name": "Parque Central de Miraflores",
+        "story": "El parque central reúne los sectores Kennedy y 7 de Junio. La remodelación reinaugurada en 1992 favoreció el paseo peatonal. Desde el lado de la iglesia observe cómo la vegetación separa los asientos de las calles transitadas.",
+        "steps": [
+          "Empiece junto a la iglesia en 7 de Junio.",
+          "Siga un sendero interior hacia el sector Kennedy.",
+          "Regrese por el perímetro para comparar jardín y calles."
+        ],
+        "field": "La esquina de la iglesia y el municipio es mejor punto de encuentro que una banca sin identificar. Desde allí encuadre los senderos arbolados."
+      },
+      "zh": {
+        "name": "米拉弗洛雷斯中央公园",
+        "story": "中央公园包括肯尼迪与六月七日两个地段，1992年重新开放的改造重点是步行。由教堂一侧横看园路，可观察绿化怎样把静坐空间与车辆频繁的街道隔开。",
+        "steps": [
+          "从六月七日地段靠教堂的一侧开始。",
+          "沿园内路径穿到肯尼迪地段。",
+          "从外围人行道回程，对比园内与街道。"
+        ],
+        "field": "以教堂和市政厅一侧的转角会合，比约在无名长椅容易找到；从这里适合沿园路拍林荫。"
+      },
+      "qu": {
+        "name": "Miraflores chawpi park",
+        "story": "Kay chawpi parkpi Kennedy hinallataq 7 de Junio kitikuna kachkan. 1992 watapi musuqmanta kicharqanku, puriqkunapaq ñankunata allichaspa. Iglesiap ladonmanta yurakunata qhaway; chaykuna samana patata kallimanta rakinku.",
+        "steps": [
+          "7 de Junio kitipi iglesiap ladonpi qallariy.",
+          "Ukhu ñanta Kennedy kitiman puriy.",
+          "Hawa patanta kutispa muytata kallikunawan tupachiy."
+        ],
+        "field": "Iglesiawan municipalidadwan tupanakuna k'uchuqa mana sutiyuq tiyanamanta aswan riqsiy atina. Chaymanta sacha ñankunata qhaway."
+      }
+    },
+    "photo": "https://d37rmf1ynyg9aw.cloudfront.net/fit-in/1280x1280/data/v4/resources/images/b65d14a1-0d5f-47b1-bb05-35f735168c5f.jpg",
+    "credit": "https://www.smart-guide.org/destinations/es/lima/?place=Parque+Central+de+Miraflores+%28Kennedy+o+de+los+Gatos%29",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3273"
+  },
+  {
+    "id": "3271",
+    "slug": "huaca-pucllana",
+    "kind": "museum",
+    "address": "General Borgoño, cuadra 8, Miraflores, Lima, Perú",
+    "manager": "Museo de Sitio Pucllana · Municipalidad de Miraflores / Ministerio de Cultura",
+    "hours": "09:00–17:00",
+    "free": false,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3271",
+    "local": {
+      "en": {
+        "name": "Huaca Pucllana Archaeological Site",
+        "story": "Pucllana was a ceremonial and administrative centre of the Lima culture. Its adobe platforms were built centuries before the Inca state. Start with the small bricks at eye level before looking up at the whole mound; repeated units explain its enormous scale.",
+        "steps": [
+          "Enter from General Borgoño and register for the permitted circuit.",
+          "Compare the adobe courses near the guide’s first stop before following the platforms.",
+          "Finish at the interpretation area and leave through the visitor exit."
+        ],
+        "field": "Huaca Pucllana uses a controlled visitor circuit. Confirm daytime or evening entry and last admission separately before setting out; the viewpoint from the street is different from the guided route."
+      },
+      "es": {
+        "name": "Huaca Pucllana",
+        "story": "Pucllana fue un centro ceremonial y administrativo de la cultura Lima, anterior al Estado inca. Mire primero los pequeños adobes a la altura de la vista y después la plataforma entera: la repetición explica su escala monumental.",
+        "steps": [
+          "Entre por General Borgoño y regístrese para el circuito habilitado.",
+          "Observe las hiladas de adobe en la primera parada y siga las plataformas.",
+          "Termine en la zona interpretativa y use la salida de visitantes."
+        ],
+        "field": "Pucllana tiene circuito controlado. Confirme visita diurna o nocturna y último ingreso; la vista desde la calle no equivale al recorrido guiado."
+      },
+      "zh": {
+        "name": "普克亚纳遗址",
+        "story": "普克亚纳是早于印加国家的利马文化礼仪与行政中心。先平视一排小土坯，再仰看整座台基，会更容易理解单个构件如何累积成纪念性建筑。",
+        "steps": [
+          "从博尔戈尼奥街进场，登记开放参观路线。",
+          "在第一站观察土坯砌层，再循台基前行。",
+          "看完说明区后由游客出口离开。"
+        ],
+        "field": "遗址按指定线路参观，白天与夜场及最后入场要分别核对。从街边看到的台基不能代替馆内导览。"
+      },
+      "qu": {
+        "name": "Pucllana waka",
+        "story": "Pucllanaqa Lima runakunap yupaychana, kamachina kitinmi karqa, Inkakunamanta ñawpaq. Ñawpaqta ñawiykip sayayninpi huchuy tikakunata qhaway; chaymanta llapan pata wasita. Achka tikakuna huñusqam hatun pirqata ruwanku.",
+        "steps": [
+          "General Borgoño kallimanta yaykuspa sutiykita qillqachiy.",
+          "Ñawpa sayanapi tikakunap sinrunta qhaway, chaymanta patakunata qatipay.",
+          "Willakuy kitipi tukuchispa watukuqkunap punkunta lluqsiy."
+        ],
+        "field": "Pucllanapi kamachisqa watukuy ñan kachkan. P'unchawpi utaq tutapi yaykunata, qhipa yaykuna pachata tapuy. Kallimanta qhawayqa pukllana ñan hinachu mana."
+      }
+    },
+    "photo": "https://museos.cultura.pe/sites/default/files/noticias/imagenes/2026-02/frontis%20pucllana.jpg",
+    "credit": "https://museos.cultura.pe/noticias/museo-de-sitio-pucllana-presenta-experiencia-sonora-creada-con-instrumentos-originales-de",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3271"
+  },
+  {
+    "id": "11334",
+    "slug": "malecon-armendariz",
+    "kind": "walk",
+    "address": "Malecón Armendáriz, quebrada de Armendáriz, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "06:00–21:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11334",
+    "local": {
+      "en": {
+        "name": "Armendáriz Promenade",
+        "story": "The ravine marks the southern end of this cliff walk. Former agricultural land belonging to the Armendáriz estate reached this area before modern urban growth. Look along the break in the cliff to distinguish the natural cut from today’s traffic corridors.",
+        "steps": [
+          "Join the upper Malecón Armendáriz path.",
+          "Walk towards the ravine until the slope and modern road can be seen together.",
+          "Return on the upper walk without descending unmarked ground."
+        ],
+        "field": "Photograph the ravine from the upper path with a section of the city beyond it. Check where a marked pedestrian crossing leads before attempting to continue south."
+      },
+      "es": {
+        "name": "Malecón Armendáriz",
+        "story": "La quebrada marca el extremo sur del paseo. Aquí llegaron terrenos de cultivo de la antigua hacienda Armendáriz antes del crecimiento urbano moderno. Mire a lo largo del corte para distinguir el relieve natural de las vías actuales.",
+        "steps": [
+          "Entre al paseo superior de Armendáriz.",
+          "Avance hacia la quebrada hasta ver juntos la ladera y la vía.",
+          "Regrese por arriba sin bajar por terreno sin señal."
+        ],
+        "field": "Desde el paseo alto encuadre la quebrada y el barrio del otro lado. Compruebe a dónde lleva cada cruce peatonal antes de seguir al sur."
+      },
+      "zh": {
+        "name": "阿门达里斯滨崖长廊",
+        "story": "峡谷标记着这条崖上步道的南端。现代城区扩展以前，阿门达里斯庄园的农田延伸至此。顺着崖壁的缺口望去，可以分清天然沟谷与今天穿过它的交通线。",
+        "steps": [
+          "进入阿门达里斯上层步道。",
+          "朝峡谷方向走到能同看坡面与道路的位置。",
+          "沿上层原路返回，不从无标志坡面下行。"
+        ],
+        "field": "从上方步道把沟谷和对侧城区拍在一起。继续向南前先认清有标志的人行横道通向哪里。"
+      },
+      "qu": {
+        "name": "Armendáriz purina ñan",
+        "story": "Kay ñanpa uray ladonpi Armendáriz wayq'u kachkan. Ñawpaqpi haciendap chakrankuna kaykama chayarqan. Qaqap kichakusqanman qhaway: wayq'uqa ñawpa pacha ruwasqanmi, kunan carrupa ñanqa qhipamanta.",
+        "steps": [
+          "Armendáriz hanaq purina ñanman yaykuy.",
+          "Wayq'uman purispa qhatata carrupa ñantawan kuska qhaway.",
+          "Hanaq ñanninta kutiy, mana señalyuq qhatata ama uraykuychu."
+        ],
+        "field": "Hanaq ñanmanta wayq'uta chimpapi kaq llaqtawan kuska qhaway. Uray ladoman purinaykipaq puriqkunap chimpanan mayman rinqa chayta ñawpaqta rikuy."
+      }
+    },
+    "photo": "https://1.bp.blogspot.com/-FSWue_jY0Eo/UFOBN1cTKmI/AAAAAAAAAJk/38_hqljvuC8/s1600/P1020448.JPG",
+    "credit": "https://pegasocalandria.blogspot.com/2012/09/aqui-les-muestro-el-paisaje-de-la.html",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11334"
+  },
+  {
+    "id": "11335",
+    "slug": "malecon-de-la-reserva",
+    "kind": "walk",
+    "address": "Malecón de la Reserva, Miraflores, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "06:00–21:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11335",
+    "local": {
+      "en": {
+        "name": "Malecón de la Reserva",
+        "story": "This upper promenade links several separate parks, including Salazar and Domodossola. Read it as a connecting walk: pause at each change of planting or path width rather than expecting the waterfront below to be directly accessible at every point.",
+        "steps": [
+          "Start at the Salazar Park side of the promenade.",
+          "Follow the upper path towards Domodossola and notice each park boundary.",
+          "Return via the same promenade or a marked cross street."
+        ],
+        "field": "For a short walk choose one named park as a turnaround. The clearest view of the linear promenade includes both a planted edge and the uninterrupted horizon."
+      },
+      "es": {
+        "name": "Malecón de la Reserva",
+        "story": "El paseo superior enlaza parques distintos, entre ellos Salazar y Domodossola. Observe cada cambio de vegetación y anchura de camino; estar frente al mar no significa que exista una bajada a la playa en cada tramo.",
+        "steps": [
+          "Salga del sector del parque Salazar.",
+          "Siga la senda superior hacia Domodossola y busque los límites de los jardines.",
+          "Vuelva por el malecón o una calle transversal señalizada."
+        ],
+        "field": "Para un paseo corto elija un parque identificado como punto de retorno. Incluya una franja verde y el horizonte para mostrar la continuidad del malecón."
+      },
+      "zh": {
+        "name": "雷塞尔瓦滨崖长廊",
+        "story": "崖顶长廊将萨拉萨尔、多莫多索拉等独立公园连在一起。把它当连接路线来走，留意植物和园路宽度的变化；虽然一直看得到海，却不是每一段都能下到海滩。",
+        "steps": [
+          "从萨拉萨尔公园一侧出发。",
+          "沿上层向多莫多索拉方向走，辨认公园边界。",
+          "循长廊或有标志的横街返回。"
+        ],
+        "field": "短程散步可选有名称的公园折返，取景同时保留绿地边缘和连续海平线，才能表现长廊的线性。"
+      },
+      "qu": {
+        "name": "Reserva purina ñan",
+        "story": "Kay hanaq ñanqa Salazar, Domodossola parkkunata tinkichin. Sapa kutipi sacha yurakuna, ñanpa anchun imayna t'ikrakusqanta qhaway. Lamarta rikuspapis, mana sapa kitimantachu uraykuyta atinki.",
+        "steps": [
+          "Salazar parkpa ladonmanta qallariy.",
+          "Hanaq ñanta Domodossolaman purispa muytakunap saywaninta qhaway.",
+          "Kikin ñanta utaq señalyuq kallinta kutiy."
+        ],
+        "field": "Pisi pachallapaq huk sutiyuq parkta kutina kitita akllay. Q'umir kuchuta karu lamarpa kinrayninwan kuska qhaway."
+      }
+    },
+    "photo": "https://gestion.pe/resizer/v2/MZHJZSS7ZFGUFMC23YPWNNZYFU.jpg?auth=fe1fe5fab49337533623157e415582e9131e1c1b1a781352989208b90ecb4b51&height=3334&quality=75&smart=true&width=5005",
+    "credit": "https://gestion.pe/economia/empresas/parque-arauco-y-los-proyectos-claves-que-inaugurara-independecia-e-ica-en-la-mira-centros-comerciales-megaplaza-larcomar-retail-noticia/",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11335"
+  },
+  {
+    "id": "11332",
+    "slug": "parque-bicentenario",
+    "kind": "park",
+    "address": "Malecón Armendáriz, Miraflores, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "06:00–21:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11332",
+    "local": {
+      "en": {
+        "name": "Bicentennial Park",
+        "story": "Opened in June 2022 to mark Peru’s bicentenary, the park uses stepped planting on the cliff. From a public path, compare terraces above and below you: their changing height is part of the design, not just a way of getting between lawns.",
+        "steps": [
+          "Use the marked entrance off Malecón Armendáriz.",
+          "Follow a public terrace path and pause where two planted levels line up.",
+          "Use the signed connection back to the upper entrance."
+        ],
+        "field": "At a path junction look across the terraces, not straight down the slope. The angle shows how planting follows the contours without stepping off the public paths."
+      },
+      "es": {
+        "name": "Parque Bicentenario",
+        "story": "Abierto en junio de 2022 por el bicentenario, el parque organiza el talud en terrazas plantadas. Compare desde un sendero los andenes superiores e inferiores: el desnivel forma parte del diseño, además de conectar jardines.",
+        "steps": [
+          "Entre desde el malecón Armendáriz.",
+          "Siga una terraza pública y compare dos niveles plantados.",
+          "Vuelva por la conexión señalizada al acceso superior."
+        ],
+        "field": "En un cruce mire transversalmente los andenes. Ese ángulo muestra cómo la vegetación sigue las curvas de nivel sin salir de los senderos."
+      },
+      "zh": {
+        "name": "独立二百周年公园",
+        "story": "公园于2022年6月开放以纪念秘鲁独立二百周年，设计利用崖坡设置阶梯式种植带。站在园路上对比上下两层台地，高差本身就是景观的一部分。",
+        "steps": [
+          "从阿门达里斯滨崖路的入口进入。",
+          "沿开放台地园路看两层种植带如何对齐。",
+          "从标示连接道返回上层。"
+        ],
+        "field": "到园路交叉点横看台地，不要直向坡下；不用走出步道就能看清种植带如何沿等高线延伸。"
+      },
+      "qu": {
+        "name": "Iskay pachak wata park",
+        "story": "2022 watap junio killanpi kicharqanku, Perú suyup iskay pachak watanta yuyarinapaq. Qaqa kuchupi andenkunapi yurakuna wiñan. Ñanmantapacha hanaq andenta uray andenwan tupachiy.",
+        "steps": [
+          "Armendáriz ñanpa señalyuq punkunta yaykuy.",
+          "Huk andenpa ñanninta purispa iskay pata yurakunata qhaway.",
+          "Señalyuq tinkina ñanta hanaq punkuman kutiy."
+        ],
+        "field": "Ñankuna tupasqanpi andenkunap kinrayninta qhaway. Chaymanta yurakunap allpap muyusqanta qatipasqankuta rikunki, ñanmanta mana lluqsispa."
+      }
+    },
+    "photo": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2024/03/22/001049286W.jpg",
+    "credit": "https://andina.pe/agencia/galeria-miraflores-parque-bicentenario-es-nominado-a-premio-mundial-su-arquitectura-21646.aspx",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11332"
+  },
+  {
+    "id": "10959",
+    "slug": "palacio-de-las-artes",
+    "kind": "gallery",
+    "address": "Palacio de las Artes, Parque Salazar, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "11:00–21:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=10959",
+    "local": {
+      "en": {
+        "name": "Miraflores Palace of the Arts",
+        "story": "The municipal exhibition hall opened in 1984 with a retrospective of painter David Hertzkovitz. Exhibitions change, so start with the current exhibition title and date at the entrance. Use the sequence of rooms to follow one artist or theme rather than looking for a fixed collection.",
+        "steps": [
+          "Find PLAM at the Salazar Park end of the waterfront.",
+          "Check the day’s exhibition and start in its first room.",
+          "Return through the lobby to the upper promenade."
+        ],
+        "field": "A visit to PLAM and shopping at Larcomar have separate opening arrangements. Confirm the named exhibition with the municipal cultural programme before making a special trip."
+      },
+      "es": {
+        "name": "Palacio de las Artes de Miraflores",
+        "story": "La sala municipal abrió en 1984 con una retrospectiva de David Hertzkovitz. Las exposiciones cambian: lea al entrar el título y la fecha de la muestra. Siga un artista o un tema por las salas en vez de buscar una colección permanente.",
+        "steps": [
+          "Ubique el PLAM en el sector del parque Salazar.",
+          "Consulte la muestra del día y empiece en su primera sala.",
+          "Vuelva por el vestíbulo al paseo superior."
+        ],
+        "field": "La sala y el centro comercial tienen aperturas independientes. Confirme la muestra por su nombre en la agenda cultural municipal antes de viajar."
+      },
+      "zh": {
+        "name": "米拉弗洛雷斯艺术宫",
+        "story": "市立展厅于1984年以画家戴维·赫茨科维茨回顾展开馆。展览会轮换，先在入口核对当期主题及展期，再顺着展室追踪同一位艺术家或议题，比寻找固定藏品更合适。",
+        "steps": [
+          "在萨拉萨尔公园一端找到艺术宫。",
+          "查当期展览，从其第一间展室开始。",
+          "经门厅回到上层长廊。"
+        ],
+        "field": "艺术宫与拉尔科马尔商场各自安排开放。若专程看展，先按展名核对市政文化日程。"
+      },
+      "qu": {
+        "name": "Miraflores llimp'iy wasi",
+        "story": "1984 watapi kay qhawana wasita kicharqanku David Hertzkovitzpa llimp'isqankunawan. Rikuchisqakunaqa t'ikrakuqmi. Yaykunapi kunan rikuchisqap sutinta, p'unchawninta ñawiriy; chaymanta huk llimp'iqpa llamk'ayninta qatipay.",
+        "steps": [
+          "Salazar parkpa ladonpi PLAM wasita maskay.",
+          "Kunan rikuchisqata tapuspa ñawpa salapi qallariy.",
+          "Punkunta hanaq purina ñanman kutiy."
+        ],
+        "field": "PLAM wasip kichasqanqa Larcomar rantina wasip kichasqanmanta hukmi. Manaraq rispa municipalidadpa programanpi rikuchisqap sutinta tapuy."
+      }
+    },
+    "photo": "https://hispanonewjersey.com/wp-content/uploads/2022/08/palacio-de-las-artes-2022-07-24-18-45-14-1024x683.jpg",
+    "credit": "https://hispanonewjersey.com/municipalidad-de-miraflores-pone-al-servicio-de-la-comunidad-nuevo-palacio-de-las-artes/",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=10959"
+  },
+  {
+    "id": "10898",
+    "slug": "parque-domodossola",
+    "kind": "park",
+    "address": "Malecón de la Reserva, parque Domodossola, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=10898",
+    "local": {
+      "en": {
+        "name": "Domodossola Park",
+        "story": "The name commemorates the Italian town where Peruvian aviator Jorge Chávez died after his Alpine crossing. Opened in 2003, this former extension of Salazar Park now forms a quieter break on the promenade. Compare the residential edge with the open cliff-facing side.",
+        "steps": [
+          "Enter from the Malecón de la Reserva side.",
+          "Cross from the residential edge towards the sea-facing paths.",
+          "Turn back to see how the garden meets the surrounding buildings."
+        ],
+        "field": "For a quieter route walk the residential side first, then cross to the cliff view. Compare the scale of the garden trees with the surrounding apartment blocks."
+      },
+      "es": {
+        "name": "Parque Domodossola",
+        "story": "El nombre recuerda la localidad italiana donde falleció Jorge Chávez tras cruzar los Alpes. Abierto en 2003, este antiguo tramo del parque Salazar es hoy una pausa en el malecón. Compare el frente residencial con el lado abierto al acantilado.",
+        "steps": [
+          "Entre desde el malecón de la Reserva.",
+          "Cruce desde las viviendas hacia los senderos con vista al mar.",
+          "Vuelva la vista para comparar jardín y edificios."
+        ],
+        "field": "Recorra primero el lado residencial y cruce después al acantilado. Compare los árboles del jardín con las viviendas del entorno."
+      },
+      "zh": {
+        "name": "多莫多索拉公园",
+        "story": "名称纪念秘鲁飞行员豪尔赫·查韦斯飞越阿尔卑斯山后逝世的意大利城镇。这里曾是萨拉萨尔公园的延伸部分，2003年开放，适合在滨崖散步中停歇，对比临住宅与朝海崖两侧的空间。",
+        "steps": [
+          "从雷塞尔瓦滨崖路一侧进入。",
+          "由住宅边缘穿到朝海园路。",
+          "转身观察花园如何与建筑群衔接。"
+        ],
+        "field": "先走住宅侧较安静的园路，再转至海崖观景，比较园内树木与周围公寓楼的尺度。"
+      },
+      "qu": {
+        "name": "Domodossola park",
+        "story": "Jorge Chávez Alpes urqukunata phawaspa chimpasqan qhipa, Domodossola llaqtapi wañurqan. Chay sutita kay parkman churanku. 2003 watapi kichasqa. Wasikunaman qhawaq ladota lamar qaqaman qhawaq ladovan tupachiy.",
+        "steps": [
+          "Reserva ñanmanta yaykuy.",
+          "Wasikunap ladonmanta lamar qhawana ñanman puriy.",
+          "Muyurispa muytata wasikunawan tupachiy."
+        ],
+        "field": "Ñawpaqta wasikunap ladonta puriy, chaymanta qaqa ladoman chimpay. Sacha sayayta muyuriq hatun wasikunawan tupachiy."
+      }
+    },
+    "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=561730",
+    "credit": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=10898",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=10898"
+  },
+  {
+    "id": "10874",
+    "slug": "lugar-de-la-memoria",
+    "kind": "museum",
+    "address": "Bajada San Martín 151, Miraflores, Lima, Perú",
+    "manager": "Ministerio de Cultura del Perú",
+    "hours": "",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=10874",
+    "local": {
+      "en": {
+        "name": "Place of Memory, Tolerance and Social Inclusion",
+        "story": "LUM presents testimony and documents about the violence Peru experienced from 1980 to 2000. Allow time for listening as well as reading. Choose one testimony to follow closely and return to the chronology to place that individual account in context.",
+        "steps": [
+          "Begin at the public entrance on Bajada San Martín.",
+          "Follow the exhibition chronology, allowing extra time at one testimony.",
+          "Finish in the reflection space or return through reception."
+        ],
+        "field": "Some testimony can be emotionally demanding. Allow time between sections and seek permission before photographing an exhibition or recording personal testimony."
+      },
+      "es": {
+        "name": "Lugar de la Memoria, la Tolerancia y la Inclusión Social",
+        "story": "El LUM reúne testimonios y documentos sobre la violencia vivida en el Perú entre 1980 y 2000. Reserve tiempo para escuchar, además de leer. Siga un testimonio con atención y vuelva a la cronología para situar esa experiencia.",
+        "steps": [
+          "Comience en el ingreso de Bajada San Martín.",
+          "Siga la cronología y deténgase a escuchar un testimonio.",
+          "Termine en el espacio de reflexión o vuelva a recepción."
+        ],
+        "field": "Algunos testimonios requieren una pausa. Deje tiempo entre salas y consulte antes de fotografiar o grabar testimonios personales."
+      },
+      "zh": {
+        "name": "记忆、宽容与社会包容纪念馆",
+        "story": "LUM用口述证词和档案呈现秘鲁1980至2000年间的暴力经历。除了阅读也应留时间倾听，选一个人的讲述完整听完，再回到时间轴理解这段经历发生的背景。",
+        "steps": [
+          "由圣马丁下坡道公共入口进馆。",
+          "循时间线参观，为一段完整证词留出时间。",
+          "在反思空间停留，再回到接待区。"
+        ],
+        "field": "部分证词读听起来沉重，可在展区之间留出休息时间；拍展览或录制个人证词之前先询问许可。"
+      },
+      "qu": {
+        "name": "Yuyaypa, muchunakuypa, llapanchikpa wasin",
+        "story": "LUM wasipi 1980 watamanta 2000 watakama Perú suyupi sasachakuyta kawsaq runakunap willayninkuna kachkan. Ama ñawirillaychu, uyariypaqpas pachata saqiy. Huk runap willayninta uyarispa, watakunap sinruman kutiy.",
+        "steps": [
+          "Bajada San Martín punkupi qallariy.",
+          "Watakunap sinrunta qatipaspa huk runap willayninta allinta uyariy.",
+          "Yuyaymanana kitipi samaspa yaykuna punkuman kutiy."
+        ],
+        "field": "Wakin willaykunaqa llakichinmanmi. Salakunap chawpinpi samay. Rikuchisqata foto hurqunaykipaq utaq runap willayninta waqaychanaykipaq ñawpaqta tapuy."
+      }
+    },
+    "photo": "https://images.myguide-cdn.com/peru/companies/place-of-memory-tolerance-and-social-inclusion-lum/large/place-of-memory-tolerance-and-social-inclusion-lum-628085.jpg",
+    "credit": "https://www.myguideperu.com/peru/museums-art/place-of-memory-tolerance-and-social-inclusion-lum",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=10874"
+  },
+  {
+    "id": "13164",
+    "slug": "parque-chino",
+    "kind": "park",
+    "address": "Malecón Cisneros, Parque Chino, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "09:00–21:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13164",
+    "local": {
+      "en": {
+        "name": "Chinese Park",
+        "story": "The municipality and Peru’s Chinese community developed this garden, opened in February 2022. Its enclosed garden space frames the Pacific beyond. Follow the path around the architectural elements, then look back from the open side to compare the garden view with the distant horizon.",
+        "steps": [
+          "Locate the signed garden entrance on Malecón Cisneros.",
+          "Follow the garden path past its Chinese architectural features.",
+          "Turn back from the sea-facing side before returning to the same gate."
+        ],
+        "field": "Use the garden architecture as a foreground for the sea. Keep gates and narrow paths clear while taking a photograph; an enclosed garden may close before the surrounding promenade."
+      },
+      "es": {
+        "name": "Parque Chino",
+        "story": "El municipio y la comunidad china en el Perú desarrollaron este jardín, abierto en febrero de 2022. El recinto enmarca el Pacífico. Rodee sus elementos arquitectónicos y vuelva la vista desde el lado abierto para comparar jardín y horizonte.",
+        "steps": [
+          "Entre por la puerta del jardín en el malecón Cisneros.",
+          "Siga el sendero junto a los elementos arquitectónicos chinos.",
+          "Mire atrás desde el lado del mar y regrese a la puerta."
+        ],
+        "field": "Use la arquitectura como primer plano del mar. Deje libres puertas y pasos estrechos; el jardín cercado puede cerrar antes que el malecón."
+      },
+      "zh": {
+        "name": "中华公园",
+        "story": "公园由区政府与秘鲁华人社群合作建设，2022年2月开放。庭园像画框一样借入太平洋远景。沿园路绕过建筑，从开阔一侧回看，比较近处庭景与远处海平线。",
+        "steps": [
+          "从西斯内罗斯滨崖路的庭园门进入。",
+          "沿园路绕过中式建筑元素。",
+          "由朝海一侧回望，再回原门。"
+        ],
+        "field": "用园中建筑作海景前景，拍摄时让出园门与窄路。围合庭园与外侧长廊的关门时间可能不同。"
+      },
+      "qu": {
+        "name": "China llaqtap park",
+        "story": "Miraflores llaqtakamachiqwan Perúpi tiyaq China runakunawan kay muytata ruwarqanku, 2022 watap febrero killanpi kicharqanku. Ñanninta purispa wasichakunata muytuy. Kichasqa ladomanta muytatawan karu lamartawan qhaway.",
+        "steps": [
+          "Cisneros ñanpi muytap punkunta yaykuy.",
+          "China wasichakunap qayllanta puriy.",
+          "Lamar ladomanta qhipata qhawaspa kikin punkuman kutiy."
+        ],
+        "field": "Wasichata qaylla ñawpaqman churaspa lamarta qhaway. Foto hurquspapas punkuta, k'ichki ñanta ama hark'aychu. Muytaqa hawa ñanmanta ñawpaqta wichqakunman."
+      }
+    },
+    "photo": "https://www.incatrailmachu.com/img/chinese-park-06-1692.jpg",
+    "credit": "https://www.incatrailmachu.com/en/travel-blog/miraflores-chinese-park",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13164"
+  },
+  {
+    "id": "8853",
+    "slug": "parque-tradiciones",
+    "kind": "park",
+    "address": "Parque Tradiciones, Miraflores, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "06:00–20:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8853",
+    "local": {
+      "en": {
+        "name": "Tradiciones Park",
+        "story": "This inland neighbourhood park dates to 1947. Grassy rises, jacarandas and palms form a very different setting from the cliff walks. Begin on the perimeter to read the planted contours, then take an internal path to see how the small hills shelter sitting areas.",
+        "steps": [
+          "Start on the park perimeter.",
+          "Enter a cross path that threads between grassy rises and mature trees.",
+          "Exit at a marked corner and look back along the garden axis."
+        ],
+        "field": "Here an interior garden path tells more than a panorama. Work from one end of a grassy rise to the other and notice how a bench disappears behind the planting."
+      },
+      "es": {
+        "name": "Parque Tradiciones",
+        "story": "Este parque de barrio existe desde 1947. Las lomas de césped, jacarandás y palmeras ofrecen una escena distinta a la del malecón. Recorra primero el perímetro y luego un sendero interior para ver cómo las lomas resguardan los lugares de descanso.",
+        "steps": [
+          "Comience por el perímetro.",
+          "Entre por un camino entre lomas de césped y árboles crecidos.",
+          "Salga por una esquina reconocible y mire hacia el eje del jardín."
+        ],
+        "field": "Aquí un sendero interior explica más que una panorámica. Rodee una loma de césped y vea cómo una banca queda oculta por la vegetación."
+      },
+      "zh": {
+        "name": "传统公园",
+        "story": "这座内陆社区公园自1947年起使用。草坡、蓝花楹和棕榈树构成不同于滨崖步道的环境。先从外围观察种植轮廓，再走进园内看小坡怎样围合休息空间。",
+        "steps": [
+          "从公园外围起步。",
+          "沿穿过草坡和成树的横向园路走入。",
+          "经易辨认的转角出去，回看园路轴线。"
+        ],
+        "field": "这里的细节比全景更有意思，沿草坡走半圈，观察长椅怎样逐渐被植物遮住。"
+      },
+      "qu": {
+        "name": "Tradiciones park",
+        "story": "1947 watamantapacha kay ayllup parkin kachkan. Q'achu muqukuna, jacaranda sachakuna, palmerakunaqa lamar patamanta hukniraymi. Ñawpaqta patanta muyuy, chaymanta ukhu ñanman yaykuy samana kitikunata qhawanaykipaq.",
+        "steps": [
+          "Parkpa patanpi qallariy.",
+          "Q'achu muqukunawan hatun sachakunawan chawpichasqa ñanta puriy.",
+          "Riqsisqa k'uchumanta lluqsispa muytap ñanninta qhaway."
+        ],
+        "field": "Kaypi ukhu ñanqa karu qhawanamanta aswan achkata rikuchin. Huk q'achu muquta chawpi muyuspa tiyana yurakunap qhipanpi pakakusqanta qhaway."
+      }
+    },
+    "photo": "https://pbs.twimg.com/media/ENN4U1DVUAA3RFo.jpg",
+    "credit": "https://x.com/eabusad/status/1212445060786196480",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8853"
+  },
+  {
+    "id": "8836",
+    "slug": "parque-maria-reiche",
+    "kind": "park",
+    "address": "Malecón de la Marina, Parque María Reiche, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "06:00–22:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8836",
+    "local": {
+      "en": {
+        "name": "María Reiche Park",
+        "story": "The park opened in July 1998 in honour of María Reiche, researcher of the Nasca lines. Garden figures evoke those desert designs. Look first along the planted outline and then from farther back: a curve that appears abstract at close range becomes part of a larger figure.",
+        "steps": [
+          "Start at the park sign on Malecón de la Marina.",
+          "Follow the planted outline of one Nasca-inspired figure.",
+          "Step back on the path to see its full shape before leaving."
+        ],
+        "field": "Frame a garden figure from the path and leave enough space around its outline. Standing inside the planted beds breaks the design you came to see."
+      },
+      "es": {
+        "name": "Parque María Reiche",
+        "story": "El parque abrió en julio de 1998 en homenaje a la investigadora de las líneas de Nasca. Sus figuras ajardinadas evocan aquellos diseños. Siga primero un contorno y retroceda: una curva aislada pasa a formar una figura mayor.",
+        "steps": [
+          "Comience en el letrero del malecón de la Marina.",
+          "Siga con la vista el contorno vegetal de una figura de Nasca.",
+          "Retroceda por el sendero para verla completa y salir."
+        ],
+        "field": "Encuadre una figura desde el sendero con espacio alrededor de su contorno. Pisar el jardín altera el diseño que vino a observar."
+      },
+      "zh": {
+        "name": "玛丽亚·赖歇公园",
+        "story": "公园于1998年7月开放，纪念研究纳斯卡线条的玛丽亚·赖歇。园中的植物图形呼应沙漠地画。先顺着种植轮廓看一小段，再退开观察，会发现近似抽象的弧线其实属于更大的图案。",
+        "steps": [
+          "从海军滨崖路的公园标牌处开始。",
+          "沿纳斯卡图形的种植轮廓观看。",
+          "在园路上退后看完整图案再离开。"
+        ],
+        "field": "在园路上为植物图形的轮廓留出空间，不要踩进花坛破坏图案。"
+      },
+      "qu": {
+        "name": "María Reiche park",
+        "story": "1998 watap julio killanpi kay parkta kicharqanku, Nasca siq'ikunata yachaq María Reicheta yuyarispa. Yurakunawan ruwasqa siq'ita qayllamanta qatipay, chaymanta qhipaman puriy. Huchuy muyusqa siq'iqa hatun rikch'aypa hukninmi.",
+        "steps": [
+          "Marina ñanpi parkpa sutinmanta qallariy.",
+          "Nasca siq'ip yurakunawan ruwasqa kuchunta qhaway.",
+          "Ñanllapi qhipaman purispa hunt'a rikch'ayninta qhaway."
+        ],
+        "field": "Ñanmantapacha huk rikch'ayta muytanpi k'itiwan qhaway. Yurakuna tarpukusqanman ama yaykuychu, siq'ita waqllichiwaq."
+      }
+    },
+    "photo": "https://d37rmf1ynyg9aw.cloudfront.net/fit-in/1280x1280/data/v4/resources/images/cfeaac7e-bee3-4629-91c3-fc365d52cb1c.jpeg",
+    "credit": "https://www.smart-guide.org/destinations/en/lima/?place=Maria+Reiche+Park+%28Nazca+Lines%29&tour=Parks+and+Malec%C3%B3n+de+Miraflores+",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8836"
+  },
+  {
+    "id": "8834",
+    "slug": "parque-raimondi",
+    "kind": "park",
+    "address": "Malecón Cisneros, parque Raimondi, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "07:00–20:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8834",
+    "local": {
+      "en": {
+        "name": "Antonio Raimondi Park",
+        "story": "Raimondi’s monument on Malecón Cisneros recalls the Italian-born naturalist who studied Peru’s geography, flora and fauna. Start at the monument and turn towards the Pacific: the contrast between the small commemorative space and the much larger landscape makes the dedication easier to understand.",
+        "steps": [
+          "Locate Raimondi’s monument on the upper promenade.",
+          "Walk from the monument towards a public ocean viewpoint.",
+          "Return along the park path, keeping recreational areas clear."
+        ],
+        "field": "Where the lawn opens to the air, leave working or recreation zones clear. A frame containing the monument and the cliff horizon explains both the dedication and the park’s location."
+      },
+      "es": {
+        "name": "Parque Antonio Raimondi",
+        "story": "El monumento del malecón Cisneros recuerda al naturalista italiano que estudió la geografía, flora y fauna del Perú. Desde la escultura gire hacia el océano: el contraste entre el homenaje y el paisaje abierto ayuda a comprender la dedicatoria.",
+        "steps": [
+          "Ubique el monumento a Raimondi en el paseo superior.",
+          "Camine del monumento al mirador público del Pacífico.",
+          "Regrese por el sendero sin atravesar áreas de actividad."
+        ],
+        "field": "Donde el césped se abre al aire libre, deje libres las áreas de actividad. Monumento y horizonte juntos explican el homenaje y la ubicación."
+      },
+      "zh": {
+        "name": "安东尼奥·雷蒙迪公园",
+        "story": "西斯内罗斯滨崖路上的纪念像纪念研究秘鲁地理、植物和动物的意大利裔博物学家。先在塑像旁停下，再转身望向海洋；小尺度的纪念空间与辽阔景观形成对照，能帮助理解公园为何以他命名。",
+        "steps": [
+          "在崖顶长廊找到雷蒙迪纪念像。",
+          "从雕像走到公共海景位置。",
+          "沿园路回程，绕开活动场地。"
+        ],
+        "field": "开阔草坪部分要给各类活动留出空间。将纪念像与崖顶水平线同框，能同时说明公园的纪念主题和位置。"
+      },
+      "qu": {
+        "name": "Antonio Raimondi park",
+        "story": "Malecón Cisneros ñanpi Raimondip rikch'aynin kachkan. Payqa Perú suyup allpanta, yurankunata, uywankunata yachaqmi karqan. Rikch'ayninmanta lamarman muyuriy: uchuy monumentota hatun pachawan tupachiy.",
+        "steps": [
+          "Hanaq ñanpi Raimondip rikch'ayninta maskay.",
+          "Chaymanta llapapaq lamar qhawanaman puriy.",
+          "Parkpa ñanllanta kutiy, pukllana kitita ama chimpaychu."
+        ],
+        "field": "Q'achu pampa kichakusqanpi llank'ana, pukllana kitikunata saqiy. Rikch'aytawan karu lamarpa kinraynintawan hukllapi qhaway."
+      }
+    },
+    "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/83/52/af/caption.jpg?h=-1&s=1&w=1200",
+    "credit": "https://www.tripadvisor.com/Attraction_Review-g294316-d12105270-Reviews-Parque_Ecologico_Antonio_Raimondi-Lima_Lima_Region.html",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8834"
+  },
+  {
+    "id": "8832",
+    "slug": "parque-del-amor",
+    "kind": "park",
+    "address": "Malecón Cisneros, junto al puente Villena Rey, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "08:00–21:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8832",
+    "local": {
+      "en": {
+        "name": "Love Park",
+        "story": "Víctor Delfín’s sculpture El Beso stands at the centre of the clifftop park inaugurated on 14 February 1993. Follow the curve of the mosaic seating first. From its far end, sculpture, couples and ocean horizon can be read together without crowding the monument.",
+        "steps": [
+          "Enter the park from Malecón Cisneros.",
+          "Follow the mosaic bench curve towards El Beso.",
+          "Walk back to the far end of the benches for a wider view of sculpture and sea."
+        ],
+        "field": "Read the mosaic panels from the path rather than climbing onto the benches. From their far end the elongated bench curve leads the eye towards El Beso."
+      },
+      "es": {
+        "name": "Parque del Amor",
+        "story": "El Beso, de Víctor Delfín, ocupa el centro del parque inaugurado el 14 de febrero de 1993. Siga primero la curva de las bancas de mosaico; desde su extremo se ven juntos escultura, visitantes y horizonte sin aglomerarse junto a la obra.",
+        "steps": [
+          "Entre desde el malecón Cisneros.",
+          "Siga la curva de las bancas de mosaico hasta El Beso.",
+          "Vuelva al extremo de las bancas para ver juntos escultura y mar."
+        ],
+        "field": "Lea los mosaicos desde el sendero sin subir a las bancas. Desde el extremo, la curva conduce la vista hacia El Beso."
+      },
+      "zh": {
+        "name": "爱情公园",
+        "story": "维克托·德尔芬的《吻》位于园中，公园于1993年2月14日开放。先沿马赛克长椅的弧线行走，从远端就能把雕塑、游人和海平线一起纳入视野，无需挤到雕塑前。",
+        "steps": [
+          "从西斯内罗斯滨崖路进入。",
+          "沿马赛克长椅弧线走向《吻》。",
+          "退到长椅远端，让雕塑与太平洋同框。"
+        ],
+        "field": "从园路读马赛克拼贴，不必站上长椅。远端的弧线能把视线自然引向《吻》。"
+      },
+      "qu": {
+        "name": "Munakuypa parkin",
+        "story": "1993 watap febrero killanpa 14 p'unchawninpi kay parkta kicharqanku. Chawpinpi Víctor Delfínpa El Beso rikch'aynin kachkan. Llimp'isqa tiyanakunap muyuq ñanninta puriy; tukukuyninmanta rikch'aytawan lamartawan kuska qhaway.",
+        "steps": [
+          "Cisneros ñanmanta yaykuy.",
+          "Llimp'isqa tiyanakunap muyusqan ñanta El Besoman puriy.",
+          "Tiyanakunap tukukuyninman kutispa rikch'aytawan lamartawan qhaway."
+        ],
+        "field": "Ñanmantapacha mosaico siq'ikunata qhaway, tiyanakunaman ama wichaychu. Tukunamanta muyusqa tiyanaqa El Besoman ñawiykita pusaykun."
+      }
+    },
+    "photo": "https://media.viajando.travel/p/729752d0aa38224818fd32f6c31000c2/adjuntos/236/imagenes/000/533/0000533526/1200x0/smart/parque-del-amor.jpg",
+    "credit": "https://peru.viajando.travel/lima/escapadas-lima-3-destinos-visitar-pareja-n45372",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8832"
+  },
+  {
+    "id": "8830",
+    "slug": "parque-itzhak-rabin",
+    "kind": "park",
+    "address": "Malecón Cisneros, Parque Itzhak Rabin, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "",
+    "free": false,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=8830",
+    "local": {
+      "en": {
+        "name": "Itzhak Rabin Park",
+        "story": "This memorial park on the clifftop carries the name of Israeli prime minister Yitzhak Rabin. The dedication is easy to miss on a long waterfront walk. Stop at the name marker, then compare the sheltered garden paths with the exposed seaward edge.",
+        "steps": [
+          "Find the Rabin park identification on the upper promenade.",
+          "Take an interior garden path towards the cliff-facing edge.",
+          "Rejoin the public promenade and return to the park entrance."
+        ],
+        "field": "The name marker and the garden edge make a more distinctive photograph than the sea alone. Stay on the clifftop route if the return walk is to the lighthouse."
+      },
+      "es": {
+        "name": "Parque Itzhak Rabin",
+        "story": "El parque del malecón lleva el nombre del primer ministro israelí Yitzhak Rabin. La dedicatoria puede pasar inadvertida en un paseo largo. Deténgase ante el nombre y compare los senderos recogidos con el borde abierto al mar.",
+        "steps": [
+          "Localice el nombre de Rabin en el malecón superior.",
+          "Siga un sendero interior hacia el borde con vista al mar.",
+          "Reincorpórese al paseo público para volver al acceso."
+        ],
+        "field": "El letrero y el jardín identifican mejor la foto que el mar solo. Para volver al faro manténgase en el paseo superior."
+      },
+      "zh": {
+        "name": "伊扎克·拉宾公园",
+        "story": "这座崖顶公园以以色列总理伊扎克·拉宾命名，沿海岸连续步行时很容易错过这层纪念含义。先读名称标识，再沿内侧园路走向开阔海景，比较两种空间。",
+        "steps": [
+          "从崖顶步道找拉宾公园标识。",
+          "沿内侧园路走向临海边缘。",
+          "回到公共长廊再走回入口。"
+        ],
+        "field": "名称标识和园林边缘比单拍大海更能辨认地点。若要步行返回灯塔，应留在崖顶线路。"
+      },
+      "qu": {
+        "name": "Itzhak Rabin park",
+        "story": "Kay qaqa patapi kaq parkqa Israel suyup kamachiqnin Itzhak Rabinpa sutinta apan. Suti qillqasqa qayllapi sayay. Ukhu muytap ñanninta purispa, lamar ladoman lluqsiy; iskay kitipa rikch'ayninta tupachiy.",
+        "steps": [
+          "Hanaq ñanpi Rabinpa sutinta maskay.",
+          "Ukhu muytap ñanninta lamar ladoman puriy.",
+          "Llapapaq ñanman lluqsispa punkuman kutiy."
+        ],
+        "field": "Parkpa sutinwan muytap kuchunwan fotoqa lamar sapallanmantapas aswan riqsiy atina. Faroman kutinaykipaq hanaq ñanllapi qhipakuy."
+      }
+    },
+    "photo": "https://res.cloudinary.com/ds1tdcumj/image/upload/v1711565697/imagenes/cyjhypiccv7ashxj6qb4.jpg",
+    "credit": "https://www.turismojudaico.com/en/contenido/702/Yitzhak-rabin-park",
+    "moreSource": "https://visitamiraflores.com/lugares/parque-itzhak-rabin/"
+  },
+  {
+    "id": "6822",
+    "slug": "parque-reducto-2",
+    "kind": "park",
+    "address": "Av. Ramón Ribeyro con calle Manuel Augusto Olaechea, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "07:00–18:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6822",
+    "local": {
+      "en": {
+        "name": "Reducto No. 2 Memorial Park",
+        "story": "The park occupies part of the defences involved in the Battle of Miraflores on 15 January 1881. Begin with the memorial setting outdoors rather than the museum exhibits. Walking its perimeter helps distinguish the historic position from the modern streets that now surround it.",
+        "steps": [
+          "Locate the Reducto entrance on the Ribeyro side.",
+          "Follow the memorial grounds and identify the museum as a separate stop.",
+          "Return around the park rather than cutting through commemorative areas."
+        ],
+        "field": "Keep a short walk in the grounds separate from a booked museum visit. Photograph the memorial position with its surrounding space rather than climbing on it."
+      },
+      "es": {
+        "name": "Parque Reducto N.º 2",
+        "story": "El parque ocupa parte de las defensas de la batalla de Miraflores del 15 de enero de 1881. Empiece por el espacio conmemorativo exterior. Recorrer su perímetro ayuda a distinguir la posición histórica de las calles modernas que la rodean.",
+        "steps": [
+          "Ubique la entrada del Reducto por el lado de Ribeyro.",
+          "Recorra el recinto conmemorativo y sitúe el museo como visita aparte.",
+          "Regrese por el perímetro respetando las áreas de homenaje."
+        ],
+        "field": "Distinga el paseo exterior de la visita reservada al museo. Fotografíe el homenaje con su entorno sin subir al monumento."
+      },
+      "zh": {
+        "name": "第二堡垒纪念公园",
+        "story": "公园占据1881年1月15日米拉弗洛雷斯战役部分防御阵地。先从露天纪念空间开始，沿外围走一段，把当年的阵地位置与今天包围公园的街道区分开，再决定是否入馆。",
+        "steps": [
+          "从里贝罗街一侧找到第二堡垒入口。",
+          "走过纪念园地，区分博物馆这一独立参观处。",
+          "沿园路外围回程，尊重纪念空间。"
+        ],
+        "field": "将园内短走与预约进馆分开安排。留出纪念空间作照片环境，不要攀爬。"
+      },
+      "qu": {
+        "name": "Iskay yupay Reducto park",
+        "story": "1881 watap enero killanpa 15 p'unchawninpi kay kitipi Miraflores awqanakuy karqan. Ñawpaqta kancha patanta puriy. Muyurispa ñawpa sayachisqa hark'ana kitita kunan muyuriq kallikunamanta rakinki.",
+        "steps": [
+          "Ribeyro ladopi Reductop punkunta maskay.",
+          "Yuyay kanchanta purispa museota huk sayana hina riqsiy.",
+          "Kancha patanta kutiy, yuyay kitikunata ama pisi ñanhina llamk'achiychu."
+        ],
+        "field": "Parkpi pisi puriyta museoman yaykuymanta rakiy. Yuyay kitita muyuriq allpawan qhaway; monumentoman ama wichaychu."
+      }
+    },
+    "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=486990",
+    "credit": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6822",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6822"
+  },
+  {
+    "id": "6821",
+    "slug": "museo-andres-avelino-caceres",
+    "kind": "museum",
+    "address": "Parque Reducto N.º 2, Miraflores, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "10:00–13:00",
+    "free": false,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6821",
+    "local": {
+      "en": {
+        "name": "Andrés Avelino Cáceres Site Museum",
+        "story": "The museum within Reducto No. 2 interprets the Battle of Miraflores of 1881. It is a separate visit from the paths outside. Start with a map or introductory display and locate the present park on it before studying the objects and the names associated with the battle.",
+        "steps": [
+          "Enter Reducto No. 2 and locate the site museum.",
+          "Begin with the battle map and then compare the exhibit labels.",
+          "Leave through the museum entrance and return to the public park."
+        ],
+        "field": "Ask about the weekday guided circuit before travelling. Photographs of a map and an associated object together make a better record than an isolated display case."
+      },
+      "es": {
+        "name": "Museo de Sitio Andrés Avelino Cáceres",
+        "story": "El museo del Reducto N.º 2 interpreta la batalla de Miraflores de 1881. Su visita es distinta al paseo exterior. Comience con un plano o panel introductorio y sitúe el parque actual antes de leer las fichas de objetos y personas.",
+        "steps": [
+          "Entre al Reducto N.º 2 y ubique el museo.",
+          "Empiece por el plano de la batalla y siga las fichas de las piezas.",
+          "Salga por el ingreso del museo y regrese al parque."
+        ],
+        "field": "Consulte el circuito guiado entre semana antes de salir. Relacione un plano y una pieza, siempre con permiso para fotografiar."
+      },
+      "zh": {
+        "name": "安德烈斯·阿韦利诺·卡塞雷斯遗址馆",
+        "story": "位于第二堡垒内的博物馆介绍1881年米拉弗洛雷斯战役，展厅参观与园外散步是两种不同体验。先在平面图或导言牌上找出现公园位置，再看器物说明和相关人物。",
+        "steps": [
+          "进入第二堡垒后找到遗址馆。",
+          "先读战役地图，再对照实物标签。",
+          "由馆门离开，回到公共园区。"
+        ],
+        "field": "出发前核对工作日导览安排。获准拍摄后，把一幅地图与对应器物关联记录，比单拍展柜更有帮助。"
+      },
+      "qu": {
+        "name": "Andrés Avelino Cáceres yuyay wasi",
+        "story": "Reducto N.º 2 ukhupi kay wasiqa 1881 watapi Miraflores awqanakuyta willan. Hawapi puriyqa hukmi, ukhu wasita qhawayqa hukmi. Ñawpaqta mapapi kunan parkta maskay; chaymanta imakunap qillqanta ñawiriy.",
+        "steps": [
+          "Reducto N.º 2man yaykuspa museota maskay.",
+          "Awqanakuy mapamanta qallarispa imakunap qillqanta qatipay.",
+          "Musuypa punkunta lluqsispa parkman kutiy."
+        ],
+        "field": "Manaraq rispa semanapi pusakuq kasqanta tapuy. Foto hurquyta saqispa mapata huk tinkusqa imawan huñuspa qhaway."
+      }
+    },
+    "photo": "https://viasatelital.com/images/miraflores-parque-reducto.jpg",
+    "credit": "https://viasatelital.com/miraflores-parque-reducto.php",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6821"
+  },
+  {
+    "id": "6820",
+    "slug": "iglesia-virgen-milagrosa",
+    "kind": "church",
+    "address": "Diagonal, Parque Central de Miraflores, Miraflores, Lima, Perú",
+    "manager": "Parroquia Virgen Milagrosa",
+    "hours": "",
+    "free": false,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6820",
+    "local": {
+      "en": {
+        "name": "Virgen Milagrosa Parish Church",
+        "story": "The parish church faces Miraflores Central Park beside the municipal palace. The park paths offer a full view of the façade; the threshold reveals how parish life and the busy civic centre meet. Plan interior viewing around services and leave the doorway clear.",
+        "steps": [
+          "Begin on the park path facing the church.",
+          "Approach the doorway from the side of the square, leaving the central passage free.",
+          "After services, return across the park for a full façade view."
+        ],
+        "field": "During services the best view is from the park. Choose a position that shows the church beside its municipal neighbour to explain the setting."
+      },
+      "es": {
+        "name": "Iglesia Matriz Virgen Milagrosa",
+        "story": "La iglesia matriz mira al parque central junto al palacio municipal. Desde los senderos se aprecia la fachada entera; en el umbral se entiende la convivencia entre parroquia y centro cívico. Para entrar respete los horarios de culto.",
+        "steps": [
+          "Empiece en el sendero del parque frente a la iglesia.",
+          "Acérquese por un lado sin bloquear el paso central.",
+          "Regrese al otro lado del parque para ver la fachada completa."
+        ],
+        "field": "Durante el culto el mejor lugar de observación es el parque. Incluya iglesia y municipalidad para explicar el entorno."
+      },
+      "zh": {
+        "name": "显灵圣母堂",
+        "story": "堂区教堂紧邻市政厅，朝向中央公园。园路适合观看立面全貌，门廊则让人看清堂区活动与繁忙市民中心如何相接。想进室内应配合礼拜时间，把入口留给信众。",
+        "steps": [
+          "从正对教堂的公园小径起步。",
+          "由广场侧面接近门廊，让出中央通道。",
+          "退到公园另一侧观察完整立面。"
+        ],
+        "field": "礼拜期间适合从公园看外观。让教堂和邻近市政建筑同框，可说明所处环境。"
+      },
+      "qu": {
+        "name": "Virgen Milagrosa yupaychana wasi",
+        "story": "Kay iglesiaqa municipalidadpa wasinpa qayllanpi, chawpi parkman qhawan. Parkpa ñanninmanta llapan ñawpaq uyanta rikunki. Punkupi runakunap yupaychayman yaykusqankuta respetay, misa kaspa hawapi suyay.",
+        "steps": [
+          "Iglesiaman qhawaq park ñanpi qallariy.",
+          "Chawpi ñanta mana hark'aspa waqtanmanta punkuman asuykuy.",
+          "Parkpa wak ladonman kutispa llapan ñawpaq uyanta qhaway."
+        ],
+        "field": "Misa kasqanpi parkmanta qhaway. Iglesiata municipalidadpa wasinwan kuska qhawaspa maypi kasqanta riqsinki."
+      }
+    },
+    "photo": "https://visitamiraflores.com/wp-content/uploads/2024/01/iglesia-virgen-milagrosa-1.jpg",
+    "credit": "https://visitamiraflores.com/lugares/iglesia-virgen-milagrosa/",
+    "moreSource": "https://commons.wikimedia.org/wiki/File%3AIglesia_Virgen_Milagrosa%2C_Miraflores.jpg"
+  },
+  {
+    "id": "6819",
+    "slug": "casa-raul-porras-barrenechea",
+    "kind": "museum",
+    "address": "Calle Colina 398, Miraflores, Miraflores, Lima, Perú",
+    "manager": "Instituto Raúl Porras Barrenechea · Universidad Nacional Mayor de San Marcos",
+    "hours": "",
+    "free": false,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6819",
+    "local": {
+      "en": {
+        "name": "Raúl Porras Barrenechea House",
+        "story": "This former home preserves the scholarly legacy of Raúl Porras Barrenechea and is associated with the University of San Marcos. Research and public visits serve different purposes here. Ask about a guided visit before arriving and look for the relationship between domestic rooms and the work of a historian.",
+        "steps": [
+          "Find the numbered entrance on Calle Colina.",
+          "For an arranged visit, ask which study or domestic rooms form the circuit.",
+          "Return through the entrance after viewing the assigned rooms."
+        ],
+        "field": "The institute’s academic work takes priority over an unannounced visit. Ask about document handling and photography instead of assuming the rooms operate like an unrestricted gallery."
+      },
+      "es": {
+        "name": "Casa de Raúl Porras Barrenechea",
+        "story": "La antigua vivienda conserva el legado académico de Raúl Porras Barrenechea y se vincula a San Marcos. Investigación y visita pública tienen funciones distintas. Coordine el ingreso y observe cómo el ambiente doméstico dialoga con el trabajo del historiador.",
+        "steps": [
+          "Ubique el número de la casa en calle Colina.",
+          "En visita coordinada, consulte qué ambientes integran el recorrido.",
+          "Vuelva al ingreso después de las salas autorizadas."
+        ],
+        "field": "El trabajo académico tiene prioridad sobre la visita imprevista. Pregunte por manejo de documentos y fotografías al llegar."
+      },
+      "zh": {
+        "name": "劳尔·波拉斯·巴雷内切亚故居",
+        "story": "这处故居保存历史学家劳尔·波拉斯·巴雷内切亚的学术遗产，与圣马尔科斯大学相关。研究使用和公众参观各有安排。先联系导览，再从居室格局观察历史学家生活与工作的关系。",
+        "steps": [
+          "在科利纳街按门牌找到故居。",
+          "预约参观时询问哪些书房或居室开放。",
+          "看完获准区域后由原入口离开。"
+        ],
+        "field": "这里有研究职能，临时到访未必可以入内。到达后应询问文献阅览与拍摄规则。"
+      },
+      "qu": {
+        "name": "Raúl Porras Barrenecheap wasin",
+        "story": "Kay ñawpa wasiqa Raúl Porras Barrenecheap yachayninta waqaychan, San Marcos yachay sunturninwan tinkusqa. Yachaqkunap llamk'ayninqa hukmi, watukuqkunap puriyninqa hukmi. Manaraq rispa yaykunaykipaq tapuy; chaymanta wasita qhaway.",
+        "steps": [
+          "Colina kallipi wasip yupayninta maskay.",
+          "Ñawpaqta rimasqa watukuypi mayqin salakuna kichasqa kasqanta tapuy.",
+          "Saqisqa salakunata qhawaspa punkuman kutiy."
+        ],
+        "field": "Kay wasipi ñawpaqta yachaqkuna llamk'anku. Chayaspayki qillqakunata hap'iyta utaq foto hurquyta atisqaykita tapuy."
+      }
+    },
+    "photo": "https://image.wmsm.co/649f0072490d8/raul-porras-barrenechea-institute-lima.webp?aspect_ratio=1296%3A729&height=729&quality=80&width=1296",
+    "credit": "https://whichmuseum.com/museum/raul-porras-barrenechea-institute-lima-21693",
+    "moreSource": "https://andina.pe/agencia/galeria-instituto-raul-porras-barrenechea-conmemora-60-anos-y-reafirma-su-legado-cultural-28074.aspx"
+  },
+  {
+    "id": "3311",
+    "slug": "centro-cultural-ricardo-palma",
+    "kind": "gallery",
+    "address": "Av. José Larco 770, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "10:00–19:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3311",
+    "local": {
+      "en": {
+        "name": "Ricardo Palma Cultural Centre",
+        "story": "The cultural centre opened in 1994 on a site whose earlier municipal use dates to the 1930s. This is a venue for a changing programme, distinct from the writer’s house museum. Look at the room and time printed for the event before joining an entrance queue.",
+        "steps": [
+          "Enter from Avenida Larco at the cultural centre.",
+          "Read the programme before choosing the exhibition or library.",
+          "Return via the lobby and check the next programme date."
+        ],
+        "field": "The library and exhibition hall have different schedules. Choose a named event or room before coming and keep the cultural centre address separate from Palma’s former home."
+      },
+      "es": {
+        "name": "Centro Cultural Ricardo Palma",
+        "story": "El centro cultural abrió en 1994 en un solar con antecedentes municipales desde la década de 1930. Su programación cambia y no es la casa museo del escritor. Revise sala y hora del acto antes de hacer fila.",
+        "steps": [
+          "Entre al centro cultural desde la avenida Larco.",
+          "Lea la programación antes de elegir exposición o biblioteca.",
+          "Vuelva por el vestíbulo y consulte la próxima fecha."
+        ],
+        "field": "La biblioteca y la sala tienen horarios diferentes. Escoja una actividad concreta y distinga esta dirección de la antigua vivienda de Palma."
+      },
+      "zh": {
+        "name": "里卡多·帕尔马文化中心",
+        "story": "文化中心于1994年开放，场地早在20世纪30年代就有市政用途。它是轮换活动的场馆，与作家故居博物馆不同。到现场先看节目所列厅室与时间，再排队入场。",
+        "steps": [
+          "从拉尔科大道进入文化中心。",
+          "先读节目安排，再选展厅或图书馆。",
+          "经门厅返回时查看下一场活动日期。"
+        ],
+        "field": "图书馆与展厅的时段不同，先选具体活动或厅室，也要分清这里与帕尔马故居的地址。"
+      },
+      "qu": {
+        "name": "Ricardo Palma kawsay yachay wasi",
+        "story": "1994 watapi kay kawsay yachay wasita kicharqanku. Ñawpaqta 1930 watakunamanta kay allpata llaqtakamachiq llamk'achirqan. Kayqa mana qillqaqpa tiyasqan wasinchu. Qallarinan pachata, mayqin salapi kananta qhawaspa yaykuy.",
+        "steps": [
+          "Larco avenidamanta kawsay yachay wasiman yaykuy.",
+          "Qhawana salata utaq ñawirina wasita akllanaykipaq programata ñawiriy.",
+          "Punkuman kutispa qhipa p'unchawta tapuy."
+        ],
+        "field": "Ñawirina wasip pachasqanqa rikuchina salap pachanmanta hukmi. Manaraq rispa huk ruwayta akllay; kay tarinata Palmap ñawpa wasinmanta rakiy."
+      }
+    },
+    "photo": "https://visitamiraflores.com/wp-content/uploads/2024/01/centro-cultural-ricardo-palma-1.jpg",
+    "credit": "https://visitamiraflores.com/lugares/centro-cultural-ricardo-palma/",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3311"
+  },
+  {
+    "id": "3309",
+    "slug": "palacio-municipal",
+    "kind": "civic",
+    "address": "Av. José Larco 400, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "10:00–20:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3309",
+    "local": {
+      "en": {
+        "name": "Miraflores Municipal Palace",
+        "story": "Luis Miró Quesada Garland designed this neo-colonial municipal building, inaugurated in 1944. Start across the street or from the park to see the two-part granite portal in its full height. Close to the corner the stonework is clearer, but the proportions of the whole façade disappear.",
+        "steps": [
+          "Begin across from the municipal corner on Avenida Larco.",
+          "Approach the granite portal using the pedestrian crossing.",
+          "Return to the park to compare the portal with the full three-storey building."
+        ],
+        "field": "Coordinate an interior visit with the municipality; the busy corner and exterior can be seen independently. Take the full façade from the park side, away from traffic."
+      },
+      "es": {
+        "name": "Palacio Municipal de Miraflores",
+        "story": "Luis Miró Quesada Garland diseñó este edificio neocolonial, inaugurado en 1944. Desde el parque observe la altura completa de la portada de granito de dos cuerpos. En la esquina se aprecia la piedra, aunque se pierde la proporción general.",
+        "steps": [
+          "Comience frente a la esquina municipal en la avenida Larco.",
+          "Use el cruce peatonal para acercarse a la portada de granito.",
+          "Vuelva al parque para comparar la portada con el edificio de tres pisos."
+        ],
+        "field": "Coordine el interior con el municipio; la fachada se ve por cuenta propia. Fotografíela desde el lado del parque, fuera de la calzada."
+      },
+      "zh": {
+        "name": "米拉弗洛雷斯市政厅",
+        "story": "这座新殖民式市政厅由路易斯·米罗·克萨达·加兰设计，1944年启用。从公园先看两层花岗岩门楼的完整高度，再走近转角辨认石材纹理；两个距离给出的观察重点不同。",
+        "steps": [
+          "从拉尔科大道人行对面看市政厅转角。",
+          "经人行横道走近花岗岩门楼。",
+          "退回公园，把门楼与整栋三层建筑对照。"
+        ],
+        "field": "室内参观须向市政部门协调，外观可单独看。拍整面建筑应在公园侧取景，不要站入车道。"
+      },
+      "qu": {
+        "name": "Miraflores kamachina wasi",
+        "story": "Luis Miró Quesada Garland kay kamachina wasita siq'irqan; 1944 watapi kicharqanku. Parkmanta granite rumimanta ruwasqa iskay patayuq punkuta llapanta qhaway. Qayllapiqa rumipa rikch'aynin aswan sut'i rikukun.",
+        "steps": [
+          "Larco avenidapi kamachina wasip k'uchunpa chimpapi qallariy.",
+          "Purina chimpana ñanta granite punkuman asuykuy.",
+          "Parkman kutispa punkuta kimsa patayuq wasiwan tupachiy."
+        ],
+        "field": "Ukhu wasiman yaykunaykipaq municipalidadwan rimay. Hawataqa sapallayki qhawayta atinki. Park ladomanta foto hurquy, mana carrupa ñanmanta."
+      }
+    },
+    "photo": "https://peru21.pe/sites/default/efsfiles/2023-10/XLPKI55PZFCW3CWFXJFJEYWUUI.jpg",
+    "credit": "https://peru21.pe/lima/coronavirus-en-peru-miraflores-suspende-actividades-publicas-hasta-el-30-de-marzo-nndc-noticia/",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3309"
+  },
+  {
+    "id": "3292",
+    "slug": "parque-alfredo-salazar",
+    "kind": "park",
+    "address": "Av. José Larco y Malecón de la Reserva, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "06:00–23:30",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3292",
+    "local": {
+      "en": {
+        "name": "Alfredo Salazar Park",
+        "story": "The park commemorates aviator Alfredo Salazar Southwell, who lost his life in 1937. Find the dedication on the upper level before descending towards the shops at Larcomar. Remaining at park level gives a clear sense of how the clifftop and the commercial terraces fit together.",
+        "steps": [
+          "Reach the ocean end of Avenida Larco.",
+          "Find the aviator dedication in the upper park before looking down towards Larcomar.",
+          "Use the public path to return to the avenue."
+        ],
+        "field": "Use the upper park as a meeting point only after naming a specific entrance. Someone waiting on a lower Larcomar terrace may be directly below you but out of sight."
+      },
+      "es": {
+        "name": "Parque Alfredo Salazar",
+        "story": "El parque conmemora al aviador Alfredo Salazar Southwell, fallecido en 1937. Busque la dedicatoria en la parte alta antes de bajar a Larcomar. Desde el nivel del parque se entiende bien la relación entre acantilado y terrazas comerciales.",
+        "steps": [
+          "Llegue al extremo costero de la avenida Larco.",
+          "Busque el homenaje al aviador en el parque alto antes de mirar hacia Larcomar.",
+          "Vuelva a la avenida por el sendero público."
+        ],
+        "field": "Para encontrarse arriba, indique una puerta concreta. Otra persona en una terraza inferior puede estar debajo del parque sin resultar visible."
+      },
+      "zh": {
+        "name": "阿尔弗雷多·萨拉萨尔公园",
+        "story": "公园纪念1937年牺牲的飞行员阿尔弗雷多·萨拉萨尔·索思韦尔。先在上层寻找纪念信息，再往拉尔科马尔商业区下行。从公园标高能清楚看出崖顶和商业露台之间的关系。",
+        "steps": [
+          "走到拉尔科大道临海尽头。",
+          "在公园上层寻找飞行员纪念信息，再俯看商场。",
+          "从公共园路走回大道。"
+        ],
+        "field": "约在上层公园会面时要说清具体入口。朋友可能就在下方商场露台，却完全看不到彼此。"
+      },
+      "qu": {
+        "name": "Alfredo Salazar park",
+        "story": "Kay parkqa 1937 watapi wañuq piloto Alfredo Salazarta yuyachin. Larcomarman uraykunaykimanta ñawpaq, hanaq patapi suti qillqasqata maskay. Kay patamanta qaqatawan uray rantina patakunatawan kuska qhaway.",
+        "steps": [
+          "Larco avenidap lamar tukukuyninman chayay.",
+          "Hanaq parkpi pilotop yuyayninta maskaspa Larcomarman uray qhaway.",
+          "Llapapaq ñanta avenidaman kutiy."
+        ],
+        "field": "Hanaq parkpi tupanakuspa mayqin punkupi kasqaykita niy. Masiyki uray terrazapi qanmanta qayllapi kaspapis mana rikurinqachu."
+      }
+    },
+    "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/c6/ce/50/caption.jpg?h=1100&s=1&w=1100",
+    "credit": "https://www.tripadvisor.com/Attraction_Review-g294316-d8686518-Reviews-Parque_Alfredo_Salazar-Lima_Lima_Region.html",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3292"
+  },
+  {
+    "id": "3285",
+    "slug": "larcomar",
+    "kind": "mall",
+    "address": "Malecón de la Reserva 610, Miraflores, Lima, Perú",
+    "manager": "Larcomar",
+    "hours": "06:00–22:00",
+    "free": true,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3285",
+    "local": {
+      "en": {
+        "name": "Larcomar",
+        "story": "Larcomar is set into the upper cliff at the seaward end of Avenida Larco. Descending one level changes the view from a public park to commercial terraces apparently suspended over the Pacific. Use the same entrance on the return if meeting someone at street level.",
+        "steps": [
+          "Start at the top entrance beside Salazar Park.",
+          "Descend one public level and follow the ocean-facing terrace.",
+          "Return through the same entrance to Avenida Larco."
+        ],
+        "field": "Stairs and lifts connect the levels. Check the return route before spending time on a lower terrace, especially if reduced mobility makes a working lift essential."
+      },
+      "es": {
+        "name": "Larcomar",
+        "story": "Larcomar se inserta en la parte alta del acantilado al final de la avenida Larco. Al bajar un nivel, el parque da paso a terrazas comerciales que parecen suspendidas sobre el Pacífico. Acuerde una puerta concreta para volver a la calle.",
+        "steps": [
+          "Parta del acceso superior junto al parque Salazar.",
+          "Baje un nivel público y recorra la terraza frente al océano.",
+          "Vuelva por el mismo acceso hacia la avenida Larco."
+        ],
+        "field": "Escaleras y ascensores enlazan los niveles. Ubique el regreso antes de bajar, sobre todo si necesita un ascensor operativo."
+      },
+      "zh": {
+        "name": "拉尔科马尔滨崖商场",
+        "story": "商场嵌入拉尔科大道尽头的海崖上缘。只下一层，公园视野就转为仿佛悬在太平洋上方的商业露台。若要在街面与人会合，应约定具体出入口。",
+        "steps": [
+          "从萨拉萨尔公园旁的上方入口开始。",
+          "下降一个开放楼层，沿临海露台走。",
+          "经同一入口返回拉尔科大道。"
+        ],
+        "field": "各层靠阶梯与电梯连接，若同行者依赖电梯，下行前应先确认可用的返回路线。"
+      },
+      "qu": {
+        "name": "Larcomar rantina wasi",
+        "story": "Larco avenidap tukukuyninpi, qaqap hanaq ladonpi, Larcomar rantina wasi kachkan. Huk patata uraykuspa parkmanta rantina terrazakunaman chayanki, lamarpa hawanpi hina. Kallipi pipas suyasunki chayqa, mayqin punkupi tupanaykichikta rimay.",
+        "steps": [
+          "Salazar parkpa qayllanpi hanaq punkumanta qallariy.",
+          "Huk patata uraykuspa lamarman qhawaq terrazanta puriy.",
+          "Kikin punkunta Larco avenidaman kutiy."
+        ],
+        "field": "Pata patakunata escalerakuna, ascensorkuna tinkichin. Ascensorta munaspayki, manaraq uraykuspa kutina ñan allin kasqanta tapuy."
+      }
+    },
+    "photo": "https://e.radio-grpp.io/xlarge/2022/09/14/portada_590359.jpg",
+    "credit": "https://rpp.pe/capital/mundo/larcomar-todo-lo-que-no-sabias-del-centro-comercial-noticias-1432215",
+    "moreSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3285"
+  },
+  {
+    "id": "2005",
+    "slug": "casa-museo-ricardo-palma",
+    "kind": "museum",
+    "address": "General Belisario Suárez 189, Miraflores, Lima, Perú",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "hours": "",
+    "free": false,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2005",
+    "local": {
+      "en": {
+        "name": "Ricardo Palma House Museum",
+        "story": "This house presents the domestic and literary world of the author of Tradiciones peruanas. It is a different address from the cultural centre on Avenida Larco. Begin at the façade, then ask which interior rooms are open and how the displayed documents relate to Palma’s work.",
+        "steps": [
+          "Find the house on General Belisario Suárez.",
+          "Ask reception for the open circuit and begin with the introduction to Palma.",
+          "Finish with one document or room relating to his writing before returning to the street."
+        ],
+        "field": "The museum’s scale is that of a home. Ask before photographing papers or furnishings, and look through a doorway to understand how a study relates to the adjoining room."
+      },
+      "es": {
+        "name": "Casa Museo Ricardo Palma",
+        "story": "La casa presenta el mundo doméstico y literario del autor de Tradiciones peruanas. No comparte dirección con el centro cultural de la avenida Larco. Mire la fachada y consulte qué salas están abiertas y cómo se relacionan los documentos con su obra.",
+        "steps": [
+          "Ubique la casa en General Belisario Suárez.",
+          "Pregunte por el circuito habilitado y empiece con la presentación de Palma.",
+          "Termine con un documento o ambiente de su escritura y vuelva a la calle."
+        ],
+        "field": "El museo tiene escala doméstica. Pregunte antes de fotografiar documentos o mobiliario y mire desde un umbral para relacionar estancias."
+      },
+      "zh": {
+        "name": "里卡多·帕尔马故居博物馆",
+        "story": "故居展示《秘鲁传统》作者的生活与写作，与拉尔科大道的同名文化中心不在一处。先看住宅立面，再询问开放居室以及展出文献与其作品的对应关系。",
+        "steps": [
+          "到贝利萨里奥·苏亚雷斯街找到故居。",
+          "向接待处询问开放动线，先看作家介绍。",
+          "选一份与写作有关的文献或一间居室收尾，再回街上。"
+        ],
+        "field": "这是住宅尺度的博物馆。拍纸本文献和家具前先问许可，从门洞观察书房与相邻居室的联系。"
+      },
+      "qu": {
+        "name": "Ricardo Palmap wasi museo",
+        "story": "Tradiciones peruanas qillqaq Ricardo Palmap tiyasqan wasinta kaypi qhawanki. Larco avenidapi kaq kawsay wasimanta hukmi. Ñawpaqta wasi punkuta qhaway, chaymanta mayqin salakuna kichasqa kasqanta, qillqakuna imata willasqanta tapuy.",
+        "steps": [
+          "General Belisario Suárez kallipi wasita maskay.",
+          "Kichasqa ñanta tapuspa Palmap kawsayninpa willakuyninmanta qallariy.",
+          "Qillqayninwan tinkusqa huk imata qhawaspa kalliman kutiy."
+        ],
+        "field": "Kay museoqa tiyana wasi sayayniyuqmi. Qillqakunap, tiyanakunap fotonta manaraq hurquspa tapuy. Punkumanta huk salita wak salawan tinkusqanta qhaway."
+      }
+    },
+    "photo": "https://image.wmsm.co/64a0a4e879f42/casa-museo-ricardo-palma-miraflores-1.webp?quality=80&width=1280",
+    "credit": "https://whichmuseum.es/museo/casa-museo-ricardo-palma-miraflores-21752",
+    "moreSource": "https://visitalima.pe/atractivos/casa-museo-ricardo-palma/"
+  },
+  {
+    "id": "1932",
+    "slug": "museo-amano",
+    "kind": "museum",
+    "address": "Calle Retiro 160, Miraflores, Lima, Perú",
+    "manager": "Museo Amano",
+    "hours": "",
+    "free": false,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=1932",
+    "local": {
+      "en": {
+        "name": "Amano Pre-Columbian Textile Museum",
+        "story": "Yoshitaro Amano’s collection forms the basis of a museum devoted to pre-Columbian textiles. Trace how fibres become thread and then a woven surface before comparing finished objects. The smallest repeated motifs often reveal more about a weaving technique than a photograph of the complete piece.",
+        "steps": [
+          "Go to the Calle Retiro entrance.",
+          "Start with fibres and techniques before comparing complete textiles.",
+          "Return through the final gallery and check photography rules before taking close-ups."
+        ],
+        "field": "Ask about low-light photography rules. Use a single border motif as a visual reference when comparing weaving methods across the collection."
+      },
+      "es": {
+        "name": "Museo Textil Precolombino Amano",
+        "story": "La colección de Yoshitaro Amano dio origen al museo dedicado a los textiles precolombinos. Siga el paso de fibra a hilo y tejido antes de comparar piezas acabadas. Un pequeño motivo repetido explica mejor la técnica que una vista general.",
+        "steps": [
+          "Llegue por la calle Retiro.",
+          "Empiece por fibras y técnicas antes de comparar textiles completos.",
+          "Vuelva desde la última sala y consulte las normas para fotografiar detalles."
+        ],
+        "field": "Consulte las normas de fotografía con poca luz. Use un motivo de borde como referencia para comparar técnicas entre piezas."
+      },
+      "zh": {
+        "name": "天野前哥伦布纺织博物馆",
+        "story": "天野芳太郎的收藏奠定了这座前哥伦布纺织博物馆的基础。先顺着纤维、纱线到织面的过程看，再比较成品。反复出现的小纹样往往比整幅照片更能说明织造方法。",
+        "steps": [
+          "从雷蒂罗街入口进馆。",
+          "先看纤维与工艺，再比较完整织物。",
+          "经最后展室回程，拍细节前先问许可。"
+        ],
+        "field": "先核对弱光展厅的摄影规则。挑一处边饰纹样作为视觉参照，再比较不同织物工艺。"
+      },
+      "qu": {
+        "name": "Amano ñawpa away museo",
+        "story": "Yoshitaro Amanop huñusqan ñawpa awaykunamanta kay museo paqarirqan. Millwamanta qaytuman, qaytumanta awayman imayna chayasqanta qatipay. Huchuy kutikuti rikuriq pallayta qhawaspa imayna awasqankuta aswan allinta riqsinki.",
+        "steps": [
+          "Retiro kallip punkunman chayay.",
+          "Qaytatawan away rurayta ñawpaqta qhaway, chaymanta hunt'a awaykunata tupachiy.",
+          "Qhipa salamanta kutispa foto hurquyta atisqaykita tapuy."
+        ],
+        "field": "Pisi k'anchayniyuq salapi foto hurquyta tapuy. Huk kuchu pallayta akllay, chaywan wak awaykunap ruwasqanta tupachiy."
+      }
+    },
+    "photo": "https://lp-cms-production.imgix.net/2019-06/8ec00ac5b4f59b2a1048df1e7688398d-fundacion-museo-amano.jpg?auto=format&w=1200",
+    "credit": "https://www.lonelyplanet.com/points-of-interest/fundacion-museo-amano/416058",
+    "moreSource": "https://www.miraflores.gob.pe/miraflores-celebra-dia-nacional-del-guia-de-turismo-con-experiencia-cultural-en-el-museo-amano/"
+  },
+  {
+    "id": "3274",
+    "slug": "boulevard-de-artesanias",
+    "kind": "market",
+    "address": "Av. Petit Thouars, Miraflores, Miraflores, Lima, Perú",
+    "manager": "Mercados de artesanías de la avenida Petit Thouars",
+    "hours": "",
+    "free": false,
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3274",
+    "local": {
+      "en": {
+        "name": "Miraflores Artisan Boulevard",
+        "story": "The craft markets off Petit Thouars collect stalls selling work from several Peruvian regions. Look beyond repeated motifs by asking where a piece was made and which material or technique was used. A short loop through adjacent aisles makes comparison easier than buying at the first doorway.",
+        "steps": [
+          "Enter the artisan market frontage from Petit Thouars.",
+          "Walk one aisle and ask about the material and place of origin of an item.",
+          "Return through a neighbouring aisle to compare similar work."
+        ],
+        "field": "Ask before photographing a vendor or handling fragile work. Write down the stall name before moving to the next aisle, since another stall may display a similar object."
+      },
+      "es": {
+        "name": "Boulevard de Artesanías",
+        "story": "Los mercados de Petit Thouars reúnen puestos con artesanías de varias regiones. Pregunte dónde se hizo una pieza y qué material o técnica se empleó. Un pequeño circuito por pasillos contiguos permite comparar antes de elegir.",
+        "steps": [
+          "Entre desde Petit Thouars.",
+          "Recorra un pasillo y pregunte por el material y la procedencia de una pieza.",
+          "Regrese por un pasillo vecino para comparar trabajos semejantes."
+        ],
+        "field": "Pida permiso antes de fotografiar a un vendedor o tocar piezas frágiles. Anote el puesto antes de cambiar de pasillo; otros ofrecen objetos parecidos."
+      },
+      "zh": {
+        "name": "米拉弗洛雷斯手工艺街",
+        "story": "佩蒂图阿尔大道一带的市场汇集秘鲁各地区工艺品。看到反复出现的图案时，可问清具体产地、材料和制作方法。先走相邻两排摊位再作选择，比在第一处入口匆忙购买更容易比较。",
+        "steps": [
+          "从佩蒂图阿尔大道进入工艺市场。",
+          "沿一排摊位走，询问一件物品的材质与产地。",
+          "从相邻摊道回程，对比相似作品。"
+        ],
+        "field": "拍摄摊主或触碰易碎品前先征得同意。换到下一排之前记下摊名，相似物品可能在不同摊位出现。"
+      },
+      "qu": {
+        "name": "Miraflores maki ruwasqa imakunap qhatun",
+        "story": "Petit Thouars avenidap qhatunkunapi Perú suyup achka llaqtakunamanta maki ruwasqa imakuna kachkan. Maypi ruwasqankuta, imawan ruwasqankuta tapuy. Iskay qaylla pasadizota purispa tupachiy, chaymanta munasqaykita akllay.",
+        "steps": [
+          "Petit Thouars avenidamanta qhatuman yaykuy.",
+          "Huk pasadizota purispa huk imap maymanta kasqanta, imawan ruwasqanta tapuy.",
+          "Qaylla pasadizota kutispa kikin rikch'aq ruwasqakunata tupachiy."
+        ],
+        "field": "Qhatuqpa fotonta hurqunaykipaq, pakikuq imata hap'inaykipaq, ñawpaqta tapuy. Huk pasadizoman rinaykimanta ñawpaq qhatup sutinta qillqay."
+      }
+    },
+    "photo": "https://www.twowanderingsoles.com/wp-content/uploads/2022/04/IMG_9060-1024x683.jpg",
+    "credit": "https://www.twowanderingsoles.com/blog/things-to-do-in-lima-peru",
+    "moreSource": "https://www.tripadvisor.com.pe/Attraction_Review-g294316-d8866057-Reviews-Indian_Market_Centro_Artesanal_Miraflores-Lima_Lima_Region.html"
+  }
+]

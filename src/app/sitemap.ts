@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { siteUrl } from '@/site.config';
 
+import places from '@/data/nearby-index.json';
+
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -13,7 +15,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     qu: `${baseUrl}/qu`,
   };
 
+  const paths = ["nearby", ...places.map(p => "nearby/" + p.slug)];
+  const nearby = paths.flatMap(path => Object.keys(languages).map(locale => ({url: baseUrl + "/" + locale + "/" + path, alternates: {languages: Object.fromEntries(Object.keys(languages).map(lang => [lang, baseUrl + "/" + lang + "/" + path]))}})));
   return [
+    ...nearby,
     {
       url: `${baseUrl}/es`,
       lastModified: new Date(),

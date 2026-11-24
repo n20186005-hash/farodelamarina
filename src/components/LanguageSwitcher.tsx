@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { useLang } from "./LangProvider";
 import type { Locale } from "@/i18n/translations";
 
@@ -30,6 +31,7 @@ const LOCALES: Locale[] = ["zh", "en", "es", "qu"];
  */
 export function LanguageSwitcher() {
   const { locale } = useLang();
+  const tail = usePathname().replace(/^\/(en|es|qu|zh)(?=\/|$)/, "");
   const [hash, setHash] = useState("");
 
   // 首屏保持与 SSR 输出一致（空 hash），挂载后再补上锚点，避免 hydration 不一致
@@ -42,7 +44,7 @@ export function LanguageSwitcher() {
       {LOCALES.map((l) => (
         <a
           key={l}
-          href={`/${l}${hash}`}
+          href={`/${l}${tail}${hash}`}
           hrefLang={l}
           rel="alternate"
           aria-label={LANG_NAMES[l]}

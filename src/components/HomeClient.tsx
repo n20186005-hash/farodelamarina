@@ -11,6 +11,9 @@ import { entityContent } from "@/i18n/entity";
 import { deepContent } from "@/i18n/deep";
 import type { Locale } from "@/i18n/translations";
 
+import nearbyIndex from "@/data/nearby-index.json";
+import nearbyLabels from "@/data/nearby-labels.json";
+
 const MAPS_URL = siteConfig.mapsShareUrl;
 
 const GOOGLE_REVIEWS = [
@@ -84,7 +87,7 @@ function ThemeToggle() {
   );
 }
 
-function Nav() {
+export function Nav() {
   const { t, locale } = useLang();
   const dc = deepContent[(locale as Locale) || "es"] || deepContent.es;
   const [scrolled, setScrolled] = useState(false);
@@ -107,18 +110,19 @@ function Nav() {
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
         <div className="nav-links">
-          <a href="#history">{t.nav.history}</a>
-          <a href="#architecture">{t.nav.architecture}</a>
-          <a href="#science">{dc.nav.science}</a>
-          <a href="#monuments">{t.nav.monuments}</a>
-          <a href="#legends">{dc.nav.legends}</a>
-          <a href="#visiting">{t.nav.visiting}</a>
-          <a href="#amenities">{dc.nav.amenities}</a>
-          <a href="#transportation">{t.nav.transportation}</a>
-          <a href="#gallery">{t.nav.gallery}</a>
-          <a href="#faq">{t.nav.faq}</a>
-          <a href="#location">{t.nav.location}</a>
+          <a href={`/${locale}#history`}>{t.nav.history}</a>
+          <a href={`/${locale}#architecture`}>{t.nav.architecture}</a>
+          <a href={`/${locale}#science`}>{dc.nav.science}</a>
+          <a href={`/${locale}#monuments`}>{t.nav.monuments}</a>
+          <a href={`/${locale}#legends`}>{dc.nav.legends}</a>
+          <a href={`/${locale}#visiting`}>{t.nav.visiting}</a>
+          <a href={`/${locale}#amenities`}>{dc.nav.amenities}</a>
+          <a href={`/${locale}#transportation`}>{t.nav.transportation}</a>
+          <a href={`/${locale}#gallery`}>{t.nav.gallery}</a>
+          <a href={`/${locale}#faq`}>{t.nav.faq}</a>
+          <a href={`/${locale}#location`}>{t.nav.location}</a>
         </div>
+        <a className="nearby-nav" href={`/${locale}/nearby`}>{nearbyLabels[locale][0]}</a>
         <ThemeToggle />
         <LanguageSwitcher />
       </div>
@@ -158,6 +162,7 @@ function Hero() {
           <span className="hero-title-official">{entity.heroOfficialName}</span>
         </h1>
         <p className="hero-subtitle">{t.hero.subtitle}</p>
+        <a className="hero-cta nearby-hero-link" href={`/${locale}/nearby`}>{nearbyLabels[locale][1]}</a>
         <a href="#overview" className="hero-cta">
           {t.hero.cta}
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -878,7 +883,7 @@ function Location() {
   );
 }
 
-function Footer() {
+export function Footer() {
   const { t, locale } = useLang();
   const entity = entityContent[(locale as Locale) || "es"] || entityContent.es;
   return (
@@ -1112,6 +1117,7 @@ export default function HomeClient({
       <FAQ />
       <Sources />
       <Location />
+      <section id="nearby-places" className="section nearby-section"><h2>{nearbyLabels[locale as Locale][1]}</h2><p>{nearbyLabels[locale as Locale][35]}</p><ul className="nearby-grid">{nearbyIndex.filter((_,i)=>[0,7,13,18,29].includes(i)).map(p=><li key={p.slug}><a href={`/${locale}/nearby/${p.slug}`}>{p.names[locale as Locale]}</a></li>)}</ul><a className="nearby-button" href={`/${locale}/nearby`}>{nearbyLabels[locale as Locale][31]}</a></section>
       <Footer />
     </LangProvider>
   );

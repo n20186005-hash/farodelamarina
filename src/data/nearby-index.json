@@ -1,0 +1,281 @@
+[
+  {
+    "slug": "playa-redondo",
+    "names": {
+      "en": "Redondo Beach",
+      "es": "Playa Redondo",
+      "zh": "雷东多海滩",
+      "qu": "Redondo lamar pata"
+    }
+  },
+  {
+    "slug": "playa-waikiki",
+    "names": {
+      "en": "Waikiki Beach",
+      "es": "Playa Waikiki",
+      "zh": "怀基基海滩",
+      "qu": "Waikiki lamar pata"
+    }
+  },
+  {
+    "slug": "playa-la-pampilla",
+    "names": {
+      "en": "La Pampilla Beach",
+      "es": "Playa La Pampilla",
+      "zh": "潘皮利亚海滩",
+      "qu": "La Pampilla lamar pata"
+    }
+  },
+  {
+    "slug": "punta-roquitas",
+    "names": {
+      "en": "Punta Roquitas Beach",
+      "es": "Playa Punta Roquitas",
+      "zh": "罗基塔斯角海滩",
+      "qu": "Punta Roquitas lamar pata"
+    }
+  },
+  {
+    "slug": "playa-tres-picos",
+    "names": {
+      "en": "Tres Picos Beach",
+      "es": "Playa Tres Picos",
+      "zh": "特雷斯皮科斯海滩",
+      "qu": "Tres Picos lamar pata"
+    }
+  },
+  {
+    "slug": "playa-makaha",
+    "names": {
+      "en": "Makaha Beach",
+      "es": "Playa Makaha",
+      "zh": "马卡哈海滩",
+      "qu": "Makaha lamar pata"
+    }
+  },
+  {
+    "slug": "parque-central",
+    "names": {
+      "en": "Miraflores Central Park",
+      "es": "Parque Central de Miraflores",
+      "zh": "米拉弗洛雷斯中央公园",
+      "qu": "Miraflores chawpi park"
+    }
+  },
+  {
+    "slug": "huaca-pucllana",
+    "names": {
+      "en": "Huaca Pucllana Archaeological Site",
+      "es": "Huaca Pucllana",
+      "zh": "普克亚纳遗址",
+      "qu": "Pucllana waka"
+    }
+  },
+  {
+    "slug": "malecon-armendariz",
+    "names": {
+      "en": "Armendáriz Promenade",
+      "es": "Malecón Armendáriz",
+      "zh": "阿门达里斯滨崖长廊",
+      "qu": "Armendáriz purina ñan"
+    }
+  },
+  {
+    "slug": "malecon-de-la-reserva",
+    "names": {
+      "en": "Malecón de la Reserva",
+      "es": "Malecón de la Reserva",
+      "zh": "雷塞尔瓦滨崖长廊",
+      "qu": "Reserva purina ñan"
+    }
+  },
+  {
+    "slug": "parque-bicentenario",
+    "names": {
+      "en": "Bicentennial Park",
+      "es": "Parque Bicentenario",
+      "zh": "独立二百周年公园",
+      "qu": "Iskay pachak wata park"
+    }
+  },
+  {
+    "slug": "palacio-de-las-artes",
+    "names": {
+      "en": "Miraflores Palace of the Arts",
+      "es": "Palacio de las Artes de Miraflores",
+      "zh": "米拉弗洛雷斯艺术宫",
+      "qu": "Miraflores llimp'iy wasi"
+    }
+  },
+  {
+    "slug": "parque-domodossola",
+    "names": {
+      "en": "Domodossola Park",
+      "es": "Parque Domodossola",
+      "zh": "多莫多索拉公园",
+      "qu": "Domodossola park"
+    }
+  },
+  {
+    "slug": "lugar-de-la-memoria",
+    "names": {
+      "en": "Place of Memory, Tolerance and Social Inclusion",
+      "es": "Lugar de la Memoria, la Tolerancia y la Inclusión Social",
+      "zh": "记忆、宽容与社会包容纪念馆",
+      "qu": "Yuyaypa, muchunakuypa, llapanchikpa wasin"
+    }
+  },
+  {
+    "slug": "parque-chino",
+    "names": {
+      "en": "Chinese Park",
+      "es": "Parque Chino",
+      "zh": "中华公园",
+      "qu": "China llaqtap park"
+    }
+  },
+  {
+    "slug": "parque-tradiciones",
+    "names": {
+      "en": "Tradiciones Park",
+      "es": "Parque Tradiciones",
+      "zh": "传统公园",
+      "qu": "Tradiciones park"
+    }
+  },
+  {
+    "slug": "parque-maria-reiche",
+    "names": {
+      "en": "María Reiche Park",
+      "es": "Parque María Reiche",
+      "zh": "玛丽亚·赖歇公园",
+      "qu": "María Reiche park"
+    }
+  },
+  {
+    "slug": "parque-raimondi",
+    "names": {
+      "en": "Antonio Raimondi Park",
+      "es": "Parque Antonio Raimondi",
+      "zh": "安东尼奥·雷蒙迪公园",
+      "qu": "Antonio Raimondi park"
+    }
+  },
+  {
+    "slug": "parque-del-amor",
+    "names": {
+      "en": "Love Park",
+      "es": "Parque del Amor",
+      "zh": "爱情公园",
+      "qu": "Munakuypa parkin"
+    }
+  },
+  {
+    "slug": "parque-itzhak-rabin",
+    "names": {
+      "en": "Itzhak Rabin Park",
+      "es": "Parque Itzhak Rabin",
+      "zh": "伊扎克·拉宾公园",
+      "qu": "Itzhak Rabin park"
+    }
+  },
+  {
+    "slug": "parque-reducto-2",
+    "names": {
+      "en": "Reducto No. 2 Memorial Park",
+      "es": "Parque Reducto N.º 2",
+      "zh": "第二堡垒纪念公园",
+      "qu": "Iskay yupay Reducto park"
+    }
+  },
+  {
+    "slug": "museo-andres-avelino-caceres",
+    "names": {
+      "en": "Andrés Avelino Cáceres Site Museum",
+      "es": "Museo de Sitio Andrés Avelino Cáceres",
+      "zh": "安德烈斯·阿韦利诺·卡塞雷斯遗址馆",
+      "qu": "Andrés Avelino Cáceres yuyay wasi"
+    }
+  },
+  {
+    "slug": "iglesia-virgen-milagrosa",
+    "names": {
+      "en": "Virgen Milagrosa Parish Church",
+      "es": "Iglesia Matriz Virgen Milagrosa",
+      "zh": "显灵圣母堂",
+      "qu": "Virgen Milagrosa yupaychana wasi"
+    }
+  },
+  {
+    "slug": "casa-raul-porras-barrenechea",
+    "names": {
+      "en": "Raúl Porras Barrenechea House",
+      "es": "Casa de Raúl Porras Barrenechea",
+      "zh": "劳尔·波拉斯·巴雷内切亚故居",
+      "qu": "Raúl Porras Barrenecheap wasin"
+    }
+  },
+  {
+    "slug": "centro-cultural-ricardo-palma",
+    "names": {
+      "en": "Ricardo Palma Cultural Centre",
+      "es": "Centro Cultural Ricardo Palma",
+      "zh": "里卡多·帕尔马文化中心",
+      "qu": "Ricardo Palma kawsay yachay wasi"
+    }
+  },
+  {
+    "slug": "palacio-municipal",
+    "names": {
+      "en": "Miraflores Municipal Palace",
+      "es": "Palacio Municipal de Miraflores",
+      "zh": "米拉弗洛雷斯市政厅",
+      "qu": "Miraflores kamachina wasi"
+    }
+  },
+  {
+    "slug": "parque-alfredo-salazar",
+    "names": {
+      "en": "Alfredo Salazar Park",
+      "es": "Parque Alfredo Salazar",
+      "zh": "阿尔弗雷多·萨拉萨尔公园",
+      "qu": "Alfredo Salazar park"
+    }
+  },
+  {
+    "slug": "larcomar",
+    "names": {
+      "en": "Larcomar",
+      "es": "Larcomar",
+      "zh": "拉尔科马尔滨崖商场",
+      "qu": "Larcomar rantina wasi"
+    }
+  },
+  {
+    "slug": "casa-museo-ricardo-palma",
+    "names": {
+      "en": "Ricardo Palma House Museum",
+      "es": "Casa Museo Ricardo Palma",
+      "zh": "里卡多·帕尔马故居博物馆",
+      "qu": "Ricardo Palmap wasi museo"
+    }
+  },
+  {
+    "slug": "museo-amano",
+    "names": {
+      "en": "Amano Pre-Columbian Textile Museum",
+      "es": "Museo Textil Precolombino Amano",
+      "zh": "天野前哥伦布纺织博物馆",
+      "qu": "Amano ñawpa away museo"
+    }
+  },
+  {
+    "slug": "boulevard-de-artesanias",
+    "names": {
+      "en": "Miraflores Artisan Boulevard",
+      "es": "Boulevard de Artesanías",
+      "zh": "米拉弗洛雷斯手工艺街",
+      "qu": "Miraflores maki ruwasqa imakunap qhatun"
+    }
+  }
+]
