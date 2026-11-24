@@ -1,4 +1,4 @@
-import concurrent.futures, json, time, urllib.request, html, re
+import threading, concurrent.futures, json, time, urllib.request, html, re
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -19,12 +19,20 @@ def get(path):
     with urllib.request.urlopen(req,timeout=18) as r: body=r.read().decode()
     doc=Parsed();doc.feed(body);return doc
 def directory_ready():
-    try:return '/zh/nearby/playa-redondo' in get('/zh/nearby').links
+    try:return places[0]['local']['zh']['feature'] in ' '.join(get('/zh/nearby/playa-redondo').parts)
     except Exception:return False
 for n in range(45):
     if directory_ready():break
     time.sleep(10)
 else:raise RuntimeError('New directory not available on production')
+def photo_check(p, doc):
+    candidates=[u for u in doc.images if u.startswith('/nearby-photos/') or u==p['photo']]
+    assert candidates, 'missing destination image: '+p['slug']
+    u=candidates[0]; request=urllib.request.Request(base+u if u.startswith('/') else u, headers={'User-Agent':'Mozilla/5.0','Range':'bytes=0-63'})
+    with urllib.request.urlopen(request,timeout=20) as r:
+        data=r.read(64)
+        assert (data.startswith((b'RIFF',b'GIF',b'\xff\xd8',b'\x89PNG')) or data[4:8]==b'ftyp'), (p['slug'],r.headers.get('content-type'))
+    return
 def check(args):
     l,p=args;directory='/'+l+'/nearby';url=directory+'/'+p['slug']
     for n in range(3):
@@ -32,7 +40,8 @@ def check(args):
             doc=get(url);v=p['local'][l];t=labels[l];txt=' '.join(doc.parts)
             assert 'footer' in doc.tags and 'h1' in doc.tags and doc.tags.count('details')>=3 and 'ol' in doc.tags and 'table' in doc.tags
             assert v['name'] in txt and v['field'] in txt and all(s in txt for s in v['steps'])
-            assert all(t[i] in txt for i in [7,8,13,14,15,16,17]) and p['photo'] in doc.images
+            assert all(t[i] in txt for i in [7,8,13,14,15,16,17]) and v['feature'] in txt and v['advice'] in txt and v['approach'] in txt
+            if l=='zh': photo_check(p,doc)
             assert directory in doc.links and all('/'+lang+'/nearby/'+p['slug'] in doc.links for lang in labels)
             assert any('google.com/maps/' in x for x in doc.links)
             return
