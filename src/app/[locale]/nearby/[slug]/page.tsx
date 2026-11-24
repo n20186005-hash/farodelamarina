@@ -1,4 +1,6 @@
 import {notFound} from "next/navigation";
+import mediaData from "@/data/nearby-media.json";
+const media: Record<string,{file:string;credit:string}>=mediaData;
 import places from "@/data/nearby-places.json";
 import labels from "@/data/nearby-labels.json";
 import {siteUrl} from "@/site.config";
@@ -8,7 +10,7 @@ export function generateStaticParams(){return places.map(p=>({slug:p.slug}));}
 export async function generateMetadata({params}:Props){
  const {locale:raw,slug}=await params; const locale=raw as Lang;const place=places.find(p=>p.slug===slug);if(!place)notFound();
  const item=place.local[locale];const path="/nearby/"+slug;
- return {title:item.name+" · Miraflores",description:item.story,alternates:{canonical:siteUrl+"/"+locale+path,languages:Object.fromEntries(Object.keys(labels).map(l=>[l,siteUrl+"/"+l+path]))},openGraph:{title:item.name,description:item.story,images:[place.photo]}};
+ return {title:item.name+" · Miraflores",description:item.story,alternates:{canonical:siteUrl+"/"+locale+path,languages:Object.fromEntries(Object.keys(labels).map(l=>[l,siteUrl+"/"+l+path]))},openGraph:{title:item.name,description:item.story,images:[media[slug]?.file?siteUrl+media[slug].file:place.photo]}};
 }
 export default async function Guide({params}:Props){
  const {locale:raw,slug}=await params; const locale=raw as Lang;const n=places.findIndex(p=>p.slug===slug);if(n<0)notFound();
@@ -21,7 +23,7 @@ export default async function Guide({params}:Props){
  const observation=v.story.slice(history.length).trim()||v.steps[1];
  const q=[[t[27],v.steps[0]],[t[28],v.field],[t[29],v.steps[2]]];
  return <main lang={locale}>
- <div className="nearby-hero"><img src={p.photo} alt={v.name} fetchPriority="high" referrerPolicy="no-referrer"/><header><a href={dir}>{t[0]}</a><h1>{v.name}</h1><p>{p.local.es.name} · Miraflores, Lima</p><p>{t[7]} · {hours}</p><a href={map}>{t[15]}</a> · <a href={map}>{t[19]}</a></header></div>
+ <div className="nearby-hero"><img src={media[slug]?.file||p.photo} alt={v.name} fetchPriority="high" referrerPolicy="no-referrer"/><header><a href={dir}>{t[0]}</a><h1>{v.name}</h1><p>{p.local.es.name} · Miraflores, Lima</p><p>{t[7]} · {hours}</p><a href={map}>{t[15]}</a> · <a href={map}>{t[19]}</a></header></div>
  <article className="nearby-body">
  <section><h2>{t[2]}</h2><p>{v.name} · {p.address}</p><p>{observation}</p></section>
  <section><h2>{t[3]}</h2><p>{v.advice}</p></section>
@@ -31,11 +33,11 @@ export default async function Guide({params}:Props){
  <section><h2>{t[9]}</h2><p>{v.approach}</p><a href={map}>{t[19]}</a></section>
  <section><h2>{t[10]}</h2><p>{history}</p>{v.moreHistory && <p>{v.moreHistory}</p>}</section>
  <section><h2>{t[11]}</h2><ol>{v.steps.map(step=><li key={step}>{step}</li>)}</ol></section>
- <section><h2>{t[12]}</h2><p>{t[37]}</p></section><section><h2>{t[13]}</h2><p>{v.field}</p><a href={p.credit}>{t[33]}</a></section>
+ <section><h2>{t[12]}</h2><p>{t[37]}</p></section><section><h2>{t[13]}</h2><p>{v.field}</p><a href={media[slug]?.credit||p.credit}>{t[33]}</a></section>
  <section><h2>{t[14]}</h2><p>{t[36]}</p></section><section><h2>{t[15]}</h2><a href={map}>{t[20]}</a></section>
  <section><h2>{t[16]}</h2><address>{p.address}</address><a href={map}>{t[19]}</a></section>
  <section><h2>{t[17]}</h2>{q.map(([question,answer])=><details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</section>
- <section><h2>{t[18]}</h2><a href={p.source}>{t[32]}</a>{p.moreSource!==p.source&&<> · <a href={p.moreSource}>{t[34]}</a></>} · <a href={p.credit}>{t[33]}</a></section>
+ <section><h2>{t[18]}</h2><a href={p.source}>{t[32]}</a>{p.moreSource!==p.source&&<> · <a href={p.moreSource}>{t[34]}</a></>} · <a href={media[slug]?.credit||p.credit}>{t[33]}</a></section>
  <section><h2>{t[30]}</h2><ul className="nearby-grid">{related.map(o=><li key={o.slug}><a href={dir+"/"+o.slug}>{o.local[locale].name}</a></li>)}</ul><a href={dir}>{t[31]}</a></section>
  </article></main>;
 }
